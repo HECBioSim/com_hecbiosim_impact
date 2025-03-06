@@ -20,16 +20,5 @@ use Joomla\Utilities\ArrayHelper;
 
 ?>
 
-<div class="item_fields">
-<?php if ($this->params->get('show_page_heading')) : ?>
-    <div class="page-header">
-        <h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
-    </div>
-    <?php endif;?>
-	<table class="table">
-		
-
-	</table>
-
-</div>
+// Put HTML here.
 
