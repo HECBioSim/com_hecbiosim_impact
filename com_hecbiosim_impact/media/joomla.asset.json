@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_hecbiosim_impact",
+  "version": "0.0.1",
+  "license": "MIT",
+  "assets": [
+    {
+      "name": "com_hecbiosim_impact.admin",
+      "type": "style",
+      "uri": "com_hecbiosim_impact/admin.css"
+    },
+    {
+      "name": "com_hecbiosim_impact.admin",
+      "type": "script",
+      "uri": "com_hecbiosim_impact/admin.js",
+      "dependencies": [
+        "jquery"
+      ],
+      "attributes": {
+        "defer": true
+      }
+    },
+    {
+        "name": "com_hecbiosim_impact.list",
+        "type": "style",
+        "uri": "com_hecbiosim_impact/list.css"
+    }
+  ]
+}
