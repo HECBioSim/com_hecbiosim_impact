@@ -1,7 +1,6 @@
 <?php
 /**
  * @package    com_hecbiosim_impact
- * @author     James Gebbie-Rayet <james.gebbie@stfc.ac.uk>
  * @copyright  2025 HECBioSim Team
  * @license    MIT
  */
