@@ -47,8 +47,8 @@
         </files>
 
         <languages folder="administrator/languages">
-      			<language tag="en-GB">en-GB/com_hecbiosim_impact.ini</language>
-			      <language tag="en-GB">en-GB/com_hecbiosim_impact.sys.ini</language>
+	    <language tag="en-GB">en-GB/com_hecbiosim_impact.ini</language>
+	    <language tag="en-GB">en-GB/com_hecbiosim_impact.sys.ini</language>
         </languages>
     </administration>
 
