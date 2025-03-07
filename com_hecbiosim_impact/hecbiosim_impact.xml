@@ -22,35 +22,36 @@
         <folder>src</folder>
         <folder>tmpl</folder>
     </files>
+
     <media destination="com_hecbiosim_impact" folder="media">
         <folder>css</folder>
         <folder>js</folder>
         <filename>joomla.asset.json</filename>
     </media>
+
     <languages folder="site/languages">
-        
 			<language tag="en-GB">en-GB/com_hecbiosim_impact.ini</language>
     </languages>
+
     <administration>
-        
         <submenu>
-            
         </submenu>
+
         <files folder="administrator">
             <filename>access.xml</filename>
             <filename>config.xml</filename>
-            
             <folder>src</folder>
             <folder>tmpl</folder>
             <folder>services</folder>
             <folder>presets</folder>
         </files>
+
         <languages folder="administrator/languages">
-            
-			<language tag="en-GB">en-GB/com_hecbiosim_impact.ini</language>
-			<language tag="en-GB">en-GB/com_hecbiosim_impact.sys.ini</language>
+	    <language tag="en-GB">en-GB/com_hecbiosim_impact.ini</language>
+	    <language tag="en-GB">en-GB/com_hecbiosim_impact.sys.ini</language>
         </languages>
     </administration>
+
     <config>
         <fields name="params">
             <fieldset name="component">
@@ -58,6 +59,7 @@
             </fieldset>
         </fields>
     </config>
+
     <plugins>
     </plugins>
     <updateservers>
