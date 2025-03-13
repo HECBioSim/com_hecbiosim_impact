@@ -17,6 +17,15 @@ use \Joomla\CMS\Session\Session;
 use Joomla\Utilities\ArrayHelper;
 
 
+$url = "https://github.com/HEJ845/Auto_Extract_RF/blob/main/publication_charts.html"; 
+$content = file_get_contents($url);
+
+if ($content !== false) {
+    echo $content; 
+} else {
+    echo "Failed to load content.";
+}
+
 ?>
 
 // Put HTML here.
