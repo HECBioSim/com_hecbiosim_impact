@@ -191,6 +191,6 @@ if all_dataframes:
     json_content = json.dumps(json_entries, indent=4)
     with open(os.path.join(os.pardir,config["json_output_file"]), "w", encoding="utf8") as json_file:
         json_file.write(json_content)
-    print(f"JSON saved to {config['json_output_file']}")
+    print(f"JSON saved to {config['pubs_json_output_file']}")
 
    
