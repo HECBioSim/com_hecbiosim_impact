@@ -7,10 +7,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@main 
+        uses: actions/checkout@main/data_miner 
 
       - name: Setup Python Version
-        uses: actions/setup-python@main
+        uses: actions/setup-python@main/data_miner
         with:
           python-version: 3.12 
 
