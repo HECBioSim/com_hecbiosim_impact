@@ -152,7 +152,7 @@ use Joomla\Utilities\ArrayHelper;
         let publicationsData;
 
         const getjson = async () => {
-          const response = await fetch("https://hecbiosim.github.io/com_hecbiosim_impact/pubs.json);
+          const response = await fetch("https://hecbiosim.github.io/com_hecbiosim_impact/test.json");
           const data = await response.json();
           publicationsData = data;
           return data;

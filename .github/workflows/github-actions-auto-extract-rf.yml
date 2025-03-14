@@ -1,8 +1,6 @@
 name: Run auto_extract_rf_data.py
 run-name: ${{ github.actor }} is running auto_extract_rf_data.py
-
 on: [workflow_dispatch]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,36 +17,20 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip requests pyyaml openpyxl plotly pandas
 
-      - name: Execute Python script
+      - name: Execute Python script 
         run: |
-          cd data_miner
-          python auto_extract_rf_data.py
+           cd data_miner 
+           python auto_extract_rf_data.py
 
-      - name: Switch to index branch and commit JSON file
-        run: |
-          git fetch origin index || echo "index branch does not exist yet"
-          git stash --include-untracked
-          if git ls-remote --exit-code --heads origin index; then
-            git switch index
-          else
-            git switch -c index
-            git push origin index
-          fi
-
-          git add pubs.json
-          
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Updated JSON file in index branch"
-            git push origin index
-          fi
-
-      - name: Switch back to send_json_to_index and restore stash
-        run: |
-          git checkout send_json_to_index
-          git stash pop || echo "No stashed changes to apply"
-          
+      - name: store publication outputs
+        run: | 
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add pubs.json 
+            if git diff --cached --quiet; then
+                echo "No changes to commit."
+            else
+                git commit -m "Added json files"
+                git push
+            fi
+       
