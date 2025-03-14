@@ -26,19 +26,24 @@ jobs:
 
       - name: Switch to index branch and commit JSON file
         run: |
-          git fetch \--no-tags \--depth=1 origin index || echo "Index branch does not exist yet"          
+          git fetch origin index || echo "Index branch does not exist yet"
+
+          # Stash any untracked files to prevent conflicts when switching branches
+          git stash --include-untracked
           if git ls-remote --exit-code --heads origin index; then
-            git checkout index
+            git switch index
           else
-            git checkout -b index
+            git switch -c index
             git push origin index
           fi
+
+          git stash pop || echo "No stashed files to restore"
 
           # Configure Git user
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          # Add JSON file to tracking
+         
           git add pubs.json
 
           # Check for changes before committing
