@@ -26,9 +26,7 @@ jobs:
 
       - name: Switch to index branch and commit JSON file
         run: |
-          git fetch origin index || echo "Index branch does not exist yet"
-
-          # Stash any untracked files to prevent conflicts when switching branches
+          git fetch origin index || echo "index branch does not exist yet"
           git stash --include-untracked
           if git ls-remote --exit-code --heads origin index; then
             git switch index
@@ -37,9 +35,7 @@ jobs:
             git push origin index
           fi
 
-          git stash pop || echo "No stashed files to restore"
-
-          git ls-files \--error-unmatch pubs.json || git add pubs.json
+          git add pubs.json
           
           # Configure Git user
           git config user.name "github-actions"
@@ -52,3 +48,9 @@ jobs:
             git commit -m "Updated JSON file in index branch"
             git push origin index
           fi
+
+      - name: Switch back to send_json_to_index and restore stash
+        run: |
+          git checkout send_json_to_index
+          git stash pop || echo "No stashed changes to apply"
+          
