@@ -7,10 +7,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@Repo_Integration 
+        uses: actions/checkout@main 
 
       - name: Setup Python Version
-        uses: actions/setup-python@Repo_Integration
+        uses: actions/setup-python@main
         with:
           python-version: 3.12 
 
