@@ -26,7 +26,7 @@ jobs:
 
       - name: Switch to index branch and commit JSON file
         run: |
-          git fetch \--no-tags \--depth=1 origin index || echo "Index branch does not exist yet          
+          git fetch \--no-tags \--depth=1 origin index || echo "Index branch does not exist yet"          
           if git ls-remote --exit-code --heads origin index; then
             git checkout index
           else
