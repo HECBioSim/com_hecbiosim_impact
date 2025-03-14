@@ -1,6 +1,6 @@
 name: Run auto_extract_rf_data.py
 run-name: ${{ github.actor }} is running auto_extract_rf_data.py
-on: [workflow_dispatch]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
