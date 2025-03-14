@@ -22,10 +22,15 @@ jobs:
         run: |
            cd data_miner 
            python auto_extract_rf_data.py
-
-      - name: Switch to 'index' branch and commit JSON file
-        run: |
-            git checkout index  # Switch to 'index' branch
+           
+      - name: Switch to index branch and commit JSON file
+       run: |
+           if git ls-remote --exit-code --heads origin index; then
+                  git checkout index
+           else
+                git checkout -b index
+                 git push origin index
+            fi
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             git add pubs.json
