@@ -25,7 +25,6 @@ jobs:
 
       - name: Switch to 'index' branch and commit JSON file
         run: |
-            git fetch origin index || git branch index origin/index
             git checkout index  # Switch to 'index' branch
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
