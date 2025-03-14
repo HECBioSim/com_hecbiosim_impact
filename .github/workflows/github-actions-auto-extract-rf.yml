@@ -7,10 +7,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@Repo_Integration 
+        uses: actions/checkout@main 
 
       - name: Setup Python Version
-        uses: actions/setup-python@Repo_Integration
+        uses: actions/setup-python@main
         with:
           python-version: 3.12 
 
@@ -18,7 +18,9 @@ jobs:
         run: python -m pip install --upgrade pip requests pyyaml openpyxl plotly pandas
 
       - name: Execute Python script 
-        run: python auto_extract_rf_data.py
+        run: |
+           cd data_miner 
+           python auto_extract_rf_data.py
 
       - name: store publication outputs
         run: | 
