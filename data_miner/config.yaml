@@ -5,7 +5,7 @@ projects:
   EP/X035603/1: "1741277628_Publications_30378_06_03_2025.xlsx"  # (2023-2027)
 
 # Output file names
-pubs_json_output_file: "hec_bio_sim_pubs.json"
-stats_json_output_file: "hec_bio_sim_stats.json"
+pubs_json_output_file: "pubs.json"
+stats_json_output_file: "stats.json"
 
 
