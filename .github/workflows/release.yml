@@ -1,11 +1,56 @@
 name: release
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        required: true
+        default: 'x.y.z'
 
 jobs:
-  release:
+  version:
     runs-on: ubuntu-24.04
     name: make release
+    env:
+      GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
     steps:
       - name: checkout
         uses: actions/checkout@v4
+
+      - name: Inject version number
+        run: |
+          echo "test"
+
+  tag:
+    name: Create tagged commit.
+    needs: version
+    runs-on: ubuntu-24.04
+    env:
+      GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create tag
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git tag ${{ github.event.inputs.name }}
+          git push origin tag ${{ github.event.inputs.name }}
+
+  release:
+    name: Create GH release.
+    needs: [version, tag]
+    runs-on: ubuntu-24.04
+    env:
+      GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+    steps:
+      - name: Create zip
+        run: |
+          echo "test"
+
+      - name: Create release
+        run: |
+          gh release create "${{ github.event.inputs.name }}" \
+              --repo="$GITHUB_REPOSITORY" \
+              --title="v${{ github.event.inputs.name }}" \
+              --generate-notes
