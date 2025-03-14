@@ -7,10 +7,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@main 
+        uses: actions/checkout@Repo_Integration 
 
       - name: Setup Python Version
-        uses: actions/setup-python@main
+        uses: actions/setup-python@Repo_Integration
         with:
           python-version: 3.12 
 
@@ -25,11 +25,10 @@ jobs:
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add hec_bio_sim_pubs.json 
-            git add searchable_pubs.html
             if git diff --cached --quiet; then
                 echo "No changes to commit."
             else
-                git commit -m "Added json and html output files"
+                git commit -m "Added json files"
                 git push
             fi
        
