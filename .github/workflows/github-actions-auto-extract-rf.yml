@@ -39,12 +39,11 @@ jobs:
 
           git stash pop || echo "No stashed files to restore"
 
+          git ls-files \--error-unmatch pubs.json || git add pubs.json
+          
           # Configure Git user
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
-         
-          git add pubs.json
 
           # Check for changes before committing
           if git diff --cached --quiet; then
