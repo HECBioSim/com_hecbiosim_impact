@@ -1,10 +1,9 @@
 """ This script forms part of an automated workflow 
 to extract ResearchFish data on publications
 from an Excel spreadsheet.
-It relies on data from a YAML input file, and both outputs
+It relies on data from a YAML input file, and outputs
 the publication data as a json file
-(suitable for separate data analysis)
-and injects it into an html wrapper containing a search bar and filters,
+which can be injected into an html file within a plugin,
 for use on a CMS """
 
 import json
