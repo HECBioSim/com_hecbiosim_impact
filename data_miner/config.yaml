@@ -1,0 +1,11 @@
+# Associate project codes with the matching  Excel file containing project data
+projects:
+  EP/L000253/1: "EP_L000253_1_Publications_72385_08_01_2025.xlsx" #(2013-2019)
+  EP/R029407/1: "EP_R029407_1_Publications_72385_08_01_2025.xlsx"  # (2019-2023)
+  EP/X035603/1: "1741277628_Publications_30378_06_03_2025.xlsx"  # (2023-2027)
+
+# Output file names
+pubs_json_output_file: "hec_bio_sim_pubs.json"
+stats_json_output_file: "hec_bio_sim_stats.json"
+
+
