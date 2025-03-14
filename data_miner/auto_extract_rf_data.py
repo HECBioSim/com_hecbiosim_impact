@@ -193,14 +193,4 @@ if all_dataframes:
         json_file.write(json_content)
     print(f"JSON saved to {config['json_output_file']}")
 
-    # Inject JSON into HTML
-    with open(config["html_wrap_around"], "r", encoding="utf8") as html_file:
-        html_content = html_file.read()
-    html_content = html_content.replace("<!-- JSON DATA PLACEHOLDER -->", json_content)
-
-    # Save modified HTML
-    with open(config["html_output_file"], "w", encoding="utf8") as output_html:
-        output_html.write(html_content)
-    print(f"HTML updated and saved to {config['html_output_file']}")
-else:
-    print("No valid data to process.")
+   
