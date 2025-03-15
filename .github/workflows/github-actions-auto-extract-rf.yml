@@ -51,6 +51,7 @@ jobs:
             if git diff --cached --quiet; then
                 echo "No changes to commit."
             else
+                git add pubs.json
                 git commit -m "Updated pubs.json file in index branch"
                 git push origin index
             fi
