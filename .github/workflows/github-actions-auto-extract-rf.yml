@@ -40,7 +40,7 @@ jobs:
 
       - name: merge origin with index branch
         run: |
-             git merge --allow-unrelated-histories -X theirs origin || echo "Merge not possible"
+             git merge origin/updata_send_JSON_to_index --allow-unrelated-histories -X theirs || echo "Merge not possible"
              
       - name: Add pubs.json to index branch
         run: |
