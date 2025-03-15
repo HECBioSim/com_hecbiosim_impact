@@ -45,15 +45,16 @@ jobs:
 
       - name: merge origin with index branch
         run: |
-             git merge update_send_JSON_to_index --allow-unrelated-histories -X theirs || echo "Merge not possible"
+             git merge update_send_JSON_to_index --allow-unrelated-histories || echo "Merge conflict detected"
+             git checkout --theirs pubs.json
+             git add pubs.json
              
       - name: Add pubs.json to index branch
         run: |
-            git add pubs.json
             if git diff --cached --quiet; then
                 echo "No changes to commit."
             else
                 git commit -m "Updated pubs.json file in index branch"
-                git push origin index
+                git push origin index --force 
             fi
 
