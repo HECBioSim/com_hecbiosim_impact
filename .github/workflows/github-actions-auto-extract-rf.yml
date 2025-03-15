@@ -28,6 +28,7 @@ jobs:
         run: |
           # Fetch the index branch, if exists
           git fetch origin index || echo "Index branch does not exist yet"
+          git stash --include-untracked   
           
           # Switch to the index branch
           if git ls-remote --exit-code --heads origin index; then
