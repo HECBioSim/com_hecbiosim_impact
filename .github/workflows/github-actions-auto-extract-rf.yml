@@ -23,13 +23,18 @@ jobs:
         run: |
           cd data_miner
           python auto_extract_rf_data.py
-                  
+
+      - name: Stash new pubs.json before switching branches
+        run: |
+          git stash --include-untracked
+             
       - name: Switch to 'index' branch 
         run: |
             git fetch origin index || git branch index origin/index
             git checkout index  
+            git stash pop || echo "No stashed changes to apply"
             git merge -X theirs main || echo "No merge needed" 
-      
+    
       - name: Add config options 
         run: |
             git config user.name "github-actions"
