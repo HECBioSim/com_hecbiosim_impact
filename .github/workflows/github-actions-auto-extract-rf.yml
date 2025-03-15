@@ -29,17 +29,11 @@ jobs:
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add pubs.json 
-            git stash --include-untracked
       
       - name: Switch to 'index' branch 
         run: |
             git fetch origin index || git branch index origin/index
             git checkout index  # Switch to 'index' branch
-            git reset --hard origin/index
-            
-      - name: Apply stashed pubs.json to index branch
-        run: |
-          git stash pop || echo "No stashed changes to apply"
       
       - name: Add config options 
         run: |
@@ -48,6 +42,7 @@ jobs:
             
       - name: Add pubs.json to index branch
         run: |
+            git checkout --theirs pubs.json 
             if git diff --cached --quiet; then
                 echo "No changes to commit."
             else
