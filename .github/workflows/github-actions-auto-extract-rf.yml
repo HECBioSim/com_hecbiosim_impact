@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@v4
+        uses: actions/checkout@main 
 
       - name: Setup Python Version
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@main
         with:
           python-version: 3.12 
 
@@ -26,39 +26,25 @@ jobs:
 
       - name: Stash new pubs.json before switching branches
         run: |
-          git add pubs.json  # Ensure it's tracked
-          git stash push -m "Stash pubs.json" || echo "Nothing to stash"
-
+          git add pubs.json
+          git stash --include-untracked
+             
       - name: Switch to 'index' branch 
         run: |
-          git fetch origin index || git branch index origin/index
-          git checkout index  
-
-      - name: Restore pubs.json from stash
+            git fetch origin index || git branch index origin/index
+            git merge -X theirs index || echo "No merge needed" 
+    
+      - name: Add config options 
         run: |
-          git stash pop || echo "No stashed changes to apply"
-
-      - name: Ensure main branch is available
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            
+      - name: Add pubs.json to index branch
         run: |
-          git fetch origin main
-          git branch --track main origin/main || echo "Main branch already tracked"
-
-      - name: Merge pubs.json from main to index
-        run: |
-          git checkout main -- pubs.json  
-          git add pubs.json
-
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-      - name: Commit and push changes
-        run: |
-          if git diff --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Updated pubs.json from main"
-            git push origin index
-          fi
+            if git diff --cached --quiet; then
+                echo "No changes to commit."
+            else
+                git commit -m "Updated pubs.json file in index branch"
+                git push origin index
+            fi
 
