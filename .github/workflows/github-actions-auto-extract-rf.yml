@@ -23,26 +23,28 @@ jobs:
            cd data_miner 
            python auto_extract_rf_data.py
     
-      - name: store publication outputs
+      - name: Track pubs.json in working branch
         run: | 
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add pubs.json 
-
       
-      - name: Switch to 'index' branch and commit JSON file
+      - name: Switch to 'index' branch 
         run: |
             git fetch origin index || git branch index origin/index
             git checkout index  # Switch to 'index' branch
+      
+      - name: Add config options 
+        run: |
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             
-            
-            # Check for changes before committing
+      - name: Add pubs.json to index branch
+        run: |
             if git diff --cached --quiet; then
                 echo "No changes to commit."
             else
-                git commit -m "Updated JSON file in index branch"
+                git commit -m "Updated pubs.json file in index branch"
                 git push origin index
             fi
         
