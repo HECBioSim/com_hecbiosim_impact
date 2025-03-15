@@ -27,12 +27,13 @@ jobs:
       - name: Stash new pubs.json before switching branches
         run: |
           git add pubs.json
-          git stash --include-untracked
+          git stash --include-untracked || echo "Nothing to stash"
              
       - name: Switch to 'index' branch 
         run: |
-            git fetch origin index && git checout index || git branch index origin/index     
-    
+            git fetch origin index || git branch index origin/index  
+            git checkout index
+            
       - name: Add config options 
         run: |
             git config user.name "github-actions"
