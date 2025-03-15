@@ -22,7 +22,7 @@ jobs:
         run: |
            cd data_miner 
            python auto_extract_rf_data.py
-           git add pubs.json
+           git add .
 
       - name: Switch to 'index' branch and commit JSON file
         run: |
