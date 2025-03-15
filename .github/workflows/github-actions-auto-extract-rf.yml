@@ -23,4 +23,14 @@ jobs:
            cd data_miner 
            python auto_extract_rf_data.py
     
-       
+      - name: store publication outputs
+        run: | 
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add pubs.json 
+            if git diff --cached --quiet; then
+                echo "No changes to commit."
+            else
+                git commit -m "Added json files"
+                git push
+            fi
