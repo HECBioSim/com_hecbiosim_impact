@@ -23,12 +23,6 @@ jobs:
         run: |
           cd data_miner
           python auto_extract_rf_data.py
-    
-      - name: Track pubs.json in working branch
-        run: | 
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add pubs.json 
                   
       - name: Switch to 'index' branch 
         run: |
