@@ -55,5 +55,5 @@ jobs:
 
       - name: Switch back to send_json_to_index and restore stash
         run: |
-          git checkout send_json_to_index
+          git checkout main
           git stash pop || echo "No stashed changes to apply"
