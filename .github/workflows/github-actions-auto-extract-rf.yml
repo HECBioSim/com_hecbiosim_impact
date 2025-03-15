@@ -35,7 +35,8 @@ jobs:
         run: |
             git fetch origin index || git branch index origin/index
             git checkout index  # Switch to 'index' branch
-
+            git reset --hard origin/index
+            
       - name: Apply stashed pubs.json to index branch
         run: |
           git stash pop || echo "No stashed changes to apply"
