@@ -26,11 +26,8 @@ jobs:
 
       - name: Switch to index branch and commit JSON file
         run: |
-          # Fetch the index branch, if exists
-          git fetch origin index || echo "Index branch does not exist yet"
-          git stash --include-untracked   
-          
-          # Switch to the index branch
+          git fetch origin index || echo "index branch does not exist yet"
+          git stash --include-untracked
           if git ls-remote --exit-code --heads origin index; then
             git switch index
           else
@@ -38,14 +35,11 @@ jobs:
             git push origin index
           fi
 
-          # Ensure the pubs.json file is created and tracked
-          git add pubs.json || echo "No pubs.json to add"
-
-          # Configure Git user
+          git add pubs.json
+          
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
@@ -57,4 +51,4 @@ jobs:
         run: |
           git checkout send_json_to_index
           git stash pop || echo "No stashed changes to apply"
-
+          
