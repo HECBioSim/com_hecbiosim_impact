@@ -32,7 +32,7 @@ jobs:
       - name: Switch to 'index' branch 
         run: |
             git fetch origin index || git branch index origin/index
-            git merge -X theirs index || echo "No merge needed" 
+            git merge -X theirs origin/index || echo "No merge needed" 
     
       - name: Add config options 
         run: |
