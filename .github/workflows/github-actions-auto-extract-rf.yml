@@ -31,7 +31,7 @@ jobs:
              
       - name: Switch to 'index' branch 
         run: |
-            git fetch origin index || git branch index origin/index     
+            git fetch origin index && git checout index || git branch index origin/index     
     
       - name: Add config options 
         run: |
