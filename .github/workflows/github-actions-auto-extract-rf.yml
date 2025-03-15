@@ -47,7 +47,7 @@ jobs:
             
       - name: Add pubs.json to index branch
         run: |
-            git checkout --theirs pubs.json 
+            git merge --strategy-option theirs 
             if git diff --cached --quiet; then
                 echo "No changes to commit."
             else
