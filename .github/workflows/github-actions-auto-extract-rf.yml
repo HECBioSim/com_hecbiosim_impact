@@ -1,3 +1,4 @@
+
 name: Run auto_extract_rf_data.py
 run-name: ${{ github.actor }} is running auto_extract_rf_data.py
 
@@ -24,32 +25,36 @@ jobs:
           cd data_miner
           python auto_extract_rf_data.py
 
+      - name: Ensure a clean working state before switching branches
+        run: |
+          git add .
+          git stash --include-untracked || echo "Nothing to stash"
+
       - name: Switch to 'index' branch 
         run: |
           git fetch origin index || git branch index origin/index  
           git checkout index
 
-      - name: Add config options 
+      - name: Ensure 'index' branch is clean
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git reset --hard origin/index  # Ensure a clean working tree
+          git clean -fd                 # Remove any untracked files
 
       - name: Merge update_send_JSON_to_index into index (Force Resolve Conflicts)
         run: |
-          git merge update_send_JSON_to_index --allow-unrelated-histories || echo "Merge conflict detected, resolving..."
+          git merge update_send_JSON_to_index --allow-unrelated-histories -X theirs || echo "Merge conflict detected, resolving..."
           
-          # Overwrite pubs.json with the version from update_send_JSON_to_index
-          git checkout --theirs data_miner/pubs.json  
-          
-          # Mark conflict as resolved
-          git add data_miner/pubs.json 
+          # Overwrite all files from update_send_JSON_to_index (not just pubs.json)
+          git checkout --theirs .
 
-      - name: Commit and push pubs.json to index branch
+          # Mark all conflicts as resolved
+          git add .
+
+      - name: Commit and push all changes to index branch
         run: |
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Forced update of pubs.json in index branch"
+            git commit -m "Forced update of all files in index branch"
             git push origin index --force
           fi
-
