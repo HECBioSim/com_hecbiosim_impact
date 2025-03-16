@@ -40,9 +40,9 @@ jobs:
           git reset --hard origin/index  # Ensure a clean working tree
           git clean -fd                 # Remove any untracked files
 
-      - name: Merge update_send_JSON_to_index into index (Force Resolve Conflicts)
+      - name: Merge branch in which python script was run into index branch (Force Resolve Conflicts)
         run: |
-          git merge update_send_JSON_to_index --allow-unrelated-histories -X theirs || echo "Merge conflict detected, resolving..."
+          git merge json_test_2 --allow-unrelated-histories -X theirs || echo "Merge conflict detected, resolving..."
           
           # Overwrite all files from update_send_JSON_to_index (not just pubs.json)
           git checkout --theirs .
