@@ -55,9 +55,6 @@ jobs:
 
       - name: Commit and push all changes to index branch
         run: |
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
             git commit -m "Forced update of all files in index branch"
             git push origin index --force
-          fi
+      
