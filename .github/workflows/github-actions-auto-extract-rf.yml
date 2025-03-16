@@ -37,8 +37,8 @@ jobs:
 
       - name: Ensure 'index' branch is clean
         run: |
-          git reset --hard origin/index  # Ensure a clean working tree
-          git clean -fd                 # Remove any untracked files
+          git reset --hard origin/index  
+          git clean -fd                 
 
       - name: Add identity 
         run: |
@@ -49,10 +49,8 @@ jobs:
         run: |
           git merge json_test_2 --allow-unrelated-histories -X theirs || echo "Merge conflict detected, resolving..."
           
-          # Overwrite all files from update_send_JSON_to_index (not just pubs.json)
           git checkout --theirs .
 
-          # Mark all conflicts as resolved
           git add .
 
       - name: Commit and push all changes to index branch
