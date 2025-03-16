@@ -45,7 +45,7 @@ jobs:
 
       - name: merge origin with index branch
         run: |
-             git merge update_send_JSON_to_index --allow-unrelated-histories || echo "Merge conflict detected"
+             git merge --theirs update_send_JSON_to_index --allow-unrelated-histories || echo "Merge conflict detected"
              git checkout --theirs pubs.json
              git add pubs.json
              
