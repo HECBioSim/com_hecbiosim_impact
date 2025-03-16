@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@main 
+        uses: actions/checkout@v4
 
       - name: Setup Python Version
-        uses: actions/setup-python@main
+        uses: actions/setup-python@v4
         with:
           python-version: 3.12 
 
@@ -24,37 +24,32 @@ jobs:
           cd data_miner
           python auto_extract_rf_data.py
 
-      - name: Stash new pubs.json before switching branches
-        run: |
-          git add pubs.json
-          git stash --include-untracked || echo "Nothing to stash"
-             
       - name: Switch to 'index' branch 
         run: |
-            git fetch origin index || git branch index origin/index  
-            git checkout index
-            
+          git fetch origin index || git branch index origin/index  
+          git checkout index
+
       - name: Add config options 
         run: |
-            git config user.name "github-actions"
-            git config user.email "github-actions@github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-      - name: Apply stashed pubs.json to index branch
+      - name: Merge update_send_JSON_to_index into index (Force Resolve Conflicts)
         run: |
-          git stash pop || echo "No stashed changes to apply"
+          git merge update_send_JSON_to_index --allow-unrelated-histories || echo "Merge conflict detected, resolving..."
+          
+          # Overwrite pubs.json with the version from update_send_JSON_to_index
+          git checkout --theirs data_miner/pubs.json  
+          
+          # Mark conflict as resolved
+          git add data_miner/pubs.json 
 
-      - name: merge origin with index branch
+      - name: Commit and push pubs.json to index branch
         run: |
-             
-             git merge -X theirs update_send_JSON_to_index --allow-unrelated-histories || echo "Unresolvable merge conflict detected"             
-             git add pubs.json
-             
-      - name: Add pubs.json to index branch
-        run: |
-            if git diff --cached --quiet; then
-                echo "No changes to commit."
-            else
-                git commit -m "Updated pubs.json file in index branch"
-                git push origin index --force 
-            fi
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Forced update of pubs.json in index branch"
+            git push origin index --force
+          fi
 
