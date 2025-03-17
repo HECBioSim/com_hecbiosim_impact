@@ -58,7 +58,11 @@ jobs:
 
           git add .
 
-      - name: Commit and push all changes to index branch
-        run: |
-            git push origin index --force 
-            git commit -m "Forced update of all files in index branch"      
+      - name: Check for changes, commit if needed
+        run: |     
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Updated pubs.json file in index branch"
+            git push origin index
+          fi
