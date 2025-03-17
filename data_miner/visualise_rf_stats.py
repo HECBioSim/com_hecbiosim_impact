@@ -13,7 +13,7 @@ def load_config(yaml_file="config.yaml"):
         return yaml.safe_load(file)
 
 # Load JSON data
-with open("pubs.json", encoding="utf8") as f:
+with open("../pubs.json", encoding="utf8") as f:
     data = json.load(f)
 
 # Load configuration
