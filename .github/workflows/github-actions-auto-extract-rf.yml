@@ -24,8 +24,8 @@ jobs:
         run: |
           cd data_miner
           python auto_extract_rf_data.py
-
-      - name: Execute Python script to generate publication data JSON
+          
+      - name: Execute Python script to generate statistics data JSON
         run: |
           python visualise_rf_stats.py
 
