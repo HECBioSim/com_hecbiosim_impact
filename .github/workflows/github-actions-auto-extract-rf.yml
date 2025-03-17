@@ -60,6 +60,5 @@ jobs:
 
       - name: Commit and push all changes to index branch
         run: |
-            git commit -m "Forced update of all files in index branch"
-            git push origin index --force            
-      
+            git push origin index --force 
+            git commit -m "Forced update of all files in index branch"      
