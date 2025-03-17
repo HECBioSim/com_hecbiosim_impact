@@ -1,3 +1,4 @@
+
 name: Run auto_extract_rf_data.py
 run-name: ${{ github.actor }} is running auto_extract_rf_data.py
 
@@ -9,10 +10,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@main 
+        uses: actions/checkout@v4
 
       - name: Setup Python Version
-        uses: actions/setup-python@main
+        uses: actions/setup-python@v4
         with:
           python-version: 3.12 
 
@@ -24,34 +25,41 @@ jobs:
           cd data_miner
           python auto_extract_rf_data.py
 
-      - name: Switch to index branch and commit JSON file
+      - name: Ensure a clean working state before switching branches
         run: |
-           cd data_miner 
-           python auto_extract_rf_data.py
-    
-      - name: Track pubs.json in working branch
-        run: | 
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add pubs.json 
-      
+          cd ../com_hecbiosim_impact
+          git add .
+          git stash --include-untracked || echo "Nothing to stash"
+
       - name: Switch to 'index' branch 
         run: |
-            git fetch origin index || git branch index origin/index
-            git checkout index  # Switch to 'index' branch
-      
-      - name: Add config options 
+          git fetch origin index || git branch index origin/index  
+          git checkout index
+
+      - name: Ensure 'index' branch is clean
+        run: |
+          git reset --hard origin/index  
+          git clean -fd  
+
+      - name: Apply stashed files to index branch
+        run: |
+          git stash pop || echo "No stashed changes to apply"
+
+      - name: Add identity 
         run: |
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
-            
-      - name: Add pubs.json to index branch
-        run: |
-            if git diff --cached --quiet; then
-                echo "No changes to commit."
-            else
-                git commit -m "Updated pubs.json file in index branch"
-                git push origin index
-            fi
-        
+          
+      - name: Merge branch in which python script was run into index branch (Force Resolve Conflicts)
+        run: |  
+          git checkout --theirs .
+          git add .
 
+      - name: Check for changes, commit if needed
+        run: |     
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Updated pubs.json file in index branch"
+            git push origin index
+          fi
