@@ -4,13 +4,13 @@
         <description>A Joomla component for data mining and analytics of impact.</description>
         <element>com_hecbiosim_impact</element>
         <type>component</type>
-        <version>x.y.z</version>
+        <version>v0.0.1</version>
         <infourl title="HECBioSim Impact Component">
             https://github.com/HECBioSim/com_hecbiosim_impact
         </infourl>
         <downloads>
         <downloadsource type="full" format="zip">
-            https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/x.y.z/com_hecbiosim_impact-x.y.z.zip
+            https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/v0.0.1/com_hecbiosim_impact-0.0.1.zip
         </downloadsource>
         </downloads>
         <tags>
