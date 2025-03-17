@@ -51,11 +51,8 @@ jobs:
             git config user.email "github-actions@github.com"
           
       - name: Merge branch in which python script was run into index branch (Force Resolve Conflicts)
-        run: |
-          git merge json_test_2 --allow-unrelated-histories -X theirs || echo "Merge conflict detected, resolving..."
-          
+        run: |  
           git checkout --theirs .
-
           git add .
 
       - name: Check for changes, commit if needed
