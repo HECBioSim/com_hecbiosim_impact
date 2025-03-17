@@ -79,7 +79,6 @@ plot_html = """
 <body>
     <h1>Publication Data Charts</h1>
     {bar_chart}
-    {pie_chart}
     {year_chart}
 </body>
 </html>
