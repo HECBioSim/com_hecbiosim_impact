@@ -60,6 +60,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Updated pubs.json file in index branch"
+            git commit -m "Updated JSON files in index branch"
             git push origin index
           fi
