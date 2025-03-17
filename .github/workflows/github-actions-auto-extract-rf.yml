@@ -20,10 +20,14 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip requests pyyaml openpyxl plotly pandas
 
-      - name: Execute Python script
+      - name: Execute Python script to generate publication data JSON
         run: |
           cd data_miner
           python auto_extract_rf_data.py
+
+      - name: Execute Python script to generate publication data JSON
+        run: |
+          python visualise_rf_stats.py
 
       - name: Ensure a clean working state before switching branches
         run: |
