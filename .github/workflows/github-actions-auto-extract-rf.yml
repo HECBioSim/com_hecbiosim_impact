@@ -38,7 +38,11 @@ jobs:
       - name: Ensure 'index' branch is clean
         run: |
           git reset --hard origin/index  
-          git clean -fd                 
+          git clean -fd  
+
+      - name: Apply stashed files to index branch
+        run: |
+          git stash pop || echo "No stashed changes to apply"
 
       - name: Add identity 
         run: |
