@@ -61,12 +61,6 @@ fig_bar = px.bar(
     title="Publications per Project Reference",
 )
 
-# Generate Pie Chart for Publications by Project Reference
-fig_pie = px.pie(
-    names=list(project_counts.keys()),
-    values=list(project_counts.values()),
-    title="Publications Distribution by Project",
-)
 
 # Generate Bar Chart for Publications per Year (ensuring all years appear)
 fig_years = px.bar(
@@ -91,7 +85,6 @@ plot_html = """
 </html>
 """.format(
     bar_chart=plot(fig_bar, output_type="div", include_plotlyjs="cdn"),
-    pie_chart=plot(fig_pie, output_type="div", include_plotlyjs=False),
     year_chart=plot(fig_years, output_type="div", include_plotlyjs=False),
 )
 
