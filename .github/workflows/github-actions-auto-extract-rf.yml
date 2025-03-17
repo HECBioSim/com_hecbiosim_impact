@@ -23,8 +23,9 @@ jobs:
       - name: Execute Python script to generate publication data JSON
         run: |
           cd data_miner
+          python auto_extract_rf_data.py
           python visualise_rf_stats.py
-
+          
       - name: Ensure a clean working state before switching branches
         run: |
           cd ../com_hecbiosim_impact
