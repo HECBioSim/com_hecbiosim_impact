@@ -27,7 +27,7 @@ jobs:
 
       - name: Ensure a clean working state before switching branches
         run: |
-          cd ../
+          cd ../com_hecbiosim_impact
           git add .
           git stash --include-untracked || echo "Nothing to stash"
 
