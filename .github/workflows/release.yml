@@ -9,16 +9,25 @@ on:
 jobs:
   version:
     runs-on: ubuntu-24.04
-    name: make release
+    name: prepare ${{ github.event.inputs.version }}
     env:
       GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
     steps:
+
+      - name: Install xmlstartlet
+        run: sudo apt install xmlstarlet
+
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: Inject version number
-        run: |
-          echo "test"
+      - name: Inject version number into plugin source
+        run: xml ed --inplace -u "/extension/version" -v v${{ github.event.inputs.version }} com_hecbiosim_impact/hecbiosim_impact.xml
+
+      - name: Inject version number into update.xml
+        run: xml ed --omit-decl --inplace -u "/updates/update/version" -v v${{ github.event.inputs.version }} update.xml
+
+      - name: Inject update file path into update.xml
+        run: xml ed --omit-decl --inplace -u "/updates/update/downloads/downloadsource" -v "https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/${{ github.event.inputs.version }}/com_hecbiosim_impact-${{ github.event.inputs.version }}.zip" update.xml
 
   tag:
     name: Create tagged commit.
