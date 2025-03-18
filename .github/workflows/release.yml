@@ -47,11 +47,10 @@ jobs:
           signoff: false
           draft: false
 
-      - name: Check PR status
-        if: ${{ steps.pr_id.outputs.pull-request-number }}
-        run: |
-          echo "Pull Request Number - ${{ steps.pr_id.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.pr_id.outputs.pull-request-url }}"
+      - name: Auto merge PR
+        run: gh pr merge --merge --auto "${{ steps.pr_id.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
 
   release:
     name: Create GH release.
