@@ -29,7 +29,7 @@ jobs:
         run: xmlstarlet ed --omit-decl --inplace -u "/updates/update/version" -v v${{ github.event.inputs.version }} update.xml
 
       - name: Inject update file path into update.xml
-        run: xmlstarlet ed --omit-decl --inplace -u "/updates/update/downloads/downloadsource" -v "https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/${{ github.event.inputs.version }}/com_hecbiosim_impact-${{ github.event.inputs.version }}.zip" update.xml
+        run: xmlstarlet ed --omit-decl --inplace -u "/updates/update/downloads/downloadurl" -v "https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/${{ github.event.inputs.version }}/com_hecbiosim_impact-${{ github.event.inputs.version }}.zip" update.xml
 
       - name: Send version update PR
         id: pr_id
