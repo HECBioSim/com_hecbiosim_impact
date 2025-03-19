@@ -57,6 +57,6 @@
   <plugins>
     </plugins>
   <updateservers>
-    <server type="extension" priority="1" name="com_hecbiosim_impact">https://raw.githubusercontent.com/HECBioSim/com_hecbiosim_impact/refs/heads/main/update.xml</server>
+    <server type="extension" priority="1" name="com_hecbiosim_impact">https://hecbiosim.github.io/com_hecbiosim_impact/update.xml</server>
   </updateservers>
 </extension>
