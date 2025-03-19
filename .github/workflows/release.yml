@@ -48,7 +48,7 @@ jobs:
           draft: false
 
       - name: Auto merge PR
-        run: gh pr merge --merge --auto "${{ steps.pr_id.outputs.pull-request-number }}"
+        run: gh pr merge --merge --delete-branch --auto "${{ steps.pr_id.outputs.pull-request-number }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
