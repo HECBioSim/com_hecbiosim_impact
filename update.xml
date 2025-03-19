@@ -4,7 +4,7 @@
     <description>A Joomla component for data mining and analytics of impact.</description>
     <element>com_hecbiosim_impact</element>
     <type>component</type>
-    <version>v0.0.3</version>
+    <version>v0.0.4</version>
     <infourl title="HECBioSim Impact Component">
             https://github.com/HECBioSim/com_hecbiosim_impact
         </infourl>
