@@ -1,24 +1,22 @@
 <updates>
-    <update>
-        <name>HECBioSim Impact Component</name>
-        <description>A Joomla component for data mining and analytics of impact.</description>
-        <element>com_hecbiosim_impact</element>
-        <type>component</type>
-        <version>v0.0.1</version>
-        <infourl title="HECBioSim Impact Component">
+  <update>
+    <name>HECBioSim Impact Component</name>
+    <description>A Joomla component for data mining and analytics of impact.</description>
+    <element>com_hecbiosim_impact</element>
+    <type>component</type>
+    <version>v0.0.2</version>
+    <infourl title="HECBioSim Impact Component">
             https://github.com/HECBioSim/com_hecbiosim_impact
         </infourl>
-        <downloads>
-        <downloadsource type="full" format="zip">
-            https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/0.0.1/com_hecbiosim_impact-0.0.1.zip
-        </downloadsource>
-        </downloads>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-        <php_minimum>8.2</php_minimum>
-        <maintainer>HECBioSim Dev Team</maintainer>
-        <maintainerurl>https://www.hecbiosim.ac.uk</maintainerurl>
-        <targetplatform name="joomla" version="5.[123456789]"/>
-    </update>
+    <downloads>
+      <downloadsource type="full" format="zip">https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/0.0.2/com_hecbiosim_impact-0.0.2.zip</downloadsource>
+    </downloads>
+    <tags>
+      <tag>dev</tag>
+    </tags>
+    <php_minimum>8.2</php_minimum>
+    <maintainer>HECBioSim Dev Team</maintainer>
+    <maintainerurl>https://www.hecbiosim.ac.uk</maintainerurl>
+    <targetplatform name="joomla" version="5.[123456789]"/>
+  </update>
 </updates>
