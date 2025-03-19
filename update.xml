@@ -12,7 +12,7 @@
       <downloadsource type="full" format="zip">https://github.com/hecbiosim/com_hecbiosim_impact/releases/download/0.0.3/com_hecbiosim_impact-0.0.3.zip</downloadsource>
     </downloads>
     <tags>
-      <tag>dev</tag>
+      <tag>stable</tag>
     </tags>
     <php_minimum>8.2</php_minimum>
     <maintainer>HECBioSim Dev Team</maintainer>
