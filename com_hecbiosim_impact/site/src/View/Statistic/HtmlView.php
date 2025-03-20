@@ -14,9 +14,7 @@ use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
 use \Joomla\CMS\Factory;
 use \Joomla\CMS\Language\Text;
 
-/**
- * View class for a list of Hecbiosim_impact.
- */
+// View class for a list of Hecbiosim_impact.
 class HtmlView extends BaseHtmlView
 {
 	protected $state;
