@@ -75,7 +75,7 @@ $params  = $this->item->params;
             pubElement.classList.add("publication");
             pubElement.innerHTML = `
                 <h3>
-                    <a href="${pub.doi}" target="_blank">${pub.title}</a>
+                    <a href=${pub.doi} target="_blank">${pub.title}</a>
                 </h3>
                 <div class="pub-details">
                     <span> ${pub.authors.join(", ")} (${pub.year}) <em>${pub.journal}</em> </span>
