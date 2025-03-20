@@ -19,9 +19,7 @@ use \Joomla\CMS\Object\CMSObject;
 use \Joomla\CMS\User\UserFactoryInterface;
 use \Hecbiosim\Component\Hecbiosim_impact\Site\Helper\Hecbiosim_impactHelper;
 
-/**
- * Hecbiosim_impact model.
- */
+// hecbiosim_impact model.
 class StatisticModel extends ItemModel
 {
 	protected function populateState()
