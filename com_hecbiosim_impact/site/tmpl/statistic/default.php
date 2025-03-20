@@ -6,25 +6,50 @@
  */
 
 // No direct access
-defined('_JEXEC') or die;
+<html>
+    <!-- Load the latest version of Plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <div id="myDiv"></div>
+    <div id="myDiv2"></div>
+    <div id="myDiv3"></div>
 
-use \Joomla\CMS\HTML\HTMLHelper;
-use \Joomla\CMS\Factory;
-use \Joomla\CMS\Uri\Uri;
-use \Joomla\CMS\Router\Route;
-use \Joomla\CMS\Language\Text;
-use \Joomla\CMS\Session\Session;
-use Joomla\Utilities\ArrayHelper;
+    <script>
+        fetch('stats.json')
+            .then(response => response.json())
+            .then(data => {
+             
+                Plotly.newPlot('myDiv', [{
+                    x: data.barChart.x,
+                    y: data.barChart.y,
+                    type: 'bar'
+                }]);
+                
+
+                Plotly.newPlot('myDiv2', [{
+                    x: data.lineChart.x,
+                    y: data.lineChart.y,
+                    type: 'line'
+                }]);
+                
+      
+                Plotly.newPlot('myDiv3', [{
+                    x: data.scatterPlot.x,
+                    y: data.scatterPlot.y,
+                    mode: 'markers',
+                    type: 'scatter'
+                }]);
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+</html>
 
 
-$url = "https://github.com/HEJ845/Auto_Extract_RF/blob/main/publication_charts.html"; 
-$content = file_get_contents($url);
 
-if ($content !== false) {
-    echo $content; 
-} else {
-    echo "Failed to load content.";
-}
+
+
+
+
+
 
 ?>
 
