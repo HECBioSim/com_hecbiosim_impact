@@ -14,9 +14,7 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\Controller\BaseController;
 use Joomla\CMS\Router\Route;
 
-/**
- * Hecbiosim_impact master display controller.
- */
+// Hecbiosim_impact master display controller.
 class DisplayController extends BaseController
 {
 	/**
