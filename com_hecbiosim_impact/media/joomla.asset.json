@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
   "name": "com_hecbiosim_impact",
-  "version": "0.0.1",
+  "version": "0.2.2",
   "license": "MIT",
   "assets": [
     {
@@ -21,9 +21,14 @@
       }
     },
     {
-        "name": "com_hecbiosim_impact.list",
+        "name": "com_hecbiosim_impact.publication",
         "type": "style",
-        "uri": "com_hecbiosim_impact/list.css"
+        "uri": "com_hecbiosim_impact/publication.css"
+    },
+    {
+        "name": "com_hecbiosim_impact.publication",
+        "type": "script",
+        "uri": "com_hecbiosim_impact/publication.js"
     }
   ]
 }
