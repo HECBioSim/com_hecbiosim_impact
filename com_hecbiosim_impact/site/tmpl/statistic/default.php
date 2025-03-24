@@ -57,3 +57,4 @@ $params  = $this->item->params;
         })
         .catch(error => console.error('Error loading JSON:', error));
 </script>
+</html>
