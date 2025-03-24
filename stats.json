@@ -134,8 +134,36 @@
         }
     },
     "publicationMonth": {
-        "x": [],
-        "y": []
+        "x": [
+            "February",
+            "January",
+            "December",
+            "October",
+            "September",
+            "August",
+            "July",
+            "June",
+            "May",
+            "April",
+            "March",
+            "",
+            "November"
+        ],
+        "y": [
+            59,
+            61,
+            56,
+            53,
+            36,
+            45,
+            68,
+            54,
+            45,
+            70,
+            54,
+            65,
+            49
+        ]
     },
     "topJournals": {
         "x": [
