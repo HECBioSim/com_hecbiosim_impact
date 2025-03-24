@@ -25,13 +25,10 @@ $params  = $this->item->params;
         <h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
     </div>
 <?php endif; ?>
-
-// Put HTML here.
-<html>
-    <!-- Load Plotly 3.0.1 -->
-    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+<!-- Load Plotly 3.0.1 -->
+<script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
 <div id="papersPerYear"></div>
- <div id="totalPapersDiv"></div>
+<div id="totalPapersDiv"></div>
 <div id="uniqueAuthorsDiv"></div>
 <div id="papersPerGrantDiv"></div>
 <div id="publicationMonthDiv"></div>
@@ -57,4 +54,3 @@ $params  = $this->item->params;
         })
         .catch(error => console.error('Error loading JSON:', error));
 </script>
-</html>
