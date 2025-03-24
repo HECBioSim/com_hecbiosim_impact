@@ -1,102 +1,100 @@
-"""This script extracts data from a specifically named JSON
-file and processes it to get a range of graphics"""
+""" This script forms part of an automated workflow 
+to extract ResearchFish data on publications
+from an Excel spreadsheet.
+It relies on data from a YAML input file, and data on 
+publications from a JSON input file, calculates 
+a range of statistics and creates a second
+JSON file containing these statistics"""
 
 import json
-import yaml
 from collections import Counter
-import plotly.express as px
-from plotly.offline import plot
+import os
+import yaml
 
 def load_config(yaml_file="config.yaml"):
-    """Load a file named config.yaml and return it"""
+    """Load configuration from config.yaml"""
     with open(yaml_file, "r", encoding="utf8") as file:
         return yaml.safe_load(file)
 
-# Load JSON data
 with open("hec_bio_sim_pubs.json", encoding="utf8") as f:
     data = json.load(f)
 
-# Load configuration
 config = load_config()
 
-# Define project codes to check
-
+# Define project codes and top journals
 project_codes = list(config.get("projects", {}).keys())
+top_journals = {"Nature", "Science", "PNAS", "Cell","JACS", "Journal of the American Chemical Society"}
 
 # Initialize counters
-project_counts = {code: 0 for code in project_codes}
 year_counts = Counter()
 journal_counts = Counter()
+project_year_counts = {code: Counter() for code in project_codes}
+month_counts = Counter()
+unique_authors = set()
+
+# Process data
 for entry in data:
     project_refs = entry.get("projectRef", "Unknown")
     year = entry.get("year", "Unknown")
+    month = entry.get("month", "Unknown")
     journal = entry.get("journal", "Unknown")
+    authors = entry.get("authors", [])
 
-    # Split project references if multiple refs present
-    project_list = [proj.strip() for proj in project_refs.split(",")]
-
-    # Count each project separately
-    for project in project_list:
-        if project in project_counts:
-            project_counts[project] += 1
-
-    # Count publications by year
-    if isinstance(year, int):  # Ensure year is valid
+    # Count publications per year
+    if isinstance(year, int):
         year_counts[year] += 1
 
-    #Count top journal publications total number
-    if journal in ["Nature"]:
+    # Count publications per grant code
+    project_list = [proj.strip() for proj in project_refs.split(",")]
+    for project in project_list:
+        if project in project_year_counts:
+            project_year_counts[project][year] += 1
+
+    # Count publications per month (all-time total)
+    if isinstance(month, int):
+        month_counts[month] += 1
+
+    # Count papers in top journals
+    if journal in top_journals:
         journal_counts[journal] += 1
 
-#Get years by date and number of years 
-all_years = list(range(min(year_counts.keys()), max(year_counts.keys()) + 1))
-year_values = [year_counts.get(year, 0) for year in all_years]
+    # Extract and count unique authors
+    for author_list in authors:
+        author_names = [name.strip() for name in author_list.split(",")]
+        unique_authors.update(author_names)
 
-print(journal_counts)
-# Generate Bar Chart for Publications by Project Reference
-fig_bar = px.bar(
-    x=list(project_counts.keys()),
-    y=list(project_counts.values()),
-    labels={"x": "Project Reference", "y": "Publication Count"},
-    title="Publications per Project Reference",
-)
+# Convert project_year_counts to lists for JSON
+project_years_json = {
+    grant: {"x": list(year_count.keys()), "y": list(year_count.values())}
+    for grant, year_count in project_year_counts.items()
+}
 
-# Generate Pie Chart for Publications by Project Reference
-fig_pie = px.pie(
-    names=list(project_counts.keys()),
-    values=list(project_counts.values()),
-    title="Publications Distribution by Project",
-)
+# Construct JSON output
+json_data = {
+    "barChart": {
+        "x": list(year_counts.keys()),
+        "y": list(year_counts.values())
+    },
+    "barChart_2": {
+        "x": list(year_counts.keys()),
+        "y": list(year_counts.values())
+    },
+    "totalPapers": len(data),
+    "uniqueAuthors": len(unique_authors),
+    "papersPerGrant": project_years_json,
+    "publicationMonth": {
+        "x": list(month_counts.keys()),
+        "y": list(month_counts.values())
+    },
+    "topJournals": {
+        "x": list(journal_counts.keys()),
+        "y": list(journal_counts.values())
+    }
+}
 
-# Generate Bar Chart for Publications per Year (ensuring all years appear)
-fig_years = px.bar(
-    x=all_years,
-    y=year_values,
-    labels={"x": "Year", "y": "Publication Count"},
-    title="Publications per Year",
-)
+# Save JSON file
+output_file = os.path.join(os.pardir, config["stats_json_output_file"])
+with open(output_file, "w", encoding="utf8") as json_file:
+    json.dump(json_data, json_file, indent=4)
 
-# Save charts as HTML
-plot_html = """
-<html>
-<head>
-    <title>Publication Data Visualization</title>
-</head>
-<body>
-    <h1>Publication Data Charts</h1>
-    {bar_chart}
-    {pie_chart}
-    {year_chart}
-</body>
-</html>
-""".format(
-    bar_chart=plot(fig_bar, output_type="div", include_plotlyjs="cdn"),
-    pie_chart=plot(fig_pie, output_type="div", include_plotlyjs=False),
-    year_chart=plot(fig_years, output_type="div", include_plotlyjs=False),
-)
-
-# Save the HTML output to a file
-with open("publication_charts.php", "w", encoding="utf8") as f:
-    f.write(plot_html)
-
-print("Charts saved to 'publication_charts.html'")
+print("JSON file successfully created:", output_file)
