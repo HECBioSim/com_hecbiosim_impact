@@ -39,7 +39,7 @@ $params  = $this->item->params;
     <script>
 
         // Fetch stats data from GitHub
-        fetch('https://hecbiosim.github.io/com_hecbiosim_impact/test_stats.json')
+        fetch('https://hecbiosim.github.io/com_hecbiosim_impact/stats.json')
             .then(response => response.json())
             .then(data => {
             // Bar Chart: Papers per Year
