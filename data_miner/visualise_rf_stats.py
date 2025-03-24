@@ -83,8 +83,8 @@ json_data = {
         "y": list(year_counts.values())
     },
     "barChart_2": {
-        "x": list(ordered_counts.keys()),
-        "y": list(ordered_counts.values())
+        "x": list(ordered_counts),
+        "y": list(ordered_counts)
     },
     "totalPapers": len(data),
     "uniqueAuthors": len(unique_authors),
