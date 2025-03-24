@@ -16,7 +16,7 @@ def load_config(yaml_file="config.yaml"):
     with open(yaml_file, "r", encoding="utf8") as file:
         return yaml.safe_load(file)
 
-with open("hec_bio_sim_pubs.json", encoding="utf8") as f:
+with open("../pubs.json", encoding="utf8") as f:
     data = json.load(f)
 
 config = load_config()
