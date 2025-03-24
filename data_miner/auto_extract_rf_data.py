@@ -144,7 +144,7 @@ if all_dataframes:
     combined_df["Year*"] = (
         combined_df["Year*"].fillna(0).astype(int)
     )
-     combined_df["Month"] = (
+    combined_df["Month"] = (
         combined_df["Month"].fillna(0).astype(int)
     )
 
