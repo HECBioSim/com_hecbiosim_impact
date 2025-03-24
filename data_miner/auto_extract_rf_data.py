@@ -7,6 +7,7 @@ which can be injected into an html file within a plugin,
 for use on a CMS """
 
 import json
+import calendar
 import yaml
 import os
 import pandas as pd
@@ -167,7 +168,7 @@ if all_dataframes:
             "title": row["Publication*"],
             "journal": format_journal(row["Journal*"]),
             "year": row["Year*"],
-            "month": row["Month"],
+            "month": calendar.month_name[row["Month"]],
             "projectRef": row["ProjectRef"],
             "type": row.get("Type*", ""),
             "doi": format_doi(row["DOI"]),
