@@ -167,6 +167,7 @@ if all_dataframes:
             "title": row["Publication*"],
             "journal": format_journal(row["Journal*"]),
             "year": row["Year*"],
+            "month": row["Month", ""]
             "projectRef": row["ProjectRef"],
             "type": row.get("Type*", ""),
             "doi": format_doi(row["DOI"]),
