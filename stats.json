@@ -33,18 +33,18 @@
     },
     "barChart_2": {
         "x": [
-            61,
-            59,
-            54,
-            70,
-            45,
-            54,
-            68,
-            45,
-            36,
-            53,
-            49,
-            56
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
         ],
         "y": [
             61,
