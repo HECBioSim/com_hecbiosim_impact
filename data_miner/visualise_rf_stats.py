@@ -75,13 +75,7 @@ project_years_json = {
     grant: {"x": list(year_count.keys()), "y": list(year_count.values())}
     for grant, year_count in project_year_counts.items()
 }
-
-json_data["publicationMonth"] = {
-    "x": ordered_months,
-    "y": ordered_counts
-}
     
-
 # Construct JSON output
 json_data = {
     "barChart": {
