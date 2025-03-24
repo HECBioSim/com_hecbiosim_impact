@@ -51,7 +51,7 @@ for entry in data:
             project_year_counts[project][year] += 1
 
     # Count publications per month (all-time total)
-    if isinstance(month, int):
+    if isinstance(month, str):
         month_counts[month] += 1
 
     # Count papers in top journals
