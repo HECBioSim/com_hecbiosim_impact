@@ -172,6 +172,7 @@ if all_dataframes:
             "type": row.get("Type*", ""),
             "doi": format_doi(row["DOI"]),
         }
+        print(row["Month"])
 
         author_types = ["Author*", "Other Authors","Chapter Author","Other Chapter Authors"]
         authors = [] 
@@ -185,6 +186,7 @@ if all_dataframes:
                 if isinstance(fully_formatted_authors, list)
                 else [fully_formatted_authors]
             )
+            
 
         json_entries.append(entry)
 
