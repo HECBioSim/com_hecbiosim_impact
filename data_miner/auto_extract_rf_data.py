@@ -139,9 +139,13 @@ for project_code, file_path in config["projects"].items():
 # Join dataframes vertically
 if all_dataframes:
     combined_df = pd.concat(all_dataframes, ignore_index=True)
-     # Fill NaN fields in Year with 0
+     
+    # Fill NaN fields in Year and Month with 0
     combined_df["Year*"] = (
         combined_df["Year*"].fillna(0).astype(int)
+    )
+     combined_df["Month"] = (
+        combined_df["Month"].fillna(0).astype(int)
     )
 
     #Remove any full stops to publication titles, to assist dupicate detection
