@@ -177,7 +177,6 @@ if all_dataframes:
             "type": row.get("Type*", ""),
             "doi": format_doi(row["DOI"]),
         }
-        print(row["Month"])
 
         author_types = ["Author*", "Other Authors","Chapter Author","Other Chapter Authors"]
         authors = [] 
