@@ -1,5 +1,5 @@
 {
-    "barChart": {
+    "publicationYear": {
         "x": [
             2025,
             2024,
@@ -31,7 +31,7 @@
             13
         ]
     },
-    "barChart_2": {
+    "publicationMonth": {
         "x": [
             "January",
             "February",
