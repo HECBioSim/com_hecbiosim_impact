@@ -25,6 +25,8 @@ $params  = $this->item->params;
         <h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
     </div>
 <?php endif; ?>
+<p>Here we present statistical a representation of outputs that are attributed to the HECBioSim consortium. All data is mined from the EPSRC submissions via ResearchFish.</p>
+<p></p>
 <!-- Load Plotly 3.0.1 -->
 <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
 <div id="papersPerYear"></div>
