@@ -89,8 +89,6 @@ json_data = {
     "totalPapers": len(data),
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,
-   
-    },
     "topJournals": {
         "x": list(journal_counts.keys()),
         "y": list(journal_counts.values())
