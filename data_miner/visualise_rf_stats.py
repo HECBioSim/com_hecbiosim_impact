@@ -48,11 +48,18 @@ for entry in data:
     project_list = [proj.strip() for proj in project_refs.split(",")]
     for project in project_list:
         if project in project_year_counts:
-            project_year_counts[project][year] += 1
+            project_year_counts[project][year] += 1  
 
     # Count publications per month (all-time total)
-    if isinstance(month, int):
+    if isinstance(month, str):
         month_counts[month] += 1
+
+    #Sort months
+    MONTH_ORDER = ["January", "February", "March", "April", "May", "June",
+               "July", "August", "September", "October", "November", "December"]
+
+    ordered_months = [month for month in MONTH_ORDER if month in month_counts]
+    ordered_counts = [month_counts[month] for month in ordered_months]
 
     # Count papers in top journals
     if journal in top_journals:
@@ -68,24 +75,20 @@ project_years_json = {
     grant: {"x": list(year_count.keys()), "y": list(year_count.values())}
     for grant, year_count in project_year_counts.items()
 }
-
+    
 # Construct JSON output
 json_data = {
-    "barChart": {
+    "publicationYear": {
         "x": list(year_counts.keys()),
         "y": list(year_counts.values())
     },
-    "barChart_2": {
-        "x": list(year_counts.keys()),
-        "y": list(year_counts.values())
+    "publicationMonth": {
+        "x": list(ordered_months),
+        "y": list(ordered_counts)
     },
     "totalPapers": len(data),
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,
-    "publicationMonth": {
-        "x": list(month_counts.keys()),
-        "y": list(month_counts.values())
-    },
     "topJournals": {
         "x": list(journal_counts.keys()),
         "y": list(journal_counts.values())

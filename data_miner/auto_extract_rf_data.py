@@ -7,6 +7,7 @@ which can be injected into an html file within a plugin,
 for use on a CMS """
 
 import json
+import calendar
 import yaml
 import os
 import pandas as pd
@@ -138,9 +139,13 @@ for project_code, file_path in config["projects"].items():
 # Join dataframes vertically
 if all_dataframes:
     combined_df = pd.concat(all_dataframes, ignore_index=True)
-     # Fill NaN fields in Year with 0
+     
+    # Fill NaN fields in Year and Month with 0
     combined_df["Year*"] = (
         combined_df["Year*"].fillna(0).astype(int)
+    )
+    combined_df["Month"] = (
+        combined_df["Month"].fillna(0).astype(int)
     )
 
     #Remove any full stops to publication titles, to assist dupicate detection
@@ -167,6 +172,7 @@ if all_dataframes:
             "title": row["Publication*"],
             "journal": format_journal(row["Journal*"]),
             "year": row["Year*"],
+            "month": calendar.month_name[int(row["Month"])],
             "projectRef": row["ProjectRef"],
             "type": row.get("Type*", ""),
             "doi": format_doi(row["DOI"]),
@@ -184,6 +190,7 @@ if all_dataframes:
                 if isinstance(fully_formatted_authors, list)
                 else [fully_formatted_authors]
             )
+            
 
         json_entries.append(entry)
 
