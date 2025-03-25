@@ -33,14 +33,14 @@ $params  = $this->item->params;
 <div id="papersPerGrantDiv"></div>
 <div id="publicationMonthDiv"></div>
 <div id="topJournalsDiv"></div>
-    <script>
 
+<script>
         // Fetch stats data from GitHub
         fetch('https://hecbiosim.github.io/com_hecbiosim_impact/stats.json')
             .then(response => response.json())
             .then(data => {
             // Bar Chart: Papers per Year
-            Plotly.newPlot('papersPerYear', [{ x: data.barChart.x, y: data.barChart.y, type: 'bar' }]);
+            Plotly.newPlot('papersPerYear', [{ x: data.publicationYear.x, y: data.publicationYear.y, type: 'bar' }]);
 
             // Bar Chart: Publications per Month (all-time) [Note- PLACEHOLDER]
             Plotly.newPlot('publicationMonthDiv', [{ x: data.publicationMonth.x, y: data.publicationMonth.y, type: 'bar' }]);
