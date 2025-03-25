@@ -78,20 +78,18 @@ project_years_json = {
     
 # Construct JSON output
 json_data = {
-    "barChart": {
+    "publicationYear": {
         "x": list(year_counts.keys()),
         "y": list(year_counts.values())
     },
-    "barChart_2": {
+    "publicationMonth": {
         "x": list(ordered_months),
         "y": list(ordered_counts)
     },
     "totalPapers": len(data),
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,
-    "publicationMonth": {
-        "x": list(month_counts.keys()),
-        "y": list(month_counts.values())
+   
     },
     "topJournals": {
         "x": list(journal_counts.keys()),
