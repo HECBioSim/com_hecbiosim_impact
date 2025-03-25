@@ -27,6 +27,8 @@ $params  = $this->item->params;
         <h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
     </div>
 <?php endif; ?>
+<p>A detailed list of publications that have attributed HECBioSim HPC resources or support as a significant contributor. This publications are harvested from submissions made to the EPSRC via ResearchFish.</p>
+<p></p>
 <div class="filters">
     <input type="text" id="searchBar" placeholder="Search publications...">
     <select id="typeFilter">
