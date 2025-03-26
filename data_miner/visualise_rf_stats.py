@@ -92,7 +92,7 @@ json_data = {
         "y": list(ordered_counts)
     },
     "totalPapers": len(data),
-    "totalTopPapers": tot_top_journals
+    "totalTopPapers": tot_top_journals,
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,
     "topJournals": {
