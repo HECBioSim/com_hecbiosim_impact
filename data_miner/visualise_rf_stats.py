@@ -31,6 +31,7 @@ journal_counts = Counter()
 project_year_counts = {code: Counter() for code in project_codes}
 month_counts = Counter()
 unique_authors = set()
+tot_top_journals = 0
 
 
 for entry in data:
