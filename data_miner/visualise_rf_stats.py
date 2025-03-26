@@ -64,7 +64,8 @@ for entry in data:
     # Count papers in top journals
     if journal in top_journals:
         journal_counts[journal] += 1
-    print(f"the number of counts in {journal} is now {journal_counts[journal]}")
+        tot_top_journals += 1 
+        print(tot_top_journals)
     
 
     # Extract and count unique authors
