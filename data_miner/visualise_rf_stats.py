@@ -65,7 +65,7 @@ for entry in data:
     # Count papers in top journals
     if journal in top_journals:
         journal_counts[journal] += 1   
-    total = sum(journal_counts.values())
+    tot_top_journals = sum(journal_counts.values())
     
     # Extract and count unique authors
     for author_list in authors:
