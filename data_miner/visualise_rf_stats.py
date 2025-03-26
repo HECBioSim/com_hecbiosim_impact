@@ -32,7 +32,7 @@ project_year_counts = {code: Counter() for code in project_codes}
 month_counts = Counter()
 unique_authors = set()
 
-# Process data
+
 for entry in data:
     project_refs = entry.get("projectRef", "Unknown")
     year = entry.get("year", "Unknown")
@@ -78,11 +78,11 @@ project_years_json = {
     
 # Construct JSON output
 json_data = {
-    "publicationYear": {
+    "pubsPerYear": {
         "x": list(year_counts.keys()),
         "y": list(year_counts.values())
     },
-    "publicationMonth": {
+    "pubsPerMonth": {
         "x": list(ordered_months),
         "y": list(ordered_counts)
     },
