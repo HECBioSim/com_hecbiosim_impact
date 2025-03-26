@@ -23,7 +23,7 @@ config = load_config()
 
 # Define project codes and top journals
 project_codes = list(config.get("projects", {}).keys())
-top_journals = {"Nature", "Science", "PNAS", "Cell","JACS", "Journal of the American Chemical Society"}
+top_journals = {"Nature", "Science", "PNAS", "Cell","JACS", "Journal of the American Chemical Society"} #TODO add any additional names 
 
 # Initialize counters
 year_counts = Counter()
@@ -31,8 +31,6 @@ journal_counts = Counter()
 project_year_counts = {code: Counter() for code in project_codes}
 month_counts = Counter()
 unique_authors = set()
-
-
 
 for entry in data:
     project_refs = entry.get("projectRef", "Unknown")
