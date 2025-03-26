@@ -1,5 +1,5 @@
 {
-    "publicationYear": {
+    "pubsPerYear": {
         "x": [
             2025,
             2024,
@@ -31,7 +31,7 @@
             13
         ]
     },
-    "publicationMonth": {
+    "pubsPerMonth": {
         "x": [
             "January",
             "February",
