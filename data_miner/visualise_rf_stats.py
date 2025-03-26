@@ -67,6 +67,8 @@ for entry in data:
     if journal in top_journals:
         journal_counts[journal] += 1
         tot_top_journals += 1 
+        print(tot_top_journals)
+    print(tot_top_journals)      
 
     # Extract and count unique authors
     for author_list in authors:
@@ -90,7 +92,7 @@ json_data = {
         "y": list(ordered_counts)
     },
     "totalPapers": len(data),
-    "totalTopPapers": tot_top_journals,
+    "totalTopPapers": tot_top_journals
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,
     "topJournals": {
