@@ -31,7 +31,7 @@ journal_counts = Counter()
 project_year_counts = {code: Counter() for code in project_codes}
 month_counts = Counter()
 unique_authors = set()
-tot_top_journals = 0
+
 
 
 for entry in data:
@@ -63,11 +63,10 @@ for entry in data:
     ordered_counts = [month_counts[month] for month in ordered_months]
 
     # Count papers in top journals
+    tot_top_journals = 0
     if journal in top_journals:
         journal_counts[journal] += 1
         tot_top_journals += 1 
-        print(tot_top_journals)
-    
 
     # Extract and count unique authors
     for author_list in authors:
@@ -91,6 +90,7 @@ json_data = {
         "y": list(ordered_counts)
     },
     "totalPapers": len(data),
+    "totalTopPapers": tot_top_journals
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,
     "topJournals": {
