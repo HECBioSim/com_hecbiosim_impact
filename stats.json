@@ -1,68 +1,5 @@
 {
-    "pubsPerYear": {
-        "x": [
-            2025,
-            2024,
-            2023,
-            2022,
-            2021,
-            2020,
-            2019,
-            2018,
-            2017,
-            2016,
-            2015,
-            2014,
-            2013
-        ],
-        "y": [
-            5,
-            35,
-            58,
-            62,
-            107,
-            112,
-            87,
-            62,
-            54,
-            69,
-            32,
-            19,
-            13
-        ]
-    },
-    "pubsPerMonth": {
-        "x": [
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September",
-            "October",
-            "November",
-            "December"
-        ],
-        "y": [
-            61,
-            59,
-            54,
-            70,
-            45,
-            54,
-            68,
-            45,
-            36,
-            53,
-            49,
-            56
-        ]
-    },
     "totalPapers": 715,
-    "totalTopPapers": 11,
     "uniqueAuthors": 2545,
     "papersPerGrant": {
         "EP/L000253/1": {
@@ -131,6 +68,68 @@
                 6
             ]
         }
+    },
+    "publicationYear": {
+        "x": [
+            2025,
+            2024,
+            2023,
+            2022,
+            2021,
+            2020,
+            2019,
+            2018,
+            2017,
+            2016,
+            2015,
+            2014,
+            2013
+        ],
+        "y": [
+            5,
+            35,
+            58,
+            62,
+            107,
+            112,
+            87,
+            62,
+            54,
+            69,
+            32,
+            19,
+            13
+        ]
+    },
+    "publicationMonth": {
+        "x": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "y": [
+            61,
+            59,
+            54,
+            70,
+            45,
+            54,
+            68,
+            45,
+            36,
+            53,
+            49,
+            56
+        ]
     },
     "topJournals": {
         "x": [
