@@ -23,7 +23,7 @@ config = load_config()
 
 # Define project codes and top journals
 project_codes = list(config.get("projects", {}).keys())
-top_journals = {"Nature", "Science", "PNAS", "Cell","JACS", "Journal of the American Chemical Society"} #TODO add any additional names 
+top_journals = {"Nature", "Science", "PNAS", "Cell","JACS", "Journal of the American Chemical Society"}
 
 # Initialize counters
 year_counts = Counter()
@@ -32,6 +32,7 @@ project_year_counts = {code: Counter() for code in project_codes}
 month_counts = Counter()
 unique_authors = set()
 
+# Process data
 for entry in data:
     project_refs = entry.get("projectRef", "Unknown")
     year = entry.get("year", "Unknown")
@@ -52,7 +53,7 @@ for entry in data:
     # Count publications per month (all-time total)
     if isinstance(month, str):
         month_counts[month] += 1
-    
+
     #Sort months
     MONTH_ORDER = ["January", "February", "March", "April", "May", "June",
                "July", "August", "September", "October", "November", "December"]
@@ -62,9 +63,8 @@ for entry in data:
 
     # Count papers in top journals
     if journal in top_journals:
-        journal_counts[journal] += 1   
-    tot_top_journals = sum(journal_counts.values())
-    
+        journal_counts[journal] += 1
+
     # Extract and count unique authors
     for author_list in authors:
         author_names = [name.strip() for name in author_list.split(",")]
@@ -78,18 +78,17 @@ project_years_json = {
     
 # Construct JSON output
 json_data = {
-    "pubsPerYear": {
+    "totalPapers": len(data),
+    "uniqueAuthors": len(unique_authors),
+    "papersPerGrant": project_years_json,    
+    "publicationYear": {
         "x": list(year_counts.keys()),
         "y": list(year_counts.values())
     },
-    "pubsPerMonth": {
+    "publicationMonth": {
         "x": list(ordered_months),
         "y": list(ordered_counts)
     },
-    "totalPapers": len(data),
-    "totalTopPapers": tot_top_journals,
-    "uniqueAuthors": len(unique_authors),
-    "papersPerGrant": project_years_json,
     "topJournals": {
         "x": list(journal_counts.keys()),
         "y": list(journal_counts.values())
