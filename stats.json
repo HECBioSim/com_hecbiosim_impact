@@ -69,7 +69,7 @@
             ]
         }
     },
-    "publicationYear": {
+    "totPublicationsPerYear": {
         "x": [
             2025,
             2024,
@@ -101,7 +101,7 @@
             13
         ]
     },
-    "publicationMonth": {
+    "totPublicationsPerMonth": {
         "x": [
             "January",
             "February",
