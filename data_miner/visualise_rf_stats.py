@@ -81,11 +81,11 @@ json_data = {
     "totalPapers": len(data),
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,    
-    "publicationYear": {
+    "totPublicationsPerYear": {
         "x": list(year_counts.keys()),
         "y": list(year_counts.values())
     },
-    "publicationMonth": {
+    "totPublicationsPerMonth": {
         "x": list(ordered_months),
         "y": list(ordered_counts)
     },
