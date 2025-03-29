@@ -43,7 +43,8 @@ for entry in data:
     # Count publications per year
     if isinstance(year, int):
         year_counts[year] += 1
-
+        tot_top_journals = sum(journal_counts.values())
+        
     # Count publications per grant code
     project_list = [proj.strip() for proj in project_refs.split(",")]
     for project in project_list:
@@ -64,7 +65,8 @@ for entry in data:
     # Count papers in top journals
     if journal in top_journals:
         journal_counts[journal] += 1
-
+        tot_top_journals = sum(journal_counts.values())
+        
     # Extract and count unique authors
     for author_list in authors:
         author_names = [name.strip() for name in author_list.split(",")]
@@ -79,6 +81,7 @@ project_years_json = {
 # Construct JSON output
 json_data = {
     "totalPapers": len(data),
+    "totalTopPapers": tot_top_journals,
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,    
     "totPublicationsPerYear": {
