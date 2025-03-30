@@ -64,10 +64,12 @@ for entry in data:
     ordered_months = [month for month in MONTH_ORDER if month in month_counts]
     ordered_counts = [month_counts[month] for month in ordered_months]
 
-    # Count papers in top journals
-    if journal in top_journals:
-        journal_counts[journal] += 1
-        tot_top_journals = sum(journal_counts.values())
+    #Count number of top journals 
+    for entry in data: 
+        journal = entry.get("journal", "Unknown")
+        if any(journal.lower().startswith(j.lower()) for j in top_journals):
+            journal_counts[journal] += 1   
+            tot_top_journals = sum(journal_counts.values())
         
     # Extract and count unique authors
     for author_list in authors:
