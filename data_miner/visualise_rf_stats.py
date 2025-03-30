@@ -69,7 +69,7 @@ for entry in data:
         journal = entry.get("journal", "Unknown")
         if any(journal.lower().startswith(j.lower()) for j in top_journals):
             journal_counts[journal] += 1   
-            tot_top_journals = sum(journal_counts.values())
+            
         
     # Extract and count unique authors
     for author_list in authors:
