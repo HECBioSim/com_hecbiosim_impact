@@ -1,5 +1,12 @@
 {
     "totalPublications": 715,
+    "papersPerGrantCount": {
+        "EP/L000253/1": 497,
+        "EP/R029407/1": 398,
+        "EP/X035603/1": 27
+    },
+    "totalTopPapers": 11,
+    "uniqueAuthors": 2545,
     "papersPerGrant": {
         "EP/L000253/1": {
             "x": [
@@ -68,8 +75,6 @@
             ]
         }
     },
-    "totalTopPapers": 11,
-    "uniqueAuthors": 2545,
     "totalPublicationsPerYear": {
         "x": [
             2025,
