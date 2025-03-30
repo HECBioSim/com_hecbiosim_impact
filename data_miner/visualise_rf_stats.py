@@ -80,15 +80,15 @@ project_years_json = {
     
 # Construct JSON output
 json_data = {
-    "totalPapers": len(data),
+    "totalPublications": len(data),
     "totalTopPapers": tot_top_journals,
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,    
-    "totPublicationsPerYear": {
+    "totalPublicationsPerYear": {
         "x": list(year_counts.keys()),
         "y": list(year_counts.values())
     },
-    "totPublicationsPerMonth": {
+    "totalPublicationsPerMonth": {
         "x": list(ordered_months),
         "y": list(ordered_counts)
     },
