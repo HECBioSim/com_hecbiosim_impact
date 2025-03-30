@@ -29,6 +29,7 @@ top_journals = {"Nature", "Science", "PNAS", "Cell","JACS", "Journal of the Amer
 year_counts = Counter()
 journal_counts = Counter()
 project_year_counts = {code: Counter() for code in project_codes}
+papers_per_grant_count = {code: 0 for code in project_codes} 
 month_counts = Counter()
 unique_authors = set()
 
@@ -50,7 +51,8 @@ for entry in data:
     for project in project_list:
         if project in project_year_counts:
             project_year_counts[project][year] += 1  
-
+            papers_per_grant_count[project] += 1
+            
     # Count publications per month (all-time total)
     if isinstance(month, str):
         month_counts[month] += 1
@@ -81,6 +83,7 @@ project_years_json = {
 # Construct JSON output
 json_data = {
     "totalPublications": len(data),
+    "papersPerGrant": project_years_json,
     "totalTopPapers": tot_top_journals,
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,    
