@@ -5,7 +5,7 @@
         "EP/R029407/1": 398,
         "EP/X035603/1": 27
     },
-    "totalTopPapers": 11,
+    "totalTopPapers": 67210,
     "uniqueAuthors": 2545,
     "papersPerGrant": {
         "EP/L000253/1": {
@@ -139,14 +139,44 @@
     },
     "topJournals": {
         "x": [
+            "Nature Communications",
             "Nature",
+            "Journal Of The American Chemical Society",
+            "Nature Microbiology",
+            "Science Advances",
+            "Jacs Au",
+            "Science Immunology",
+            "Nature Chemistry",
+            "Nature Chemical Biology",
+            "Science (New York, N.Y.)",
+            "Cell Reports",
+            "Nature Methods",
             "Cell",
-            "Science"
+            "Nature Structural & Molecular Biology",
+            "Science",
+            "Cell Systems",
+            "Nature Reviews. Chemistry",
+            "Cell Chemical Biology"
         ],
         "y": [
-            9,
-            1,
-            1
+            22165,
+            6435,
+            14300,
+            1430,
+            5720,
+            715,
+            715,
+            2145,
+            2145,
+            1430,
+            715,
+            2145,
+            715,
+            2860,
+            715,
+            715,
+            715,
+            1430
         ]
     }
 }
