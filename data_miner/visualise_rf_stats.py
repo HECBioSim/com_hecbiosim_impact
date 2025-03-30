@@ -83,7 +83,7 @@ project_years_json = {
 # Construct JSON output
 json_data = {
     "totalPublications": len(data),
-    "papersPerGrant": project_years_json,
+    "papersPerGrantCount": papers_per_grant_count,
     "totalTopPapers": tot_top_journals,
     "uniqueAuthors": len(unique_authors),
     "papersPerGrant": project_years_json,    
