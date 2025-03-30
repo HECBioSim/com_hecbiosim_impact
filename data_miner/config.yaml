@@ -5,21 +5,20 @@ projects:
   EP/X035603/1: "1741277628_Publications_30378_06_03_2025.xlsx"  # (2023-2027)
 
 
-#List of column titles in Excel spreadsheet
-required_fields = [
-    "Publication*",
-    "Journal*",
-    "Author*",
-    "Other Authors",
-    "Year*",
-    "Month",
-    "OpenAire Fulltext URL",
-    "Type*",
-    "Chapter Title*",
-    "Chapter Author",
-    "Other Chapter Authors",
-    "DOI"
-]
+#Column titles in Excel spreadsheet
+required_fields:
+  publication: "Publication*"
+  journal: "Journal*"
+  author: "Author*"
+  other_authors: "Other Authors"
+  year: "Year*"
+  month: "Month"
+  openaire_url: "OpenAire Fulltext URL"
+  type: "Type*"
+  chapter_title: "Chapter Title*"
+  chapter_author: "Chapter Author"
+  other_chapter_authors: "Other Chapter Authors"
+  doi: "DOI"
 
 # Output file names
 pubs_json_output_file: "pubs.json"
