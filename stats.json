@@ -1,5 +1,5 @@
 {
-    "totalPapers": 715,
+    "totalPublications": 715,
     "totalTopPapers": 11,
     "uniqueAuthors": 2545,
     "papersPerGrant": {
@@ -70,7 +70,7 @@
             ]
         }
     },
-    "totPublicationsPerYear": {
+    "totalPublicationsPerYear": {
         "x": [
             2025,
             2024,
@@ -102,7 +102,7 @@
             13
         ]
     },
-    "totPublicationsPerMonth": {
+    "totalPublicationsPerMonth": {
         "x": [
             "January",
             "February",
