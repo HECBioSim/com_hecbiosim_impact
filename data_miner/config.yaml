@@ -4,6 +4,23 @@ projects:
   EP/R029407/1: "EP_R029407_1_Publications_72385_08_01_2025.xlsx"  # (2019-2023)
   EP/X035603/1: "1741277628_Publications_30378_06_03_2025.xlsx"  # (2023-2027)
 
+
+#List of column titles in Excel spreadsheet
+required_fields = [
+    "Publication*",
+    "Journal*",
+    "Author*",
+    "Other Authors",
+    "Year*",
+    "Month",
+    "OpenAire Fulltext URL",
+    "Type*",
+    "Chapter Title*",
+    "Chapter Author",
+    "Other Chapter Authors",
+    "DOI"
+]
+
 # Output file names
 pubs_json_output_file: "pubs.json"
 stats_json_output_file: "stats.json"
