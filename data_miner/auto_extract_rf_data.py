@@ -8,8 +8,8 @@ for use on a CMS """
 
 import json
 import calendar
-import yaml
 import os
+import yaml
 import pandas as pd
 
 
@@ -23,10 +23,8 @@ def format_authors_list(authors_str):
     """Split the author list on "," and process each name into the "lastname, initial, initial"
     format. Check for edge cases where names have prefixes, and adjust for this.
     Returns string of formatted authors"""
-    #Remove whitespace
-    authors_list = [
-        name.strip() for name in authors_str.split(",")
-    ]  
+    # Remove whitespace
+    authors_list = [name.strip() for name in authors_str.split(",")]
     formatted_authors = []
 
     for author in authors_list:
@@ -59,6 +57,7 @@ def format_authors_list(authors_str):
         return ", ".join(formatted_authors[:-1]) + " and " + formatted_authors[-1]
     return formatted_authors
 
+
 def remove_full_stop(pub_title):
     """Remove full stops from the end of titles. Returns formatted title"""
     if isinstance(pub_title, str) and pub_title[-1] in {"."}:
@@ -67,6 +66,7 @@ def remove_full_stop(pub_title):
         new_title = pub_title
 
     return new_title
+
 
 def format_journal(journal_title):
     """Convert titles to standard format (each letter capitalised)
@@ -78,34 +78,20 @@ def format_journal(journal_title):
 
     return new_journal_title
 
+
 def format_doi(doi):
     """Convert DOI code to full DOI"""
     if pd.isna(doi):
         doi = "#"
     else:
         doi = f"https://doi.org/{doi}"
-    return doi 
+    return doi
 
-# Load configuration
+
+# Load config
 config = load_config()
+fields = config["required_fields"]  
 
-# Required columns
-required_fields = [
-    "Publication*",
-    "Journal*",
-    "Author*",
-    "Other Authors",
-    "Year*",
-    "Month",
-    "OpenAire Fulltext URL",
-    "Type*",
-    "Chapter Title*",
-    "Chapter Author",
-    "Other Chapter Authors",
-    "DOI"
-]
-
-# List to store all RF data
 all_dataframes = []
 
 for project_code, file_path in config["projects"].items():
@@ -114,90 +100,93 @@ for project_code, file_path in config["projects"].items():
     try:
         df = pd.read_excel(file_path)
 
-        # Check for missing fields
-        missing_fields = [field for field in required_fields if field not in df.columns]
+        # Check for missing fields 
+        missing_fields = [
+            field_name for field_name in fields.values() if field_name not in df.columns
+        ]
         if missing_fields:
             print(f"Skipping {file_path}, missing fields: {', '.join(missing_fields)}")
             continue
 
-        # Add matching project code to  dataframe
+        # Add project referencese
         df["ProjectRef"] = project_code
 
-        #Remove any full stops to publication titles, to assist dupicate detection
-        df["Publication*"] = df["Publication*"].apply(remove_full_stop)
-      
-      # Remove duplicates on publication title, checking against a tempory lower-case column
-        df["temp_lower"] = df["Publication*"].str.lower()
+        # Remove full stops from publication titles
+        df[fields["publication"]] = df[fields["publication"]].apply(remove_full_stop)
+
+        # Remove duplicates based on lower-case publication titles
+        df["temp_lower"] = df[fields["publication"]].str.lower()
         df = df.drop_duplicates(subset=["temp_lower"]).drop(columns=["temp_lower"])
 
-        # Store the DataFrame in preparation for merging
         all_dataframes.append(df)
 
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
 
-# Join dataframes vertically
+# Merge all dataframes
 if all_dataframes:
     combined_df = pd.concat(all_dataframes, ignore_index=True)
-     
-    # Fill NaN fields in Year and Month with 0
-    combined_df["Year*"] = (
-        combined_df["Year*"].fillna(0).astype(int)
-    )
-    combined_df["Month"] = (
-        combined_df["Month"].fillna(0).astype(int)
-    )
 
-    #Remove any full stops to publication titles, to assist dupicate detection
-    combined_df["Publication*"] = combined_df["Publication*"].apply(remove_full_stop)
+    # Fill NaN values 
+    combined_df[fields["year"]] = combined_df[fields["year"]].fillna(0).astype(int)
+    combined_df[fields["month"]] = combined_df[fields["month"]].fillna(0).astype(int)
 
-    #Remove publications before 2013 (first year of first grant)
-    combined_df = combined_df[combined_df["Year*"] >= 2013] 
+    # Remove publications before original grant date
+    combined_df = combined_df[combined_df[fields["year"]] >= 2013]
 
-    #Sort by year, newest first
+    # Sort by year and month
     combined_df = combined_df.sort_values(
-        by=["Year*", "Month"], ascending=False
-    )  
-   
-    # Remove duplicates on publication title, checking against a tempory lower-case column
-    combined_df["temp_lower"] = combined_df["Publication*"].str.lower()
-    #Group by publication title (ignoring case) and aggregate project codes
-    combined_df["ProjectRef"] = combined_df.groupby("temp_lower")["ProjectRef"].transform(lambda x: ", ".join(sorted(set(x))))
-    combined_df = combined_df.drop_duplicates(subset=["temp_lower"]).drop(columns=["temp_lower"])
+        by=[fields["year"], fields["month"]], ascending=False
+    )
 
-    # Build JSON entries
+    # Handle duplicate titles (case-insensitive)
+    combined_df["temp_lower"] = combined_df[fields["publication"]].str.lower()
+    combined_df["ProjectRef"] = combined_df.groupby("temp_lower")[
+        "ProjectRef"
+    ].transform(lambda x: ", ".join(sorted(set(x))))
+    combined_df = combined_df.drop_duplicates(subset=["temp_lower"]).drop(
+        columns=["temp_lower"]
+    )
+
+    # Convert data to JSON format
     json_entries = []
     for _, row in combined_df.iterrows():
         entry = {
-            "title": row["Publication*"],
-            "journal": format_journal(row["Journal*"]),
-            "year": row["Year*"],
-            "month": calendar.month_name[int(row["Month"])],
+            "title": row[fields["publication"]],
+            "journal": format_journal(row[fields["journal"]]),
+            "year": row[fields["year"]],
+            "month": calendar.month_name[int(row[fields["month"]])],
             "projectRef": row["ProjectRef"],
-            "type": row.get("Type*", ""),
-            "doi": format_doi(row["DOI"]),
+            "type": row.get(fields["type"], ""),
+            "doi": format_doi(row[fields["doi"]]),
         }
 
-        author_types = ["Author*", "Other Authors","Chapter Author","Other Chapter Authors"]
-        authors = [] 
-        for AUTHOR_TYPE in author_types:
-            if AUTHOR_TYPE in row  and pd.notna(row[AUTHOR_TYPE]):
-                authors.append(row[AUTHOR_TYPE])
-        if authors:  
-            fully_formatted_authors = format_authors_list(", ".join(authors))
+        # Collect authors 
+        author_types = [
+            fields["author"],
+            fields["other_authors"],
+            fields["chapter_author"],
+            fields["other_chapter_authors"],
+        ]
+        authors = [
+            row[atype]
+            for atype in author_types
+            if atype in row and pd.notna(row[atype])
+        ]
+        if authors:
+            formatted_authors = format_authors_list(", ".join(authors))
             entry["authors"] = (
-                fully_formatted_authors
-                if isinstance(fully_formatted_authors, list)
-                else [fully_formatted_authors]
+                formatted_authors
+                if isinstance(formatted_authors, list)
+                else [formatted_authors]
             )
-            
 
         json_entries.append(entry)
 
-    # Save JSON output
+        # Save JSON output
     json_content = json.dumps(json_entries, indent=4)
-    with open(os.path.join(os.pardir,config["pubs_json_output_file"]), "w", encoding="utf8") as json_file:
+    with open(
+        os.path.join(os.pardir, config["pubs_json_output_file"]), "w", encoding="utf8"
+    ) as json_file:
         json_file.write(json_content)
-    print(f"JSON saved to {config['pubs_json_output_file']}")
-
-   
+    print(f"JSON saved to {config['pubs_json_output_file']}")   
