@@ -29,12 +29,11 @@ $params  = $this->item->params;
 <p></p>
 <!-- Load Plotly 3.0.1 -->
 <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
-<div id="papersPerYear"></div>
-<div id="totalPapersDiv"></div>
-<div id="uniqueAuthorsDiv"></div>
-<div id="papersPerGrantDiv"></div>
-<div id="publicationMonthDiv"></div>
-<div id="topJournalsDiv"></div>
+<div id="pubsPerYear"></div>
+<div id="pubsPerGrant"></div>
+<div id="pubsPerMonth"></div>
+<div id="totalPubsPerGrant"></div>
+<div id="topJournals"></div>
 
 <script>
          // Fetch stats data from GitHub
@@ -42,7 +41,7 @@ $params  = $this->item->params;
         .then(response => response.json())
         .then(data => {
             // Bar Chart: Publications per Year
-            Plotly.newPlot('pubsPerYearDiv', 
+            Plotly.newPlot('pubsPerYear', 
                 [{
                     x: data.totalPublicationsPerYear.x, 
                     y: data.totalPublicationsPerYear.y, 
@@ -62,14 +61,14 @@ $params  = $this->item->params;
                 name: grantCode
             }));
 
-            Plotly.newPlot('pubsPerGrantDiv', traces, { 
+            Plotly.newPlot('pubsPerGrant', traces, { 
                 title: { text: 'Publications Per Grant Code' }, 
                 xaxis: { tickmode: 'linear', dtick: 1 }, 
                 yaxis: { title: 'Publications' }
             });
 
             // Bar Chart: Publications per Month (All-Time)
-            Plotly.newPlot('pubsPerMonthDiv', 
+            Plotly.newPlot('pubsPerMonth', 
                 [{
                     x: data.totalPublicationsPerMonth.x, 
                     y: data.totalPublicationsPerMonth.y, 
@@ -82,7 +81,7 @@ $params  = $this->item->params;
             );
 
             // Bar Chart: Total Publications Per Grant
-            Plotly.newPlot('totalPubsPerGrantDiv', 
+            Plotly.newPlot('totalPubsPerGrant', 
                 [{
                     x: Object.keys(data.papersPerGrantCount), 
                     y: Object.values(data.papersPerGrantCount), 
@@ -96,7 +95,7 @@ $params  = $this->item->params;
             );
 
             // Bar Chart: Papers in Top Journals
-            Plotly.newPlot('topJournalsDiv', 
+            Plotly.newPlot('topJournals', 
                 [{
                     x: data.topJournals.x, 
                     y: data.topJournals.y, 
