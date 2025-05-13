@@ -120,11 +120,23 @@
         ]
     },
     {
+        "title": "Exploring the influence of pore shape on conductance and permeation",
+        "journal": "Biophysical Journal",
+        "year": 2024,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.bpj.2024.07.010",
+        "authors": [
+            "Seiferth, D. and Biggin, P."
+        ]
+    },
+    {
         "title": "The ribosome lowers the entropic penalty of protein folding",
         "journal": "Nature",
         "year": 2024,
         "month": "September",
-        "projectRef": "EP/X035603/1",
+        "projectRef": "EP/R029407/1, EP/X035603/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41586-024-07784-4",
         "authors": [
@@ -132,11 +144,23 @@
         ]
     },
     {
+        "title": "Elucidating the Activation Mechanism of the Proton-sensing GPR68 Receptor",
+        "journal": "Journal Of Molecular Biology",
+        "year": 2024,
+        "month": "August",
+        "projectRef": "EP/R029407/1, EP/X035603/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.jmb.2024.168688",
+        "authors": [
+            "Matsingos, C., Howell, L., McCormick, P. and Fornili, A."
+        ]
+    },
+    {
         "title": "Bayesian reweighting of biomolecular structural ensembles using heterogeneous cryo-EM maps with the cryoENsemble method",
         "journal": "Scientific Reports",
         "year": 2024,
         "month": "August",
-        "projectRef": "EP/X035603/1",
+        "projectRef": "EP/R029407/1, EP/X035603/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41598-024-68468-7",
         "authors": [
@@ -148,7 +172,7 @@
         "journal": "",
         "year": 2024,
         "month": "August",
-        "projectRef": "EP/X035603/1",
+        "projectRef": "EP/R029407/1, EP/X035603/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv-2024-9hwjs",
         "authors": [
@@ -156,15 +180,39 @@
         ]
     },
     {
-        "title": "Elucidating the Activation Mechanism of the Proton-sensing GPR68 Receptor",
-        "journal": "Journal Of Molecular Biology",
+        "title": "Unravelling the interactions between small molecules and liposomal bilayers via molecular dynamics and thermodynamic modelling",
+        "journal": "International Journal Of Pharmaceutics",
         "year": 2024,
-        "month": "August",
-        "projectRef": "EP/X035603/1",
+        "month": "July",
+        "projectRef": "EP/R029407/1",
         "type": "Journal Article",
-        "doi": "https://doi.org/10.1016/j.jmb.2024.168688",
+        "doi": "https://doi.org/10.1016/j.ijpharm.2024.124367",
         "authors": [
-            "Matsingos, C., Howell, L., McCormick, P. and Fornili, A."
+            "Miles, C., Cullen, S., Kenaan, H., Gu, W., Andrews, G., Sosso, G. and Tian, Y."
+        ]
+    },
+    {
+        "title": "Molecular basis for pH sensing in the KDEL trafficking receptor",
+        "journal": "Structure",
+        "year": 2024,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2024.03.013",
+        "authors": [
+            "Wu, Z., Smith, K., Gerondopoulos, A., Sobajima, T., Parker, J., Barr, F., Newstead, S. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Plasticity of the selectivity filter is essential for permeation in lysosomal TPC2 channels",
+        "journal": "Proceedings Of The National Academy Of Sciences",
+        "year": 2024,
+        "month": "July",
+        "projectRef": "EP/R029407/1, EP/X035603/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1073/pnas.2320153121",
+        "authors": [
+            "Zaki, A., \u00c7\u0131naro\u011flu, S., Rahman, T., Patel, S. and Biggin, P."
         ]
     },
     {
@@ -180,18 +228,6 @@
         ]
     },
     {
-        "title": "Plasticity of the selectivity filter is essential for permeation in lysosomal TPC2 channels",
-        "journal": "Proceedings Of The National Academy Of Sciences",
-        "year": 2024,
-        "month": "July",
-        "projectRef": "EP/X035603/1",
-        "type": "Journal Article",
-        "doi": "https://doi.org/10.1073/pnas.2320153121",
-        "authors": [
-            "Zaki, A., \u00c7\u0131naro\u011flu, S., Rahman, T., Patel, S. and Biggin, P."
-        ]
-    },
-    {
         "title": "Faster but Not Sweeter: A Model of Escherichia coli Re-level Lipopolysaccharide for Martini 3 and a Martini 2 Version with Accelerated Kinetics",
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2024,
@@ -204,6 +240,30 @@
         ]
     },
     {
+        "title": "The Legionella collagen-like protein employs a distinct binding mechanism for the recognition of host glycosaminoglycans",
+        "journal": "Nature Communications",
+        "year": 2024,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-024-49255-4",
+        "authors": [
+            "Rehman, S., Antonovic, A., McIntire, I., Zheng, H., Cleaver, L., Baczynska, M., Adams, C., Portlock, T., Richardson, K., Shaw, R., Oregioni, A., Mastroianni, G., Whittaker, S., Kelly, G., Lorenz, C., Fornili, A., Cianciotto, N. and Garnett, J."
+        ]
+    },
+    {
+        "title": "Aromatic and arginine content drives multiphasic condensation of protein-RNA mixtures",
+        "journal": "Biophysical Journal",
+        "year": 2024,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.bpj.2023.06.024",
+        "authors": [
+            "Chew, P., Joseph, J., Collepardo-Guevara, R. and Reinhardt, A."
+        ]
+    },
+    {
         "title": "Membraneless channels sieve cations in ammonia-oxidizing marine archaea",
         "journal": "Nature",
         "year": 2024,
@@ -213,6 +273,30 @@
         "doi": "https://doi.org/10.1038/s41586-024-07462-5",
         "authors": [
             "von K\u00fcgelgen, A., Cassidy, C., van Dorst, S., Pagani, L., Batters, C., Ford, Z., L\u00f6we, J., Alva, V., Stansfeld, P. and Bharat, T."
+        ]
+    },
+    {
+        "title": "Cleaving DNA with DNA: Cooperative Tuning of Structure and Reactivity Driven by Copper Ions",
+        "journal": "Advanced Science (Weinheim, Baden-Wurttemberg, Germany)",
+        "year": 2024,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1002/advs.202306710",
+        "authors": [
+            "Dantu, S., Khalil, M., Bria, M., Saint-Pierre, C., Orio, M., Gasparutto, D. and Sicoli, G."
+        ]
+    },
+    {
+        "title": "Detergents with Scalable Properties Identify Noncanonical Lipopolysaccharide Binding to Bacterial Inner Membrane Proteins",
+        "journal": "Journal Of The American Chemical Society",
+        "year": 2024,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/jacs.3c14358",
+        "authors": [
+            "Urner, L., Fiorentino, F., Shutin, D., Sauer, J., Agasid, M., El-Baba, T., Bolla, J., Stansfeld, P. and Robinson, C."
         ]
     },
     {
@@ -237,6 +321,30 @@
         "doi": "https://doi.org/10.1007/s10822-024-00557-1",
         "authors": [
             "Nesabi, A., Kalayan, J., Al-Rawashdeh, S., Ghattas, M. and Bryce, R."
+        ]
+    },
+    {
+        "title": "Synthesis of lipid-linked precursors of the bacterial cell wall is governed by a feedback control mechanism in Pseudomonas aeruginosa",
+        "journal": "Nature Microbiology",
+        "year": 2024,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41564-024-01603-2",
+        "authors": [
+            "Marmont, L., Orta, A., Baileeves, B., Sychantha, D., Fern\u00e1ndez-Galliano, A., Li, Y., Greene, N., Corey, R., Stansfeld, P., Clemons, W. and Bernhardt, T."
+        ]
+    },
+    {
+        "title": "PyCoM: a python library for large-scale analysis of residue-residue coevolution data",
+        "journal": "Bioinformatics (Oxford, England)",
+        "year": 2024,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1093/bioinformatics/btae166",
+        "authors": [
+            "Bibik, P., Alibai, S., Pandini, A. and Dantu, S."
         ]
     },
     {
@@ -268,7 +376,7 @@
         "journal": "Ultramicroscopy",
         "year": 2024,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.ultramic.2023.113882",
         "authors": [
@@ -276,11 +384,23 @@
         ]
     },
     {
+        "title": "Studies on the selectivity of the SARS-CoV-2 papain-like protease reveal the importance of the P2' proline of the viral polyprotein",
+        "journal": "Rsc Chemical Biology",
+        "year": 2024,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d3cb00128h",
+        "authors": [
+            "Chan, H., Brewitz, L., Lukacik, P., Strain-Damerell, C., Walsh, M., Schofield, C. and Duarte, F."
+        ]
+    },
+    {
         "title": "Structural basis for the ligand recognition and signaling of free fatty acid receptors",
         "journal": "Science Advances",
         "year": 2024,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1126/sciadv.adj2384",
         "authors": [
@@ -297,6 +417,54 @@
         "doi": "https://doi.org/10.1021/jacs.3c11396",
         "authors": [
             "Castelli, M., Marchetti, F., Osuna, S., F, O..A., Mulholland, A., Serapian, S. and Colombo, G."
+        ]
+    },
+    {
+        "title": "What determines sub-diffusive behavior in crowded protein solutions?",
+        "journal": "Biophysical Journal",
+        "year": 2024,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.bpj.2023.12.002",
+        "authors": [
+            "Kompella, V., Romano, M., Stansfield, I. and Mancera, R."
+        ]
+    },
+    {
+        "title": "pH-dependent interactions of coacervate-forming histidine-rich peptide with model lipid membranes",
+        "journal": "Frontiers In Soft Matter",
+        "year": 2024,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.3389/frsfm.2023.1339496",
+        "authors": [
+            "Gudlur, S., Ferreira, F., Ting, J., Domene, C., Maricar, S., Le, B..A., Yepuri, N., Moir, M., Russell, R., Darwish, T., Miserez, A. and C\u00e1rdenas, M."
+        ]
+    },
+    {
+        "title": "Correlating fluorescence microscopy, optical and magnetic tweezers to study single chiral biopolymers such as DNA",
+        "journal": "",
+        "year": 2024,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.48550/arxiv.2401.10087",
+        "authors": [
+            "Shepherd, J., Guilbaud, S., Zhou, Z., Howard, J., Burman, M., Schaefer, C., Kerrigan, A., Steele-King, C., Noy, A. and Leake, M."
+        ]
+    },
+    {
+        "title": "Emergent conformational and aggregation properties of synergistic antimicrobial peptide combinations",
+        "journal": "Nanoscale",
+        "year": 2024,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d4nr03043e",
+        "authors": [
+            "Serian, M., Mason, A. and Lorenz, C."
         ]
     },
     {
@@ -328,7 +496,7 @@
         "journal": "Journal Of Molecular Graphics & Modelling",
         "year": 2023,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.jmgm.2023.108606",
         "authors": [
@@ -352,7 +520,7 @@
         "journal": "",
         "year": 2023,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2023.12.01.569046",
         "authors": [
@@ -360,11 +528,23 @@
         ]
     },
     {
+        "title": "Biophysical basis of filamentous phage tactoid-mediated antibiotic tolerance in P. aeruginosa",
+        "journal": "Nature Communications",
+        "year": 2023,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-023-44160-8",
+        "authors": [
+            "B\u00f6hning, J., Graham, M., Letham, S., Davis, L., Schulze, U., Stansfeld, P., Corey, R., Pearce, P., Tarafder, A. and Bharat, T."
+        ]
+    },
+    {
         "title": "Electric fields determine carbapenemase activity in class A \u03b2-lactamases",
         "journal": "",
         "year": 2023,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2023.11.04.565607",
         "authors": [
@@ -376,7 +556,7 @@
         "journal": "",
         "year": 2023,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2023.11.06.565757",
         "authors": [
@@ -400,7 +580,7 @@
         "journal": "Scientific Reports",
         "year": 2023,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41598-023-43523-x",
         "authors": [
@@ -412,7 +592,7 @@
         "journal": "Nature Communications",
         "year": 2023,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-023-41961-9",
         "authors": [
@@ -424,7 +604,7 @@
         "journal": "Antibody Therapeutics",
         "year": 2023,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1093/abt/tbad024",
         "authors": [
@@ -436,11 +616,35 @@
         "journal": "Journal Of Computer-Aided Molecular Design",
         "year": 2023,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1007/s10822-023-00519-z",
         "authors": [
             "Hanpaibool, C., Ounjai, P., Yotphan, S., Mulholland, A., Spencer, J., Ngamwongsatit, N. and Rungrotmongkol, T."
+        ]
+    },
+    {
+        "title": "Abnormal myosin post-translational modifications and ATP turnover time associated with human congenital myopathy-related RYR1 mutations",
+        "journal": "Acta Physiologica (Oxford, England)",
+        "year": 2023,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1111/apha.14035",
+        "authors": [
+            "Sonne, A., Antonovic, A., Melhedegaard, E., Akter, F., Andersen, J., Jungbluth, H., Witting, N., Vissing, J., Zanoteli, E., Fornili, A. and Ochala, J."
+        ]
+    },
+    {
+        "title": "LptM promotes oxidative maturation of the lipopolysaccharide translocon by substrate binding mimicry",
+        "journal": "Nature Communications",
+        "year": 2023,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-023-42007-w",
+        "authors": [
+            "Yang, Y., Chen, H., Corey, R., Morales, V., Quentin, Y., Froment, C., Caumont-Sarcos, A., Albenne, C., Burlet-Schiltz, O., Ranava, D., Stansfeld, P., Marcoux, J. and Ieva, R."
         ]
     },
     {
@@ -460,7 +664,7 @@
         "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
         "year": 2023,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1073/pnas.2306046120",
         "authors": [
@@ -492,6 +696,30 @@
         ]
     },
     {
+        "title": "A feedback control mechanism governs the synthesis of lipid-linked precursors of the bacterial cell wall",
+        "journal": "Biorxiv : The Preprint Server For Biology",
+        "year": 2023,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1101/2023.08.01.551478",
+        "authors": [
+            "Marmont, L., Orta, A., Corey, R., Sychantha, D., Galliano, A., Li, Y., Baileeves, B., Greene, N., Stansfeld, P., Clemons, W. and Bernhardt, T."
+        ]
+    },
+    {
+        "title": "Structural basis of peptidoglycan synthesis by E. coli RodA-PBP2 complex",
+        "journal": "Nature Communications",
+        "year": 2023,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-023-40483-8",
+        "authors": [
+            "Nygaard, R., Graham, C., Belcher, D..M., Colburn, J., Pepe, J., Hydorn, M., Corradi, S., Brown, C., Ashraf, K., Vickery, O., Briggs, N., Deering, J., Kloss, B., Botta, B., Clarke, O., Columbus, L., Dworkin, J., Stansfeld, P., Roper, D. and Mancia, F."
+        ]
+    },
+    {
         "title": "The liquid-to-solid transition of FUS is promoted by the condensate surface",
         "journal": "Proceedings Of The National Academy Of Sciences",
         "year": 2023,
@@ -520,7 +748,7 @@
         "journal": "Acs Catalysis",
         "year": 2023,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acscatal.3c01906",
         "authors": [
@@ -540,6 +768,30 @@
         ]
     },
     {
+        "title": "Studies on the selectivity of the SARS-CoV-2 papain-like protease reveal the importance of the P2\u2032 proline of the viral polyprotein",
+        "journal": "",
+        "year": 2023,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2023.07.11.548309",
+        "authors": [
+            "Chan, H., Brewitz, L., Lukacik, P., Strain-Damerell, C., Walsh, M., Schofield, C. and Duarte, F."
+        ]
+    },
+    {
+        "title": "Limitations of non-polarizable force fields in describing anion binding poses in non-polar synthetic hosts",
+        "journal": "Physical Chemistry Chemical Physics : Pccp",
+        "year": 2023,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d3cp00479a",
+        "authors": [
+            "Seiferth, D., Tucker, S. and Biggin, P."
+        ]
+    },
+    {
         "title": "MDSubSampler: a posteriori sampling of important protein conformations from biomolecular simulations",
         "journal": "Bioinformatics (Oxford, England)",
         "year": 2023,
@@ -556,7 +808,7 @@
         "journal": "",
         "year": 2023,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2023.06.29.547057",
         "authors": [
@@ -568,7 +820,7 @@
         "journal": "Jacs Au",
         "year": 2023,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/jacsau.3c00185",
         "authors": [
@@ -580,11 +832,71 @@
         "journal": "Embo Reports",
         "year": 2023,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.15252/embr.202357409",
         "authors": [
             "Mulholland, A. and Kamerlin, S."
+        ]
+    },
+    {
+        "title": "Cyclic di-AMP traps proton-coupled K+ transporters of the KUP family in an inward-occluded conformation",
+        "journal": "Nature Communications",
+        "year": 2023,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-023-38944-1",
+        "authors": [
+            "Fuss, M., Wieferig, J., Corey, R., Hellmich, Y., Tasc\u00f3n, I., Sousa, J., Stansfeld, P., Vonck, J. and H\u00e4nelt, I."
+        ]
+    },
+    {
+        "title": "Deconstructing allostery by computational assessment of the binding determinants of allosteric PTP1B modulators",
+        "journal": "Communications Chemistry",
+        "year": 2023,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s42004-023-00926-1",
+        "authors": [
+            "Hardie, A., Cossins, B., Lovera, S. and Michel, J."
+        ]
+    },
+    {
+        "title": "Dynamics and Molecular Interactions of GPI-Anchored CD59",
+        "journal": "Toxins",
+        "year": 2023,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.3390/toxins15070430",
+        "authors": [
+            "Voisin, T., Couves, E., Tate, E. and Bubeck, D."
+        ]
+    },
+    {
+        "title": "Universal predictive scaling laws for phase separation of prion-like low complexity domains",
+        "journal": "",
+        "year": 2023,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.21203/rs.3.rs-3068886/v1",
+        "authors": [
+            "Joseph, J., Maristany, M., Gonzalez, A. and Collepardo-Guevara, R."
+        ]
+    },
+    {
+        "title": "The role of loop dynamics in the prediction of ligand-protein binding enthalpy",
+        "journal": "Chemical Science",
+        "year": 2023,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d2sc06471e",
+        "authors": [
+            "\u00c7\u0131naro\u011flu, S. and Biggin, P."
         ]
     },
     {
@@ -604,7 +916,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2023,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.2c01376",
         "authors": [
@@ -616,7 +928,7 @@
         "journal": "Rsc Advances",
         "year": 2023,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d3ra00983a",
         "authors": [
@@ -636,6 +948,18 @@
         ]
     },
     {
+        "title": "Characterization of the mechanism of bile salt hydrolase substrate specificity by experimental and computational analyses",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2023,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2023.02.014",
+        "authors": [
+            "Karlov, D., Long, S., Zeng, X., Xu, F., Lal, K., Cao, L., Hayoun, K., Lin, J., Joyce, S. and Tikhonova, I."
+        ]
+    },
+    {
         "title": "Binding pocket dynamics along the recovery stroke of human \u03b2-cardiac myosin",
         "journal": "Plos Computational Biology",
         "year": 2023,
@@ -652,7 +976,7 @@
         "journal": "",
         "year": 2023,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2023.03.17.533092",
         "authors": [
@@ -664,7 +988,7 @@
         "journal": "Acs Omega",
         "year": 2023,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acsomega.2c07165",
         "authors": [
@@ -676,7 +1000,7 @@
         "journal": "Journal Of The American Chemical Society",
         "year": 2023,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/jacs.2c12123",
         "authors": [
@@ -688,7 +1012,7 @@
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2023,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.2c00823",
         "authors": [
@@ -696,11 +1020,167 @@
         ]
     },
     {
+        "title": "Structural basis for cannabinoid-induced potentiation of alpha1-glycine receptors in lipid nanodiscs",
+        "journal": "Biophysical Journal",
+        "year": 2023,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.bpj.2022.11.2407",
+        "authors": [
+            "Kumar, A., Kindig, K., Rao, S., Zaki, A., Basak, S., Sansom, M., Biggin, P. and Chakrapani, S."
+        ]
+    },
+    {
+        "title": "Characterization of a TatA/TatB binding site on the TatC component of the Escherichia coli twin arginine translocase",
+        "journal": "Microbiology (Reading, England)",
+        "year": 2023,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1099/mic.0.001298",
+        "authors": [
+            "Severi, E., Bunoro, B..M., Lannoy, A., Stansfeld, P. and Palmer, T."
+        ]
+    },
+    {
+        "title": "Deconstructing Allostery: Computational Assessment of the Binding Determinants of Allosteric PTP1B Modulators",
+        "journal": "",
+        "year": 2023,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.26434/chemrxiv-2023-qwhz1",
+        "authors": [
+            "Hardie, A., Cossins, B., Lovera, S. and Michel, J."
+        ]
+    },
+    {
+        "title": "A novel fold for acyltransferase-3 (AT3) proteins provides a framework for transmembrane acyl-group transfer",
+        "journal": "Elife",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.7554/elife.81547",
+        "authors": [
+            "Newman, K., Tindall, S., Mader, S., Khalid, S., Thomas, G. and Van Der Woude, M."
+        ]
+    },
+    {
+        "title": "Cyclic di-AMP traps proton-coupled K + transporters of the KUP family in an inward-occluded conformation",
+        "journal": "",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2023.01.09.523207",
+        "authors": [
+            "Fuss, M., Wieferig, J., Corey, R., Hellmich, Y., Tasc\u00f3n, I., Sousa, J., Stansfeld, P., Vonck, J. and H\u00e4nelt, I."
+        ]
+    },
+    {
+        "title": "Structure of the Native Chemotaxis Core Signalling Unit from E-gene lysed E. coli cells",
+        "journal": "",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2023.01.30.526190",
+        "authors": [
+            "Cassidy, C., Qin, Z., Frosio, T., Gosink, K., Yang, Z., Sansom, M., Stansfeld, P., Parkinson, J. and Zhang, P."
+        ]
+    },
+    {
+        "title": "Supramolecular organization and dynamics of mannosylated phosphatidylinositol lipids in the mycobacterial plasma membrane",
+        "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1073/pnas.2212755120",
+        "authors": [
+            "Brown, C., Corey, R., Gr\u00e9lard, A., Gao, Y., Choi, Y., Luna, E., Gilleron, M., Destainville, N., Nigou, J., Loquet, A., Fullam, E., Im, W., Stansfeld, P. and Chavent, M."
+        ]
+    },
+    {
+        "title": "Early Steps in C-Type Inactivation of the hERG Potassium Channel",
+        "journal": "Journal Of Chemical Information And Modeling",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jcim.2c01028",
+        "authors": [
+            "Pettini, F., Domene, C. and Furini, S."
+        ]
+    },
+    {
+        "title": "Water Networks in Complexes between Proteins and FDA-Approved Drugs",
+        "journal": "Journal Of Chemical Information And Modeling",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jcim.2c01225",
+        "authors": [
+            "Samways, M., Bruce, M..H., Taylor, R. and Essex, J."
+        ]
+    },
+    {
+        "title": "Comparative study of binding pocket structure and dynamics in cardiac and skeletal myosin",
+        "journal": "Biophysical Journal",
+        "year": 2023,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.bpj.2022.11.2942",
+        "authors": [
+            "Antonovic, A., Ochala, J. and Fornili, A."
+        ]
+    },
+    {
+        "title": "Predicting fluoroquinolone resistance in Mycobacterium tuberculosis",
+        "journal": "",
+        "year": 2023,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Thesis",
+        "doi": "https://doi.org/10.5287/ora-qmvn44gy6",
+        "authors": [
+            "Brankin, A."
+        ]
+    },
+    {
+        "title": "Supporting scripts and data for paper titled \"Enhancing Torsional Sampling Using Fully Adaptive Simulated Tempering\"",
+        "journal": "",
+        "year": 2023,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.5281/zenodo.7688832",
+        "authors": [
+            "Suruzhon, M., Abdel-Maksoud, K., Bodnarchuk, M., Ciancetta, A., Wall, I. and Essex, J."
+        ]
+    },
+    {
+        "title": "Delineating Substrate Specificity in Lactobacillus salivarius Bile Salt Hydrolase",
+        "journal": "",
+        "year": 2023,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.5281/zenodo.7307872",
+        "authors": [
+            "Karlov, D., Long, S., Ximin, Z., Fuzhou, X., Kanhaya, L., Cao, L., Hayoun, K., Lin, J., Joyce, S. and Tikhonova, I."
+        ]
+    },
+    {
         "title": "Photovoltaic enzymes by design and evolution",
         "journal": "",
         "year": 2022,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2022.12.20.521207",
         "authors": [
@@ -712,7 +1192,7 @@
         "journal": "",
         "year": 2022,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2022.11.11.516172",
         "authors": [
@@ -744,11 +1224,35 @@
         ]
     },
     {
+        "title": "High-resolution reconstruction of a Jumbo-bacteriophage infecting capsulated bacteria using hyperbranched tail fibers",
+        "journal": "Nature Communications",
+        "year": 2022,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-022-34972-5",
+        "authors": [
+            "Ouyang, R., Costa, A., Cassidy, C., Otwinowska, A., Williams, V., Latka, A., Stansfeld, P., Drulis-Kawa, Z., Briers, Y., Pelt, D., Brouns, S. and Briegel, A."
+        ]
+    },
+    {
+        "title": "Cardiolipin, and not monolysocardiolipin, preferentially binds to the interface of complexes III and IV",
+        "journal": "Chemical Science",
+        "year": 2022,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d2sc04072g",
+        "authors": [
+            "Corey, R., Harrison, N., Stansfeld, P., Sansom, M. and Duncan, A."
+        ]
+    },
+    {
         "title": "A Functional Interaction Between Y674-R685 Region of the SARS-CoV-2 Spike Protein and the Human \u03b17 Nicotinic Receptor",
         "journal": "Molecular Neurobiology",
         "year": 2022,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1007/s12035-022-02947-8",
         "authors": [
@@ -756,11 +1260,59 @@
         ]
     },
     {
+        "title": "Intermolecular Interactions in G Protein-Coupled Receptor Allosteric Sites at the Membrane Interface from Molecular Dynamics Simulations and Quantum Chemical Calculations",
+        "journal": "Journal Of Chemical Information And Modeling",
+        "year": 2022,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jcim.2c00788",
+        "authors": [
+            "Ding, T., Karlov, D., Pino-Angeles, A. and Tikhonova, I."
+        ]
+    },
+    {
+        "title": "Inhibited KdpFABC transitions into an E1 off-cycle state",
+        "journal": "Elife",
+        "year": 2022,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.7554/elife.80988",
+        "authors": [
+            "Silberberg, J., Stock, C., Hielkema, L., Corey, R., Rheinberger, J., Wunnicke, D., Dubach, V., Stansfeld, P., H\u00e4nelt, I. and Paulino, C."
+        ]
+    },
+    {
+        "title": "Interrogation of the Pathogen Box reveals small molecule ligands against the mycobacterial trehalose transporter LpqY-SugABC",
+        "journal": "Rsc Medicinal Chemistry",
+        "year": 2022,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d2md00104g",
+        "authors": [
+            "Radhakrishnan, A., Brown, C., Guy, C., Cooper, C., Pacheco-Gomez, R., Stansfeld, P. and Fullam, E."
+        ]
+    },
+    {
+        "title": "Free energy perturbation calculations of tetrahydroquinolines complexed to the first bromodomain of BRD4",
+        "journal": "Molecular Physics",
+        "year": 2022,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1080/00268976.2022.2124201",
+        "authors": [
+            "Silva, A., Guest, E., Falcone, B., Pickett, S., Rogers, D. and Hirst, J."
+        ]
+    },
+    {
         "title": "In silico design of novel quinazoline-based compounds as potential Mycobacterium tuberculosis PknB inhibitors through 2D and 3D-QSAR, molecular dynamics simulations combined with pharmacokinetic predictions",
         "journal": "Journal Of Molecular Graphics & Modelling",
         "year": 2022,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.jmgm.2022.108231",
         "authors": [
@@ -768,15 +1320,75 @@
         ]
     },
     {
+        "title": "Structural basis for membrane attack complex inhibition by CD59",
+        "journal": "",
+        "year": 2022,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2022.09.05.506672",
+        "authors": [
+            "Couves, E., Gardner, S., Voisin, T., Bickel, J., Stansfeld, P., Tate, E. and Bubeck, D."
+        ]
+    },
+    {
+        "title": "Evaluating the use of absolute binding free energy in the fragment optimisation process",
+        "journal": "Communications Chemistry",
+        "year": 2022,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s42004-022-00721-4",
+        "authors": [
+            "Alibay, I., Magarkar, A., Seeliger, D. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Seipin concentrates distinct neutral lipids via interactions with their acyl chain carboxyl esters",
+        "journal": "The Journal Of Cell Biology",
+        "year": 2022,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1083/jcb.202112068",
+        "authors": [
+            "Renne, M., Corey, R., Ferreira, J., Stansfeld, P. and Carvalho, P."
+        ]
+    },
+    {
         "title": "Virtual Screening Identifies Novel and Potent Inhibitors of Mycobacterium tuberculosis PknB with Antibacterial Activity",
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2022,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.2c00531",
         "authors": [
             "Thongdee, P., Hanwarinroj, C., Pakamwong, B., Kamsri, P., Punkvang, A., Leanpolchareanchai, J., Ketrat, S., Saparpakorn, P., Hannongbua, S., Ariyachaokun, K., Suttisintong, K., Sureram, S., Kittakoop, P., Hongmanee, P., Santanirand, P., Mukamolova, G., Blood, R., Takebayashi, Y., Spencer, J., Mulholland, A. and Pungpo, P."
+        ]
+    },
+    {
+        "title": "Data-driven Generation of Perturbation Networks for Relative Binding Free Energy Calculations",
+        "journal": "",
+        "year": 2022,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.26434/chemrxiv-2022-z4j2p-v2",
+        "authors": [
+            "Scheen, J., Mackey, M. and Michel, J."
+        ]
+    },
+    {
+        "title": "Correction to \"Ice Recrystallization Inhibition by Amino Acids: The Curious Case of Alpha- and Beta-Alanine\"",
+        "journal": "The Journal Of Physical Chemistry Letters",
+        "year": 2022,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpclett.2c02044",
+        "authors": [
+            "Warren, M., Galpin, I., Bachtiger, F., Gibson, M. and Sosso, G."
         ]
     },
     {
@@ -796,7 +1408,7 @@
         "journal": "Expert Opinion On Drug Discovery",
         "year": 2022,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1080/17460441.2022.2079632",
         "authors": [
@@ -808,7 +1420,7 @@
         "journal": "Acs Catalysis",
         "year": 2022,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acscatal.2c01677",
         "authors": [
@@ -820,7 +1432,7 @@
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2022,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.1c01172",
         "authors": [
@@ -828,11 +1440,35 @@
         ]
     },
     {
+        "title": "Hinge disulfides in human IgG2 CD40 antibodies modulate receptor signaling by regulation of conformation and flexibility",
+        "journal": "Science Immunology",
+        "year": 2022,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1126/sciimmunol.abm3723",
+        "authors": [
+            "Orr, C., Fisher, H., Yu, X., Chan, C., Gao, Y., Duriez, P., Booth, S., Elliott, I., Inzhelevskaya, T., Mockridge, I., Penfold, C., Wagner, A., Glennie, M., White, A., Essex, J., Pearson, A., Cragg, M. and Tews, I."
+        ]
+    },
+    {
+        "title": "The C-terminal head domain of Burkholderia pseudomallei BpaC has a striking hydrophilic core with an extensive solvent network",
+        "journal": "Molecular Microbiology",
+        "year": 2022,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1111/mmi.14953",
+        "authors": [
+            "Kiessling, A., Harris, S., Weimer, K., Wells, G. and Goldman, A."
+        ]
+    },
+    {
         "title": "Conformational dynamics of the membrane enzyme LspA upon antibiotic and substrate binding",
         "journal": "Biophysical Journal",
         "year": 2022,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.bpj.2022.04.038",
         "authors": [
@@ -844,7 +1480,7 @@
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2022,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.1c01198",
         "authors": [
@@ -852,11 +1488,23 @@
         ]
     },
     {
+        "title": "From Molecular Dynamics to Supramolecular Organization: The Role of PIM Lipids in the Originality of the Mycobacterial Plasma Membrane",
+        "journal": "",
+        "year": 2022,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2022.06.29.498153",
+        "authors": [
+            "Brown, C., Corey, R., Gao, Y., Choi, Y., Gilleron, M., Destainville, N., Fullam, E., Im, W., Stansfeld, P. and Chavent, M."
+        ]
+    },
+    {
         "title": "Molecular dynamics of spike variants in the locked conformation: RBD interfaces, fatty acid binding and furin cleavage sites",
         "journal": "",
         "year": 2022,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2022.05.06.490927",
         "authors": [
@@ -864,11 +1512,23 @@
         ]
     },
     {
+        "title": "Comparison of Grand Canonical and Conventional Molecular Dynamics Simulation Methods for Protein-Bound Water Networks",
+        "journal": "Acs Physical Chemistry Au",
+        "year": 2022,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acsphyschemau.1c00052",
+        "authors": [
+            "Ekberg, V., Samways, M., Misini, I..M., Essex, J. and Ryde, U."
+        ]
+    },
+    {
         "title": "Identification of Potent DNA Gyrase Inhibitors Active against Mycobacterium tuberculosis",
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.1c01390",
         "authors": [
@@ -880,7 +1540,7 @@
         "journal": "Pharmaceutics",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.3390/pharmaceutics14040788",
         "authors": [
@@ -892,7 +1552,7 @@
         "journal": "",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2022.04.21.489022",
         "authors": [
@@ -904,7 +1564,7 @@
         "journal": "Future Medicinal Chemistry",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.4155/fmc-2021-0348",
         "authors": [
@@ -916,7 +1576,7 @@
         "journal": "Bioscience Reports",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1042/bsr20211406",
         "authors": [
@@ -928,7 +1588,7 @@
         "journal": "Acs Catalysis",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acscatal.1c05694",
         "authors": [
@@ -940,7 +1600,7 @@
         "journal": "",
         "year": 2022,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv-2022-w89tc",
         "authors": [
@@ -948,11 +1608,59 @@
         ]
     },
     {
+        "title": "Structure, substrate recognition and initiation of hyaluronan synthase",
+        "journal": "Nature",
+        "year": 2022,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41586-022-04534-2",
+        "authors": [
+            "Maloney, F., Kuklewicz, J., Corey, R., Bi, Y., Ho, R., Mateusiak, L., Pardon, E., Steyaert, J., Stansfeld, P. and Zimmer, J."
+        ]
+    },
+    {
+        "title": "Structural basis of lipopolysaccharide maturation by the O-antigen ligase",
+        "journal": "Nature",
+        "year": 2022,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41586-022-04555-x",
+        "authors": [
+            "Ashraf, K., Nygaard, R., Vickery, O., Erramilli, S., Herrera, C., McConville, T., Petrou, V., Giacometti, S., Dufrisne, M., Nosol, K., Zinkle, A., Graham, C., Loukeris, M., Kloss, B., Skorupinska-Tudek, K., Swiezewska, E., Roper, D., Clarke, O., Uhlemann, A., Kossiakoff, A., Trent, M., Stansfeld, P. and Mancia, F."
+        ]
+    },
+    {
+        "title": "Correction Schemes for Absolute Binding Free Energies Involving Lipid Bilayers",
+        "journal": "Journal Of Chemical Theory And Computation",
+        "year": 2022,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jctc.1c01251",
+        "authors": [
+            "Wu, Z. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Peptidoglycan biosynthesis is driven by lipid transfer along enzyme-substrate affinity gradients",
+        "journal": "Nature Communications",
+        "year": 2022,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-022-29836-x",
+        "authors": [
+            "Oluwole, A., Corey, R., Brown, C., Hern\u00e1ndez-Rocamora, V., Stansfeld, P., Vollmer, W., Bolla, J. and Robinson, C."
+        ]
+    },
+    {
         "title": "QM/MM Simulations Reveal the Determinants of Carbapenemase Activity in Class A \u03b2-lactamases",
         "journal": "",
         "year": 2022,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv-2022-4jdc5",
         "authors": [
@@ -964,7 +1672,7 @@
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2022,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.1c00590",
         "authors": [
@@ -972,11 +1680,47 @@
         ]
     },
     {
+        "title": "mPPases create a conserved anionic membrane fingerprint as identified via multi-scale simulations",
+        "journal": "",
+        "year": 2022,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2022.03.08.483421",
+        "authors": [
+            "Holmes, A., Goldman, A. and Kalli, A."
+        ]
+    },
+    {
+        "title": "Ice Recrystallization Inhibition by Amino Acids: The Curious Case of Alpha- and Beta-Alanine",
+        "journal": "The Journal Of Physical Chemistry Letters",
+        "year": 2022,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpclett.1c04080",
+        "authors": [
+            "Warren, M., Galpin, I., Bachtiger, F., Gibson, M. and Sosso, G."
+        ]
+    },
+    {
+        "title": "Lipid bilayers as potential ice nucleating agents",
+        "journal": "Physical Chemistry Chemical Physics : Pccp",
+        "year": 2022,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d1cp05465a",
+        "authors": [
+            "Miles, C., Hsu, P., Dixon, A., Khalid, S. and Sosso, G."
+        ]
+    },
+    {
         "title": "PyLipID: A Python Package for Analysis of Protein-Lipid Interactions from Molecular Dynamics Simulations",
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2022,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.1c00708",
         "authors": [
@@ -988,7 +1732,7 @@
         "journal": "Proteins",
         "year": 2022,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/prot.26227",
         "authors": [
@@ -1000,7 +1744,7 @@
         "journal": "",
         "year": 2022,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2022.02.23.481608",
         "authors": [
@@ -1008,11 +1752,59 @@
         ]
     },
     {
+        "title": "Tuning the rate of aggregation of hIAPP into amyloid using small-molecule modulators of assembly",
+        "journal": "Nature Communications",
+        "year": 2022,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-022-28660-7",
+        "authors": [
+            "Xu, Y., Maya-Martinez, R., Guthertz, N., Heath, G., Manfield, I., Breeze, A., Sobott, F., Foster, R. and Radford, S."
+        ]
+    },
+    {
+        "title": "Rolling circle RNA synthesis catalyzed by RNA",
+        "journal": "Elife",
+        "year": 2022,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.7554/elife.75186",
+        "authors": [
+            "Kristoffersen, E., Burman, M., Noy, A. and Holliger, P."
+        ]
+    },
+    {
+        "title": "High-resolution mapping of metal ions reveals principles of surface layer assembly in Caulobacter crescentus cells",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2022,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2021.10.012",
+        "authors": [
+            "Herdman, M., von K\u00fcgelgen, A., Kureisaite-Ciziene, D., Duman, R., El, O..K., Garman, E., Kjaer, A., Kolokouris, D., L\u00f6we, J., Wagner, A., Stansfeld, P. and Bharat, T."
+        ]
+    },
+    {
+        "title": "Mg2+-dependent conformational equilibria in CorA and an integrated view on transport regulation",
+        "journal": "Elife",
+        "year": 2022,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.7554/elife.71887",
+        "authors": [
+            "Johansen, N., Bonaccorsi, M., Bengtsen, T., Larsen, A., Tidemand, F., Pedersen, M., Huda, P., Berndtsson, J., Darwish, T., Yepuri, N., Martel, A., Pomorski, T., Bertarello, A., Sansom, M., Rapp, M., Crehuet, R., Schubeis, T., Lindorff-Larsen, K., Pintacuda, G. and Arleth, L."
+        ]
+    },
+    {
         "title": "Impact of Warhead Modulations on the Covalent Inhibition of SARS-CoV-2 Mpro Explored by QM/MM Simulations",
         "journal": "Acs Catalysis",
         "year": 2022,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acscatal.1c04661",
         "authors": [
@@ -1024,7 +1816,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2022,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.1c01187",
         "authors": [
@@ -1036,7 +1828,7 @@
         "journal": "Nature Communications",
         "year": 2022,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-021-27881-6",
         "authors": [
@@ -1048,7 +1840,7 @@
         "journal": "Journal Of The American Chemical Society",
         "year": 2022,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/jacs.1c11248",
         "authors": [
@@ -1068,11 +1860,71 @@
         ]
     },
     {
+        "title": "Evaluating the use of absolute binding free energy in the fragment optimization process",
+        "journal": "",
+        "year": 2022,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.26434/chemrxiv-2022-cw2kq",
+        "authors": [
+            "Alibay, I., Magarkar, A., Seeliger, D. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Editorial: New Insights Into B Cell Subsets in Health and Disease",
+        "journal": "Frontiers In Immunology",
+        "year": 2022,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.3389/fimmu.2022.854889",
+        "authors": [
+            "Somers, V., Dunn-Walters, D., van der Burg, M. and Fraussen, J."
+        ]
+    },
+    {
+        "title": "Atomistic Molecular Dynamics Simulations of DNA in Complex 3D Arrangements for Comparison with Lower Resolution Structural Experiments",
+        "journal": "Methods In Molecular Biology (Clifton, N.J.)",
+        "year": 2022,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1007/978-1-0716-2221-6_8",
+        "authors": [
+            "Watson, G., Velasco-Berrelleza, V. and Noy, A."
+        ]
+    },
+    {
+        "title": "Structural interplay between DNA-shape protein recognition and supercoiling: The case of IHF",
+        "journal": "Computational And Structural Biotechnology Journal",
+        "year": 2022,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.csbj.2022.09.020",
+        "authors": [
+            "Watson, G., Chan, E., Leake, M. and Noy, A."
+        ]
+    },
+    {
+        "title": "Higher Affinity Antibodies Bind With Lower Hydration and Flexibility in Large Scale Simulations",
+        "journal": "Frontiers In Immunology",
+        "year": 2022,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.3389/fimmu.2022.884110",
+        "authors": [
+            "Wong, M., Kelm, S., Liu, X., Taylor, R., Baker, T. and Essex, J."
+        ]
+    },
+    {
         "title": "Crystallography and QM/MM Simulations Identify Preferential Binding of Hydrolyzed Carbapenem and Penem Antibiotics to the L1 Metallo-\u03b2-Lactamase in the Imine Form",
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2021,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.1c00663",
         "authors": [
@@ -1092,11 +1944,119 @@
         ]
     },
     {
+        "title": "Virus-inspired designs of antimicrobial nanocapsules",
+        "journal": "Faraday Discussions",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d1fd00041a",
+        "authors": [
+            "Cruz, C., Marzuoli, I. and Fraternali, F."
+        ]
+    },
+    {
+        "title": "Predicting antibiotic resistance in complex protein targets using alchemical free energy methods",
+        "journal": "",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.26434/chemrxiv-2021-shfgp",
+        "authors": [
+            "Brankin, A. and Fowler, P."
+        ]
+    },
+    {
+        "title": "Imaging Protein Dynamics in Liquid Water",
+        "journal": "Microscopy And Microanalysis",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1017/s1431927621013076",
+        "authors": [
+            "De, P..C., Acosta-Gutierrez, S., Ing, G., Marchello, G., Pilotto, S., Werner, F., Wilkinson, N., Leite, D., Gervasio, F., Ruiz-P\u00e9rez, L. and Battaglia, G."
+        ]
+    },
+    {
+        "title": "Water Nanoconfined in a Hydrophobic Pore: Molecular Dynamics Simulations of Transmembrane Protein 175 and the Influence of Water Models",
+        "journal": "Acs Nano",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acsnano.1c06443",
+        "authors": [
+            "Lynch, C., Klesse, G., Rao, S., Tucker, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Molecular mechanisms of action of stimulant novel psychoactive substances that target the high-affinity transporter for dopamine",
+        "journal": "Neuronal Signaling",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1042/ns20210006",
+        "authors": [
+            "Sahai, M. and Opacka-Juffry, J."
+        ]
+    },
+    {
+        "title": "Polymyxin B1 within the E. coli cell envelope: insights from molecular dynamics simulations",
+        "journal": "Biophysical Reviews",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1007/s12551-021-00869-8",
+        "authors": [
+            "Weerakoon, D., Petrov, K., Pedebos, C. and Khalid, S."
+        ]
+    },
+    {
+        "title": "Influence of effective polarization on ion and water interactions within a biomimetic nanopore",
+        "journal": "",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.12.10.471283",
+        "authors": [
+            "Phan, L., Lynch, C., Crain, J., Sansom, M. and Tucker, S."
+        ]
+    },
+    {
+        "title": "NaViA: a program for the visual analysis of complex mass spectra",
+        "journal": "Bioinformatics (Oxford, England)",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1093/bioinformatics/btab436",
+        "authors": [
+            "Quetschlich, D., Esser, T., Newport, T., Fiorentino, F., Shutin, D., Chen, S., Davis, R., Lovera, S., Liko, I., Stansfeld, P. and Robinson, C."
+        ]
+    },
+    {
+        "title": "Molecular basis for redox control by the human cystine/glutamate antiporter system xc\u2212",
+        "journal": "Nature Communications",
+        "year": 2021,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-021-27414-1",
+        "authors": [
+            "Parker, J., Deme, J., Kolokouris, D., Kuteyi, G., Biggin, P., Lea, S. and Newstead, S."
+        ]
+    },
+    {
         "title": "#COVIDisAirborne: AI-Enabled Multiscale Computational Microscopy of Delta SARS-CoV-2 in a Respiratory Aerosol",
         "journal": "Biorxiv : The Preprint Server For Biology",
         "year": 2021,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1101/2021.11.12.468428",
         "authors": [
@@ -1108,7 +2068,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2021,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2021.06.015",
         "authors": [
@@ -1120,7 +2080,7 @@
         "journal": "Neural Computing And Applications",
         "year": 2021,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1007/s00521-021-06670-8",
         "authors": [
@@ -1132,7 +2092,7 @@
         "journal": "Geochimica Et Cosmochimica Acta",
         "year": 2021,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.gca.2021.07.034",
         "authors": [
@@ -1144,7 +2104,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2021,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.1c01109",
         "authors": [
@@ -1156,7 +2116,7 @@
         "journal": "",
         "year": 2021,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv-2021-1x2zl",
         "authors": [
@@ -1164,11 +2124,35 @@
         ]
     },
     {
+        "title": "Rolling Circle RNA Synthesis Catalysed by RNA",
+        "journal": "",
+        "year": 2021,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.11.30.470609",
+        "authors": [
+            "Kristoffersen, E., Burman, M., Noy, A. and Holliger, P."
+        ]
+    },
+    {
+        "title": "Plating human iPSC lines on micropatterned substrates reveals role for ITGB1 nsSNV in endoderm formation",
+        "journal": "Stem Cell Reports",
+        "year": 2021,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.stemcr.2021.09.017",
+        "authors": [
+            "Vickers, A., Tewary, M., Laddach, A., Poletti, M., Salameti, V., Fraternali, F., Danovi, D. and Watt, F."
+        ]
+    },
+    {
         "title": "Evolution of dynamical networks enhances catalysis in a designer enzyme",
         "journal": "Nature Chemistry",
         "year": 2021,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41557-021-00763-6",
         "authors": [
@@ -1180,7 +2164,7 @@
         "journal": "The Journal Of Chemical Physics",
         "year": 2021,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1063/5.0062517",
         "authors": [
@@ -1192,7 +2176,7 @@
         "journal": "Chemical Science",
         "year": 2021,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d1sc03628a",
         "authors": [
@@ -1204,7 +2188,7 @@
         "journal": "Nature Communications",
         "year": 2021,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-021-26162-6",
         "authors": [
@@ -1216,7 +2200,7 @@
         "journal": "",
         "year": 2021,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2021.10.26.465985",
         "authors": [
@@ -1224,11 +2208,59 @@
         ]
     },
     {
+        "title": "Relative Affinities of Protein-Cholesterol Interactions from Equilibrium Molecular Dynamics Simulations",
+        "journal": "Journal Of Chemical Theory And Computation",
+        "year": 2021,
+        "month": "October",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jctc.1c00547",
+        "authors": [
+            "Ansell, T., Curran, L., Horrell, M., Pipatpolkai, T., Letham, S., Song, W., Siebold, C., Stansfeld, P., Sansom, M. and Corey, R."
+        ]
+    },
+    {
+        "title": "Binding of Ca2+-independent C2 domains to lipid membranes: A multi-scale molecular dynamics study",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2021,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2021.05.011",
+        "authors": [
+            "Larsen, A. and Sansom, M."
+        ]
+    },
+    {
+        "title": "CG2AT2: an Enhanced Fragment-Based Approach for Serial Multi-scale Molecular Dynamics Simulations",
+        "journal": "Journal Of Chemical Theory And Computation",
+        "year": 2021,
+        "month": "October",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jctc.1c00295",
+        "authors": [
+            "Vickery, O. and Stansfeld, P."
+        ]
+    },
+    {
+        "title": "Structural Basis for Silicic Acid Uptake by Higher Plants",
+        "journal": "Journal Of Molecular Biology",
+        "year": 2021,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.jmb.2021.167226",
+        "authors": [
+            "van den Berg, B., Pedebos, C., Bolla, J., Robinson, C., Basl\u00e9, A. and Khalid, S."
+        ]
+    },
+    {
         "title": "Rigidifying a De Novo Enzyme Increases Activity and Induces a Negative Activation Heat Capacity",
         "journal": "Acs Catalysis",
         "year": 2021,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acscatal.1c01776",
         "authors": [
@@ -1240,7 +2272,7 @@
         "journal": "Scientific Reports",
         "year": 2021,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41598-021-97368-3",
         "authors": [
@@ -1248,11 +2280,35 @@
         ]
     },
     {
+        "title": "Exploring Post-activation Conformational Changes in Pigeon Cryptochrome 4",
+        "journal": "The Journal Of Physical Chemistry. B",
+        "year": 2021,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpcb.1c02795",
+        "authors": [
+            "Schuhmann, F., Kattnig, D. and Solov'yov, I."
+        ]
+    },
+    {
+        "title": "Probe Confined Dynamic Mapping for G Protein-Coupled Receptor Allosteric Site Prediction",
+        "journal": "Acs Central Science",
+        "year": 2021,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acscentsci.1c00802",
+        "authors": [
+            "Ciancetta, A., Gill, A., Ding, T., Karlov, D., Chalhoub, G., McCormick, P. and Tikhonova, I."
+        ]
+    },
+    {
         "title": "Cryo-EM structure of PepT2 reveals structural basis for proton-coupled peptide and prodrug transport in mammals",
         "journal": "Science Advances",
         "year": 2021,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1126/sciadv.abh3355",
         "authors": [
@@ -1288,7 +2344,7 @@
         "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
         "year": 2021,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1073/pnas.2023572118",
         "authors": [
@@ -1296,11 +2352,83 @@
         ]
     },
     {
+        "title": "Tumor-Infiltrating B Lymphocyte Profiling Identifies IgG-Biased, Clonally Expanded Prognostic Phenotypes in Triple-Negative Breast Cancer",
+        "journal": "Cancer Research",
+        "year": 2021,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1158/0008-5472.can-20-3773",
+        "authors": [
+            "Harris, R., Cheung, A., Ng, J., Laddach, R., Chenoweth, A., Crescioli, S., Fittall, M., Dominguez-Rodriguez, D., Roberts, J., Levi, D., Liu, F., Alberts, E., Quist, J., Santaolalla, A., Pinder, S., Gillett, C., Hammar, N., Irshad, S., Van Hemelrijck, M., Dunn-Walters, D., Fraternali, F., Spicer, J., Lacy, K., Tsoka, S., Grigoriadis, A., Tutt, A. and Karagiannis, S."
+        ]
+    },
+    {
+        "title": "Molecular basis for redox control by the human cystine/glutamate antiporter System xc -",
+        "journal": "",
+        "year": 2021,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.08.09.455631",
+        "authors": [
+            "Parker, J., Deme, J., Kolokouris, D., Kuteyi, G., Biggin, P., Lea, S. and Newstead, S."
+        ]
+    },
+    {
+        "title": "Imaging protein conformational space in liquid water",
+        "journal": "",
+        "year": 2021,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.21203/rs.3.rs-701802/v1",
+        "authors": [
+            "Ruiz-Perez, L., Marchello, G., De, P..C., Acosta-Gutierrez, S., Ing, G., Wilkinson, N., Gervasio, F., Battaglia, G., Werner, F. and Pilotto, S."
+        ]
+    },
+    {
+        "title": "Mg 2+ -dependent conformational equilibria in CorA: an integrated view on transport regulation",
+        "journal": "",
+        "year": 2021,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.08.20.457080",
+        "authors": [
+            "Johansen, N., Bonaccorsi, M., Bengtsen, T., Larsen, A., Tidemand, F., Pedersen, M., Huda, P., Berndtsson, J., Darwish, T., Yepuri, N., Martel, A., Pomorski, T., Bertarello, A., Sansom, M., Rapp, M., Crehuet, R., Schubeis, T., Lindorff-Larsen, K., Pintacuda, G. and Arleth, L."
+        ]
+    },
+    {
+        "title": "Pandemic, epidemic, endemic: B cell repertoire analysis reveals unique anti-viral responses to SARS-CoV-2, Ebola and Respiratory Syncytial Virus",
+        "journal": "",
+        "year": 2021,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.08.19.456951",
+        "authors": [
+            "Stewart, A., Sinclair, E., Ng, J., O'Hare, J., Page, A., Serangeli, I., Margreitter, C., Kasar, N., Longman, K., Frampas, C., Costa, C., Lewis, H., Wu, B., Kipling, D., Openshaw, P., Chu, C., Baillie, J., Scott, J., Semple, M., Bailey, M., Fraternali, F. and Dunn-Walters, D."
+        ]
+    },
+    {
+        "title": "Elucidating the Role of Topological Constraint on the Structure of Overstretched DNA Using Fluorescence Polarization Microscopy",
+        "journal": "The Journal Of Physical Chemistry. B",
+        "year": 2021,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpcb.1c02708",
+        "authors": [
+            "Backer, A., King, G., Biebricher, A., Shepherd, J., Noy, A., Leake, M., Heller, I., Wuite, G. and Peterman, E."
+        ]
+    },
+    {
         "title": "Dynamical nonequilibrium molecular dynamics reveals the structural basis for allostery and signal propagation in biomolecular systems",
         "journal": "The European Physical Journal B",
         "year": 2021,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1140/epjb/s10051-021-00157-0",
         "authors": [
@@ -1324,7 +2452,7 @@
         "journal": "Nature Chemistry",
         "year": 2021,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41557-021-00688-0",
         "authors": [
@@ -1336,7 +2464,7 @@
         "journal": "Nature",
         "year": 2021,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41586-021-03579-z",
         "authors": [
@@ -1344,11 +2472,47 @@
         ]
     },
     {
+        "title": "PyLipID: A Python package for analysis of protein-lipid interactions from MD simulations",
+        "journal": "",
+        "year": 2021,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.07.14.452312",
+        "authors": [
+            "Song, W., Corey, R., Ansell, T., Cassidy, C., Horrell, M., Duncan, A., Stansfeld, P. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Concurrent mutations in RNA-dependent RNA polymerase and spike protein emerged as the epidemiologically most successful SARS-CoV-2 variant",
+        "journal": "Scientific Reports",
+        "year": 2021,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41598-021-91662-w",
+        "authors": [
+            "Ilmj\u00e4rv, S., Abdul, F., Acosta-Guti\u00e9rrez, S., Estarellas, C., Galdadas, I., Casimir, M., Alessandrini, M., Gervasio, F. and Krause, K."
+        ]
+    },
+    {
+        "title": "Structural basis of the membrane intramolecular transacylase reaction responsible for lyso-form lipoprotein synthesis",
+        "journal": "Nature Communications",
+        "year": 2021,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-021-24475-0",
+        "authors": [
+            "Olatunji, S., Bowen, K., Huang, C., Weichert, D., Singh, W., Tikhonova, I., Scanlan, E., Olieric, V. and Caffrey, M."
+        ]
+    },
+    {
         "title": "The fatty acid site is coupled to functional motifs in the SARS-CoV-2 spike protein and modulates spike allosteric behaviour",
         "journal": "",
         "year": 2021,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2021.06.07.447341",
         "authors": [
@@ -1356,23 +2520,11 @@
         ]
     },
     {
-        "title": "Relative Affinities of Protein-Cholesterol Interactions from Equilibrium Molecular Dynamics Simulations",
-        "journal": "",
-        "year": 2021,
-        "month": "June",
-        "projectRef": "EP/L000253/1",
-        "type": "Preprint",
-        "doi": "https://doi.org/10.1101/2021.06.02.446704",
-        "authors": [
-            "Ansell, T., Curran, L., Horrell, M., Pipatpolkai, T., Letham, S., Song, W., Siebold, C., Stansfeld, P., Sansom, M. and Corey, R."
-        ]
-    },
-    {
         "title": "Discovery of SARS-CoV-2 M pro Peptide Inhibitors from Modelling Substrate and Ligand Binding",
         "journal": "",
         "year": 2021,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2021.06.18.446355",
         "authors": [
@@ -1380,11 +2532,107 @@
         ]
     },
     {
+        "title": "Structure and lipid dynamics in the maintenance of lipid asymmetry inner membrane complex of A. baumannii",
+        "journal": "Communications Biology",
+        "year": 2021,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s42003-021-02318-4",
+        "authors": [
+            "Mann, D., Fan, J., Somboon, K., Farrell, D., Muenks, A., Tzokov, S., DiMaio, F., Khalid, S., Miller, S. and Bergeron, J."
+        ]
+    },
+    {
+        "title": "Nanocapsule designs for antimicrobial resistance",
+        "journal": "Nanoscale",
+        "year": 2021,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d0nr08146a",
+        "authors": [
+            "Marzuoli, I., Cruz, C., Lorenz, C. and Fraternali, F."
+        ]
+    },
+    {
+        "title": "The Role of Conserved Residues in the DEDDh Motif: the Proton-Transfer Mechanism of HIV-1 RNase H",
+        "journal": "Acs Catalysis",
+        "year": 2021,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acscatal.1c01493",
+        "authors": [
+            "D\u00fcrr, S., Bohuszewicz, O., Berta, D., Suardiaz, R., Jambrina, P., Peter, C., Shao, Y. and Rosta, E."
+        ]
+    },
+    {
+        "title": "A signal capture and proofreading mechanism for the KDEL-receptor explains selectivity and dynamic range in ER retrieval",
+        "journal": "Elife",
+        "year": 2021,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.7554/elife.68380",
+        "authors": [
+            "Gerondopoulos, A., Br\u00e4uer, P., Sobajima, T., Wu, Z., Parker, J., Biggin, P., Barr, F. and Newstead, S."
+        ]
+    },
+    {
+        "title": "Deciphering ion transport and ATPase coupling in the intersubunit tunnel of KdpFABC",
+        "journal": "",
+        "year": 2021,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.05.18.444724",
+        "authors": [
+            "Silberberg, J., Corey, R., Hielkema, L., Stock, C., Stansfeld, P., Paulino, C. and H\u00e4nelt, I."
+        ]
+    },
+    {
+        "title": "The hitchhiker's guide to the periplasm: Unexpected molecular interactions of polymyxin B1 in E. coli",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2021,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2021.01.009",
+        "authors": [
+            "Pedebos, C., Smith, I., Boags, A. and Khalid, S."
+        ]
+    },
+    {
+        "title": "A minimalistic cyclic ice-binding peptide from phage display",
+        "journal": "Nature Communications",
+        "year": 2021,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-021-22883-w",
+        "authors": [
+            "Stevens, C., Bachtiger, F., Kong, X., Abriata, L., Sosso, G., Gibson, M. and Klok, H."
+        ]
+    },
+    {
+        "title": "The dynamic interplay of PIP 2 and ATP in the regulation of the K ATP channel",
+        "journal": "",
+        "year": 2021,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.05.06.442933",
+        "authors": [
+            "Pipatpolkai, T., Usher, S., Vedovato, N., Ashcroft, F. and Stansfeld, P."
+        ]
+    },
+    {
         "title": "Designing better enzymes: Insights from directed evolution",
         "journal": "Current Opinion In Structural Biology",
         "year": 2021,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.sbi.2020.12.015",
         "authors": [
@@ -1396,7 +2644,7 @@
         "journal": "Journal Of Inorganic Biochemistry",
         "year": 2021,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.jinorgbio.2021.111370",
         "authors": [
@@ -1408,7 +2656,7 @@
         "journal": "British Journal Of Pharmacology",
         "year": 2021,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1111/bph.15389",
         "authors": [
@@ -1420,7 +2668,7 @@
         "journal": "",
         "year": 2021,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2021.04.12.439416",
         "authors": [
@@ -1428,11 +2676,71 @@
         ]
     },
     {
+        "title": "Cryo-EM Structures of CusA Reveal a Mechanism of Metal-Ion Export",
+        "journal": "Mbio",
+        "year": 2021,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1128/mbio.00452-21",
+        "authors": [
+            "Moseng, M., Lyu, M., Pipatpolkai, T., Glaza, P., Emerson, C., Stewart, P., Stansfeld, P. and Yu, E."
+        ]
+    },
+    {
+        "title": "WITHDRAWN: Molecular Dynamics guided Brownian tomography of apoferritin in liquid water",
+        "journal": "",
+        "year": 2021,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.04.30.442083",
+        "authors": [
+            "Gutierrez, S., De, P..C., Ing, G., Marchello, G., Wilkinson, N., Garvasio, F., Ruiz, P..L. and Battaglia, G."
+        ]
+    },
+    {
+        "title": "The dynamic interplay of PIP2 and ATP in the regulation of the KATP channel",
+        "journal": "",
+        "year": 2021,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.21203/rs.3.rs-445411/v1",
+        "authors": [
+            "Pipatpolkai, T., Usher, S., Vedovato, N., Ashcroft, F. and Stansfeld, P."
+        ]
+    },
+    {
+        "title": "Pathogenic missense protein variants affect different functional pathways and proteomic features than healthy population variants",
+        "journal": "Plos Biology",
+        "year": 2021,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1371/journal.pbio.3001207",
+        "authors": [
+            "Laddach, A., Ng, J. and Fraternali, F."
+        ]
+    },
+    {
+        "title": "Molecular determinants of binding of non-oxime bispyridinium nerve agent antidote compounds to the adult muscle nAChR",
+        "journal": "Toxicology Letters",
+        "year": 2021,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.toxlet.2021.01.013",
+        "authors": [
+            "Epstein, M., Bali, K., Piggot, T., Green, A., Timperley, C., Bird, M., Tattersall, J., Bermudez, I. and Biggin, P."
+        ]
+    },
+    {
         "title": "Membrane Interactions of \u03b1-Synuclein Revealed by Multiscale Molecular Dynamics Simulations, Markov State Models, and NMR",
         "journal": "The Journal Of Physical Chemistry. B",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jpcb.1c01281",
         "authors": [
@@ -1444,7 +2752,7 @@
         "journal": "",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2021.03.19.436130",
         "authors": [
@@ -1452,23 +2760,11 @@
         ]
     },
     {
-        "title": "CG2AT2: An Enhanced Fragment-based approach for Serial Multi-scale Molecular Dynamics simulations",
-        "journal": "",
-        "year": 2021,
-        "month": "March",
-        "projectRef": "EP/L000253/1",
-        "type": "Preprint",
-        "doi": "https://doi.org/10.1101/2021.03.25.437005",
-        "authors": [
-            "Vickery, O. and Stansfeld, P."
-        ]
-    },
-    {
         "title": "Allosteric communication in class A \u03b2-lactamases occurs via cooperative coupling of loop dynamics",
         "journal": "Elife",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.7554/elife.66567",
         "authors": [
@@ -1492,7 +2788,7 @@
         "journal": "Nature Communications",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-021-21851-8",
         "authors": [
@@ -1504,7 +2800,7 @@
         "journal": "Angewandte Chemie (Weinheim An Der Bergstrasse, Germany)",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/ange.202181362",
         "authors": [
@@ -1516,7 +2812,7 @@
         "journal": "Biophysical Journal",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.bpj.2021.01.037",
         "authors": [
@@ -1528,7 +2824,7 @@
         "journal": "Angewandte Chemie International Edition",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/anie.202181362",
         "authors": [
@@ -1540,7 +2836,7 @@
         "journal": "Angewandte Chemie (International Ed. In English)",
         "year": 2021,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/anie.202015639",
         "authors": [
@@ -1548,11 +2844,59 @@
         ]
     },
     {
+        "title": "Large Scale Membrane Movement Induced by a Cation Switch",
+        "journal": "",
+        "year": 2021,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.26434/chemrxiv.13603325",
+        "authors": [
+            "Clifton, L."
+        ]
+    },
+    {
+        "title": "A baton-relay and proofreading mechanism for selective ER retrieval signal capture by the KDEL receptor",
+        "journal": "",
+        "year": 2021,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.03.21.436307",
+        "authors": [
+            "Gerondopoulos, A., Br\u00e4uer, P., Sobajima, T., Wu, Z., Parker, J., Biggin, P., Barr, F. and Newstead, S."
+        ]
+    },
+    {
+        "title": "How symmetry-breaking can amplify the magnetosensitivity of dipolarly coupled n-radical systems",
+        "journal": "The Journal Of Chemical Physics",
+        "year": 2021,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1063/5.0041552",
+        "authors": [
+            "Keens, R., Sampson, C. and Kattnig, D."
+        ]
+    },
+    {
+        "title": "Short loop functional commonality identified in leukaemia proteome highlights crucial protein sub-networks",
+        "journal": "Nar Genomics And Bioinformatics",
+        "year": 2021,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1093/nargab/lqab010",
+        "authors": [
+            "Chung, S., Ng, J., Laddach, A., Thomas, N. and Fraternali, F."
+        ]
+    },
+    {
         "title": "Evaluating the Performance of Water Models with Host-Guest Force Fields in Binding Enthalpy Calculations for Cucurbit[7]uril-Guest Systems",
         "journal": "The Journal Of Physical Chemistry. B",
         "year": 2021,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jpcb.0c11383",
         "authors": [
@@ -1564,7 +2908,7 @@
         "journal": "Molecular Catalysis",
         "year": 2021,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.mcat.2021.111404",
         "authors": [
@@ -1576,7 +2920,7 @@
         "journal": "Angewandte Chemie",
         "year": 2021,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/ange.202015639",
         "authors": [
@@ -1588,11 +2932,95 @@
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2021,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.0c01025",
         "authors": [
             "Simcock, P., Bublitz, M., Cipcigan, F., Ryadnov, M., Crain, J., Stansfeld, P. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Conserved Cdk inhibitors show unique structural responses to tyrosine phosphorylation",
+        "journal": "",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.02.04.429742",
+        "authors": [
+            "Swadling, J., Warnecke, T., Morris, K. and Barr, A."
+        ]
+    },
+    {
+        "title": "Base-pair resolution analysis of the effect of supercoiling on DNA flexibility and major groove recognition by triplex-forming oligonucleotides",
+        "journal": "Nature Communications",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-021-21243-y",
+        "authors": [
+            "Pyne, A., Noy, A., Main, K., Velasco-Berrelleza, V., Piperakis, M., Mitchenall, L., Cugliandolo, F., Beton, J., Stevenson, C., Hoogenboom, B., Bates, A., Maxwell, A. and Harris, S."
+        ]
+    },
+    {
+        "title": "Membrane-binding mechanism of the EEA1 FYVE domain revealed by multi-scale molecular dynamics simulations",
+        "journal": "",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.02.18.431783",
+        "authors": [
+            "Larsen, A., Tata, L., John, L. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Dynamics of an LPS translocon induced by substrate and an antimicrobial peptide",
+        "journal": "Nature Chemical Biology",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41589-020-00694-2",
+        "authors": [
+            "Fiorentino, F., Sauer, J., Qiu, X., Corey, R., Cassidy, C., Mynors-Wallis, B., Mehmood, S., Bolla, J., Stansfeld, P. and Robinson, C."
+        ]
+    },
+    {
+        "title": "CHARMM-GUI Supports Hydrogen Mass Repartitioning and Different Protonation States of Phosphates in Lipopolysaccharides",
+        "journal": "Journal Of Chemical Information And Modeling",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jcim.0c01360",
+        "authors": [
+            "Gao, Y., Lee, J., Smith, I., Lee, H., Kim, S., Qi, Y., Klauda, J., Widmalm, G., Khalid, S. and Im, W."
+        ]
+    },
+    {
+        "title": "Molecular Simulations of Hydrophobic Gating of Pentameric Ligand Gated Ion Channels: Insights into Water and Ions",
+        "journal": "The Journal Of Physical Chemistry. B",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpcb.0c09285",
+        "authors": [
+            "Rao, S., Klesse, G., Lynch, C., Tucker, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "The atomistic details of the ice recrystallisation inhibition activity of PVA",
+        "journal": "Nature Communications",
+        "year": 2021,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-021-21717-z",
+        "authors": [
+            "Bachtiger, F., Congdon, T., Stubbs, C., Gibson, M. and Sosso, G."
         ]
     },
     {
@@ -1612,7 +3040,7 @@
         "journal": "Journal Of Biological Chemistry",
         "year": 2021,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1074/jbc.ra120.016461",
         "authors": [
@@ -1624,7 +3052,7 @@
         "journal": "Methods (San Diego, Calif.)",
         "year": 2021,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.ymeth.2020.02.007",
         "authors": [
@@ -1636,7 +3064,7 @@
         "journal": "Methods (San Diego, Calif.)",
         "year": 2021,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.ymeth.2020.02.009",
         "authors": [
@@ -1644,11 +3072,35 @@
         ]
     },
     {
+        "title": "4D imaging of soft matter in liquid water",
+        "journal": "",
+        "year": 2021,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2021.01.21.427613",
+        "authors": [
+            "Marchello, G., De, P..C., Acosta-Gutierrez, S., Lopez-Vazquez, C., Wilkinson, N., Gervasio, F., Ruiz-Perez, L. and Battaglia, G."
+        ]
+    },
+    {
+        "title": "Translocation of flexible and tensioned ssDNA through in silico designed hydrophobic nanopores with two constrictions",
+        "journal": "Nanoscale",
+        "year": 2021,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d0nr04890a",
+        "authors": [
+            "Rattu, P., Belzunces, B., Haynes, T., Skylaris, C. and Khalid, S."
+        ]
+    },
+    {
         "title": "Modelling the reactivity of cysteine targeting covalent inhibitors",
         "journal": "",
         "year": 2021,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Thesis",
         "doi": "#",
         "authors": [
@@ -1660,7 +3112,7 @@
         "journal": "",
         "year": 2021,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Thesis",
         "doi": "#",
         "authors": [
@@ -1672,7 +3124,7 @@
         "journal": "Biophysical Journal",
         "year": 2021,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Conference Proceeding_Abstract",
         "doi": "#",
         "authors": [
@@ -1684,7 +3136,7 @@
         "journal": "The Journal Of Biological Chemistry",
         "year": 2021,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1074/jbc.ra120.016004",
         "authors": [
@@ -1696,7 +3148,7 @@
         "journal": "Chemical Science",
         "year": 2021,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d0sc06195f",
         "authors": [
@@ -1708,7 +3160,7 @@
         "journal": "Chemical Science",
         "year": 2021,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d0sc06122k",
         "authors": [
@@ -1716,11 +3168,47 @@
         ]
     },
     {
+        "title": "Molecular Simulations Guidelines for Biological Nanomaterials: From Peptides to Membranes",
+        "journal": "Methods In Molecular Biology (Clifton, N.J.)",
+        "year": 2021,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1007/978-1-0716-0928-6_6",
+        "authors": [
+            "Marzuoli, I. and Fraternali, F."
+        ]
+    },
+    {
+        "title": "Structural basis of trehalose recognition by the mycobacterial LpqY-SugABC transporter",
+        "journal": "The Journal Of Biological Chemistry",
+        "year": 2021,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.jbc.2021.100307",
+        "authors": [
+            "Furze, C., Delso, I., Casal, E., Guy, C., Seddon, C., Brown, C., Parker, H., Radhakrishnan, A., Pacheco-Gomez, R., Stansfeld, P., Angulo, J., Cameron, A. and Fullam, E."
+        ]
+    },
+    {
+        "title": "Atomistic level characterisation of ssDNA translocation through the E. coli proteins CsgG and CsgF for nanopore sequencing",
+        "journal": "Computational And Structural Biotechnology Journal",
+        "year": 2021,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.csbj.2021.11.014",
+        "authors": [
+            "Rattu, P., Glencross, F., Mader, S., Skylaris, C., Matthews, S., Rouse, S. and Khalid, S."
+        ]
+    },
+    {
         "title": "COVID19 - Computational Chemists Meet the Moment",
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2020,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.0c01395",
         "authors": [
@@ -1732,7 +3220,7 @@
         "journal": "",
         "year": 2020,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.13440179.v1",
         "authors": [
@@ -1744,7 +3232,7 @@
         "journal": "Bioinformatics (Oxford, England)",
         "year": 2020,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1093/bioinformatics/btaa643",
         "authors": [
@@ -1768,7 +3256,7 @@
         "journal": "Current Opinion In Structural Biology",
         "year": 2020,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.sbi.2020.06.001",
         "authors": [
@@ -1792,7 +3280,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2020,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.0c01030",
         "authors": [
@@ -1812,11 +3300,47 @@
         ]
     },
     {
+        "title": "Structures of the stator complex that drives rotation of the bacterial flagellum",
+        "journal": "Nature Microbiology",
+        "year": 2020,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41564-020-0788-8",
+        "authors": [
+            "Deme, J., Johnson, S., Vickery, O., Aron, A., Monkhouse, H., Griffiths, T., James, R., Berks, B., Coulton, J., Stansfeld, P. and Lea, S."
+        ]
+    },
+    {
+        "title": "Alternative Architecture of the E. Coli Chemosensory Array",
+        "journal": "",
+        "year": 2020,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.21203/rs.3.rs-124318/v1",
+        "authors": [
+            "Burt, A., Cassidy, C., Stansfeld, P. and Gutsche, I."
+        ]
+    },
+    {
+        "title": "Identification of compounds that bind the centriolar protein SAS-6 and inhibit its oligomerization",
+        "journal": "Journal Of Biological Chemistry",
+        "year": 2020,
+        "month": "December",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1074/jbc.ra120.014780",
+        "authors": [
+            "Busch, J., Matsoukas, M., Musgaard, M., Spyroulias, G., Biggin, P. and Vakonakis, I."
+        ]
+    },
+    {
         "title": "Enhanced sampling molecular dynamics simulations correctly predict the diverse activities of a series of stiff-stilbene G-quadruplex DNA ligands",
         "journal": "Chemical Science",
         "year": 2020,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d0sc05223j",
         "authors": [
@@ -1828,7 +3352,7 @@
         "journal": "Science (New York, N.Y.)",
         "year": 2020,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1126/science.abd3255",
         "authors": [
@@ -1848,11 +3372,35 @@
         ]
     },
     {
+        "title": "Insights into bacterial cell division from a structure of EnvC bound to the FtsX periplasmic domain",
+        "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
+        "year": 2020,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1073/pnas.2017134117",
+        "authors": [
+            "Cook, J., Baverstock, T., McAndrew, M., Stansfeld, P., Roper, D. and Crow, A."
+        ]
+    },
+    {
+        "title": "The MscS-like channel YnaI has a gating mechanism based on flexible pore helices",
+        "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
+        "year": 2020,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1073/pnas.2005641117",
+        "authors": [
+            "Flegler, V., Rasmussen, A., Rao, S., Wu, N., Zenobi, R., Sansom, M., Hedrich, R., Rasmussen, T. and B\u00f6ttcher, B."
+        ]
+    },
+    {
         "title": "The KDEL trafficking receptor exploits pH to tune the strength of an unusual short hydrogen bond",
         "journal": "Scientific Reports",
         "year": 2020,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41598-020-73906-3",
         "authors": [
@@ -1864,11 +3412,23 @@
         "journal": "Journal Of Paediatrics And Child Health",
         "year": 2020,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1111/jpc.15172",
         "authors": [
             "Mulholland, A., Ellis, K. and Davey, M."
+        ]
+    },
+    {
+        "title": "Binding of Ca 2+ -Independent C2 Domains to Lipid Membranes: a Multi-Scale Molecular Dynamics Study",
+        "journal": "",
+        "year": 2020,
+        "month": "October",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.10.30.361964",
+        "authors": [
+            "Larsen, A. and Sansom, M."
         ]
     },
     {
@@ -1912,7 +3472,7 @@
         "journal": "",
         "year": 2020,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.12941819.v1",
         "authors": [
@@ -1920,11 +3480,35 @@
         ]
     },
     {
+        "title": "Water in Nanopores and Biological Channels: A Molecular Simulation Perspective",
+        "journal": "Chemical Reviews",
+        "year": 2020,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.chemrev.9b00830",
+        "authors": [
+            "Lynch, C., Rao, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Evaluating Inositol phospholipid interactions with Inward Rectifier Potassium Channels and characterising their role in Disease",
+        "journal": "",
+        "year": 2020,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.09.03.281378",
+        "authors": [
+            "Pipatpolkai, T., Corey, R., Proks, P., Ashcroft, F. and Stansfeld, P."
+        ]
+    },
+    {
         "title": "Interactive Molecular Dynamics in Virtual Reality (iMD-VR) Is an Effective Tool for Flexible Substrate and Inhibitor Docking to the SARS-CoV-2 Main Protease",
         "journal": "",
         "year": 2020,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.12834335.v2",
         "authors": [
@@ -1932,11 +3516,47 @@
         ]
     },
     {
+        "title": "Conformational dynamics of a G protein-coupled receptor helix 8 in lipid membranes",
+        "journal": "Science Advances",
+        "year": 2020,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1126/sciadv.aav8207",
+        "authors": [
+            "Dijkman, P., Mu\u00f1oz-Garc\u00eda, J., Lavington, S., Kumagai, P., Dos, R..R., Yin, D., Stansfeld, P., Costa-Filho, A. and Watts, A."
+        ]
+    },
+    {
+        "title": "Electric Field Induced Wetting of a Hydrophobic Gate in a Model Nanopore Based on the 5-HT3 Receptor Channel",
+        "journal": "Acs Nano",
+        "year": 2020,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acsnano.0c04387",
+        "authors": [
+            "Klesse, G., Tucker, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Structure of the Inhibited State of the Sec Translocon",
+        "journal": "Molecular Cell",
+        "year": 2020,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.molcel.2020.06.013",
+        "authors": [
+            "G\u00e9rard, S., Hall, B., Zaki, A., Corfield, K., Mayerhofer, P., Costa, C., Whelligan, D., Biggin, P., Simmonds, R. and Higgins, M."
+        ]
+    },
+    {
         "title": "Science to enable the circular economy",
         "journal": "Philosophical Transactions. Series A, Mathematical, Physical, And Engineering Sciences",
         "year": 2020,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1098/rsta.2020.0060",
         "authors": [
@@ -1960,7 +3580,7 @@
         "journal": "Ieee Transactions On Ultrasonics, Ferroelectrics, And Frequency Control",
         "year": 2020,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1109/tuffc.2020.2972406",
         "authors": [
@@ -1972,7 +3592,7 @@
         "journal": "",
         "year": 2020,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/2020.07.16.206680",
         "authors": [
@@ -1980,11 +3600,71 @@
         ]
     },
     {
+        "title": "Combining Machine Learning and Enhanced Sampling Techniques for Efficient and Accurate Calculation of Absolute Binding Free Energies",
+        "journal": "Journal Of Chemical Theory And Computation",
+        "year": 2020,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jctc.0c00075",
+        "authors": [
+            "Evans, R., Hovan, L., Tribello, G., Cossins, B., Estarellas, C. and Gervasio, F."
+        ]
+    },
+    {
+        "title": "A combined activation mechanism for the glucagon receptor",
+        "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
+        "year": 2020,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1073/pnas.1921851117",
+        "authors": [
+            "Mattedi, G., Acosta-Guti\u00e9rrez, S., Clark, T. and Gervasio, F."
+        ]
+    },
+    {
+        "title": "Molecular dynamics simulations of bacterial outer membrane lipid extraction: Adequate sampling?",
+        "journal": "The Journal Of Chemical Physics",
+        "year": 2020,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1063/5.0017734",
+        "authors": [
+            "Shearer, J., Marzinek, J., Bond, P. and Khalid, S."
+        ]
+    },
+    {
+        "title": "Mechanisms of activation and desensitization of full-length glycine receptor in lipid nanodiscs",
+        "journal": "Nature Communications",
+        "year": 2020,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-020-17364-5",
+        "authors": [
+            "Kumar, A., Basak, S., Rao, S., Gicheru, Y., Mayer, M., Sansom, M. and Chakrapani, S."
+        ]
+    },
+    {
+        "title": "Diversification of DNA-Binding Specificity by Permissive and Specificity-Switching Mutations in the ParB/Noc Protein Family",
+        "journal": "Cell Reports",
+        "year": 2020,
+        "month": "July",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.celrep.2020.107928",
+        "authors": [
+            "Jalal, A., Tran, N., Stevenson, C., Chan, E., Lo, R., Tan, X., Noy, A., Lawson, D. and Le, T."
+        ]
+    },
+    {
         "title": "Novel determinants of agonist selectivity in nicotinic ACh receptors",
         "journal": "British Journal Of Pharmacology",
         "year": 2020,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Conference Proceeding_Abstract",
         "doi": "#",
         "authors": [
@@ -1996,7 +3676,7 @@
         "journal": "Chemical Communications (Cambridge, England)",
         "year": 2020,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d0cc02520h",
         "authors": [
@@ -2008,7 +3688,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2020,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.0c00319",
         "authors": [
@@ -2016,11 +3696,83 @@
         ]
     },
     {
+        "title": "Modulation of A2aR Oligomerisation by Conformational State and PIP 2 Interactions Revealed by MD Simulations and Markov Models",
+        "journal": "",
+        "year": 2020,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.06.24.168260",
+        "authors": [
+            "Song, W., Duncan, A. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Fitness landscape of a dynamic RNA structure",
+        "journal": "",
+        "year": 2020,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.06.06.130575",
+        "authors": [
+            "Soo, V., Swadling, J., Faure, A. and Warnecke, T."
+        ]
+    },
+    {
+        "title": "Interactions of a Bacterial RND Transporter with a Transmembrane Small Protein in a Lipid Environment",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2020,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2020.03.013",
+        "authors": [
+            "Du, D., Neuberger, A., Orr, M., Newman, C., Hsu, P., Samsudin, F., Szewczak-Harris, A., Ramos, L., Debela, M., Khalid, S., Storz, G. and Luisi, B."
+        ]
+    },
+    {
+        "title": "Comment on \"On the Functional Annotation of Open-Channel Structures in the Glycine Receptor\"",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2020,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2020.04.021",
+        "authors": [
+            "D\u00e4mgen, M., Zaki, A. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Structural correlates of human muscle nicotinic acetylcholine receptor subunit assembly mediated by \u03b4(+) interface residues",
+        "journal": "",
+        "year": 2020,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.06.11.145466",
+        "authors": [
+            "Epstein, M., Maxwell, S., Piggot, T., Beeson, D., Bermudez, I. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Atomistic mechanism of transmembrane helix association",
+        "journal": "Plos Computational Biology",
+        "year": 2020,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1371/journal.pcbi.1007919",
+        "authors": [
+            "Doma\u0144ski, J., Sansom, M., Stansfeld, P. and Best, R."
+        ]
+    },
+    {
         "title": "Visible-light photoswitching of ligand binding mode suggests G-quadruplex DNA as a target for photopharmacology",
         "journal": "Chemical Communications (Cambridge, England)",
         "year": 2020,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/d0cc01581d",
         "authors": [
@@ -2044,7 +3796,7 @@
         "journal": "Chemical Science",
         "year": 2020,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c9sc06192d",
         "authors": [
@@ -2056,7 +3808,7 @@
         "journal": "Annual Review Of Biophysics",
         "year": 2020,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1146/annurev-biophys-121219-081520",
         "authors": [
@@ -2068,7 +3820,7 @@
         "journal": "Peerj Physical Chemistry",
         "year": 2020,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.7717/peerj-pchem.8",
         "authors": [
@@ -2076,11 +3828,95 @@
         ]
     },
     {
+        "title": "Structure and functional analysis of the\u00a0Legionella pneumophila chitinase ChiA reveals a novel mechanism of metal-dependent mucin degradation",
+        "journal": "Plos Pathogens",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1371/journal.ppat.1008342",
+        "authors": [
+            "Rehman, S., Grigoryeva, L., Richardson, K., Corsini, P., White, R., Shaw, R., Portlock, T., Dorgan, B., Zanjani, Z., Fornili, A., Cianciotto, N. and Garnett, J."
+        ]
+    },
+    {
+        "title": "Uptake of monoaromatic hydrocarbons during biodegradation by FadL channel-mediated lateral diffusion",
+        "journal": "",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.05.11.088534",
+        "authors": [
+            "Somboon, K., Doble, A., Bulmer, D., Basl\u00e9, A., Khalid, S. and van den Berg, B."
+        ]
+    },
+    {
+        "title": "Combining native and 'omics' mass spectrometry to identify endogenous ligands bound to membrane proteins",
+        "journal": "Nature Methods",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41592-020-0821-0",
+        "authors": [
+            "Gault, J., Liko, I., Landreh, M., Shutin, D., Bolla, J., Jefferies, D., Agasid, M., Yen, H., Ladds, M., Lane, D., Khalid, S., Mullen, C., Remes, P., Huguet, R., McAlister, G., Goodwin, M., Viner, R., Syka, J. and Robinson, C."
+        ]
+    },
+    {
+        "title": "Induced Polarization in Molecular Dynamics Simulations of the 5-HT3 Receptor Channel",
+        "journal": "Journal Of The American Chemical Society",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/jacs.0c02394",
+        "authors": [
+            "Klesse, G., Rao, S., Tucker, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Vaccines for Older Adults: Current Practices and Future Opportunities",
+        "journal": "",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Book Chapter",
+        "doi": "https://doi.org/10.1159/000504479",
+        "authors": [
+            "Dunn-Walters, D., Stewart, A., Sinclair, E. and Serangeli, I."
+        ]
+    },
+    {
+        "title": "Electric Field Induced Wetting of a Hydrophobic Gate in a Model Nanopore Based on the 5-HT 3 Receptor Channel",
+        "journal": "",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.05.25.114157",
+        "authors": [
+            "Klesse, G., Tucker, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Vitamin D status, body mass index, ethnicity and COVID-19: Initial analysis of the first-reported UK Biobank COVID-19 positive cases ( n 580) compared with negative controls ( n 723)",
+        "journal": "",
+        "year": 2020,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.04.29.20084277",
+        "authors": [
+            "Darling, A., Ahmadi, K., Ward, K., Harvey, N., Alves, A., Dunn-Walters, D., Lanham-New, S., Cooper, C. and Blackbourn, D."
+        ]
+    },
+    {
         "title": "Simulation of subcellular structures",
         "journal": "Current Opinion In Structural Biology",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.sbi.2019.12.017",
         "authors": [
@@ -2092,7 +3928,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2020.01.012",
         "authors": [
@@ -2104,7 +3940,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.9b01158",
         "authors": [
@@ -2128,7 +3964,7 @@
         "journal": "Chembiochem : A European Journal Of Chemical Biology",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/cbic.201900672",
         "authors": [
@@ -2140,7 +3976,7 @@
         "journal": "",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.12141894",
         "authors": [
@@ -2152,7 +3988,7 @@
         "journal": "Rsc Medicinal Chemistry",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c9md00557a",
         "authors": [
@@ -2164,7 +4000,7 @@
         "journal": "Current Opinion In Structural Biology",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.sbi.2020.01.014",
         "authors": [
@@ -2176,7 +4012,7 @@
         "journal": "Annual Review Of Physical Chemistry",
         "year": 2020,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1146/annurev-physchem-103019-033434",
         "authors": [
@@ -2184,11 +4020,83 @@
         ]
     },
     {
+        "title": "Modified Bacterial Lipids Which Alter Membrane Surface Charge Reduce Binding of Antimicrobial Peptides",
+        "journal": "",
+        "year": 2020,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.04.24.057349",
+        "authors": [
+            "Simcock, P., Bublitz, M., Cipcigan, F., Ryadnov, M., Crain, J., Stansfeld, P. and Sansom, M."
+        ]
+    },
+    {
+        "title": "State-dependent protein-lipid interactions of a pentameric ligand-gated ion channel in a neuronal membrane",
+        "journal": "",
+        "year": 2020,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.04.07.029603",
+        "authors": [
+            "D\u00e4mgen, M. and Biggin, P."
+        ]
+    },
+    {
+        "title": "Defining how multiple lipid species interact with inward rectifier potassium (Kir2) channels",
+        "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
+        "year": 2020,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1073/pnas.1918387117",
+        "authors": [
+            "Duncan, A., Corey, R. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Unravelling the effect of the E545K mutation on PI3K\u03b1 kinase",
+        "journal": "Chemical Science",
+        "year": 2020,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/c9sc05903b",
+        "authors": [
+            "Galdadas, I., Gervasio, F. and Cournia, Z."
+        ]
+    },
+    {
+        "title": "Integration host factor bends and bridges DNA in a multiplicity of binding modes with varying specificity",
+        "journal": "",
+        "year": 2020,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.04.17.047076",
+        "authors": [
+            "Yoshua, S., Watson, G., Howard, J., Velasco-Berrelleza, V., Leake, M. and Noy, A."
+        ]
+    },
+    {
+        "title": "Histone variants in archaea and the evolution of combinatorial chromatin complexity",
+        "journal": "",
+        "year": 2020,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.04.13.037952",
+        "authors": [
+            "Stevens, K., Swadling, J., Hocher, A., Bang, C., Gribaldo, S., Schmitz, R. and Warnecke, T."
+        ]
+    },
+    {
         "title": "Visualizing the protons in a metalloenzyme electron proton transfer pathway",
         "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
         "year": 2020,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1073/pnas.1918936117",
         "authors": [
@@ -2196,11 +4104,47 @@
         ]
     },
     {
+        "title": "Induced Polarization in MD Simulations of the 5HT 3 Receptor Channel",
+        "journal": "",
+        "year": 2020,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.03.01.971853",
+        "authors": [
+            "Klesse, G., Rao, S., Tucker, S. and Sansom, M."
+        ]
+    },
+    {
+        "title": "SerraNA : a program to determine nucleic acids elasticity from simulation data",
+        "journal": "",
+        "year": 2020,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.03.24.004945",
+        "authors": [
+            "Velasco-Berrelleza, V., Burman, M., Shepherd, J., Leake, M., Golestanian, R. and Noy, A."
+        ]
+    },
+    {
+        "title": "The Glycosphingolipid GM3 Modulates Conformational Dynamics of the Glucagon Receptor",
+        "journal": "",
+        "year": 2020,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/2020.03.12.988576",
+        "authors": [
+            "Ansell, T., Song, W. and Sansom, M."
+        ]
+    },
+    {
         "title": "Multiple lipid binding sites determine the affinity of PH domains for phosphoinositide-containing membranes",
         "journal": "Science Advances",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1126/sciadv.aay5736",
         "authors": [
@@ -2212,7 +4156,7 @@
         "journal": "Biochemical Society Transactions",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1042/bst20190149",
         "authors": [
@@ -2224,7 +4168,7 @@
         "journal": "Nature Communications",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-020-14350-9",
         "authors": [
@@ -2236,7 +4180,7 @@
         "journal": "",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.11845272.v1",
         "authors": [
@@ -2248,7 +4192,7 @@
         "journal": "Science (New York, N.Y.)",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1126/science.aay4919",
         "authors": [
@@ -2260,7 +4204,7 @@
         "journal": "Nucleic Acids Research",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1093/nar/gkz1227",
         "authors": [
@@ -2272,7 +4216,7 @@
         "journal": "Journal Of Molecular Biology",
         "year": 2020,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.jmb.2020.01.008",
         "authors": [
@@ -2280,11 +4224,47 @@
         ]
     },
     {
+        "title": "Lipid Interactions of a Ciliary Membrane TRP Channel: Simulation and Structural Studies of Polycystin-2",
+        "journal": "Structure (London, England : 1993)",
+        "year": 2020,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2019.11.005",
+        "authors": [
+            "Wang, Q., Corey, R., Hedger, G., Aryal, P., Grieben, M., Nasrallah, C., Baronina, A., Pike, A., Shi, J., Carpenter, E. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Engineering Chirally Blind Protein Pseudocapsids into Antibacterial Persisters",
+        "journal": "Acs Nano",
+        "year": 2020,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acsnano.9b06814",
+        "authors": [
+            "Kepiro, I., Marzuoli, I., Hammond, K., Ba, X., Lewis, H., Shaw, M., Gunnoo, S., De, S..E., \u0141api\u0144ska, U., Pagliara, S., Holmes, M., Lorenz, C., Hoogenboom, B., Fraternali, F. and Ryadnov, M."
+        ]
+    },
+    {
+        "title": "Targeting of proteins to the twin-arginine translocation pathway",
+        "journal": "Molecular Microbiology",
+        "year": 2020,
+        "month": "February",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1111/mmi.14461",
+        "authors": [
+            "Palmer, T. and Stansfeld, P."
+        ]
+    },
+    {
         "title": "In Situ Structure of an Intact Lipopolysaccharide-Bound Bacterial Surface Layer",
         "journal": "Cell",
         "year": 2020,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.cell.2019.12.006",
         "authors": [
@@ -2296,7 +4276,7 @@
         "journal": "",
         "year": 2020,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.11734074.v1",
         "authors": [
@@ -2308,7 +4288,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2020,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2019.10.019",
         "authors": [
@@ -2320,7 +4300,7 @@
         "journal": "Chemical Science",
         "year": 2020,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c9sc03854j",
         "authors": [
@@ -2332,7 +4312,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2020,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.9b00918",
         "authors": [
@@ -2340,11 +4320,83 @@
         ]
     },
     {
+        "title": "Lipid-Dependent Regulation of Ion Channels and G Protein-Coupled Receptors: Insights from Structures and Simulations",
+        "journal": "Annual Review Of Pharmacology And Toxicology",
+        "year": 2020,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1146/annurev-pharmtox-010919-023411",
+        "authors": [
+            "Duncan, A., Song, W. and Sansom, M."
+        ]
+    },
+    {
+        "title": "A Mass-Spectrometry-Based Approach to Distinguish Annular and Specific Lipid Binding to Membrane Proteins",
+        "journal": "Angewandte Chemie",
+        "year": 2020,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1002/ange.201914411",
+        "authors": [
+            "Bolla, J., Corey, R., Sahin, C., Gault, J., Hummer, A., Hopper, J., Lane, D., Drew, D., Allison, T., Stansfeld, P., Robinson, C. and Landreh, M."
+        ]
+    },
+    {
+        "title": "A bipartite structural organization defines the SERINC family of HIV-1 restriction factors",
+        "journal": "Nature Structural & Molecular Biology",
+        "year": 2020,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41594-019-0357-0",
+        "authors": [
+            "Pye, V., Rosa, A., Bertelli, C., Struwe, W., Maslen, S., Corey, R., Liko, I., Hassall, M., Mattiuzzo, G., Ballandras-Colas, A., Nans, A., Takeuchi, Y., Stansfeld, P., Skehel, J., Robinson, C., Pizzato, M. and Cherepanov, P."
+        ]
+    },
+    {
+        "title": "Structure and dynamics of the E. coli chemotaxis core signaling complex by cryo-electron tomography and molecular simulations",
+        "journal": "Communications Biology",
+        "year": 2020,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s42003-019-0748-0",
+        "authors": [
+            "Cassidy, C., Himes, B., Sun, D., Ma, J., Zhao, G., Parkinson, J., Stansfeld, P., Luthey-Schulten, Z. and Zhang, P."
+        ]
+    },
+    {
+        "title": "Structural basis of proton-coupled potassium transport in the KUP family",
+        "journal": "Nature Communications",
+        "year": 2020,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41467-020-14441-7",
+        "authors": [
+            "Tasc\u00f3n, I., Sousa, J., Corey, R., Mills, D., Griwatz, D., Aum\u00fcller, N., Mikusevic, V., Stansfeld, P., Vonck, J. and H\u00e4nelt, I."
+        ]
+    },
+    {
+        "title": "Structure and mechanism of bactericidal mammalian perforin-2, an ancient agent of innate immunity",
+        "journal": "Science Advances",
+        "year": 2020,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1126/sciadv.aax8286",
+        "authors": [
+            "Ni, T., Jiao, F., Yu, X., Aden, S., Ginger, L., Williams, S., Bai, F., Pra\u017e\u00e1k, V., Karia, D., Stansfeld, P., Zhang, P., Munson, G., Anderluh, G., Scheuring, S. and Gilbert, R."
+        ]
+    },
+    {
         "title": "Bovistol B, bovistol D and strossmayerin: Sesquiterpene metabolites from the culture filtrate of the basidiomycete Coprinopsis strossmayeri",
         "journal": "Plos One",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1371/journal.pone.0229925",
         "authors": [
@@ -2368,7 +4420,7 @@
         "journal": "Computing In Science & Engineering",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1109/mcse.2020.3024155",
         "authors": [
@@ -2380,7 +4432,7 @@
         "journal": "",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Thesis",
         "doi": "#",
         "authors": [
@@ -2392,7 +4444,7 @@
         "journal": "Frontiers In Molecular Biosciences",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.3389/fmolb.2020.00040",
         "authors": [
@@ -2404,7 +4456,7 @@
         "journal": "",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Thesis",
         "doi": "#",
         "authors": [
@@ -2416,7 +4468,7 @@
         "journal": "",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Thesis",
         "doi": "#",
         "authors": [
@@ -2428,7 +4480,7 @@
         "journal": "Plos One",
         "year": 2020,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1371/journal.pone.0228461",
         "authors": [
@@ -2436,11 +4488,71 @@
         ]
     },
     {
+        "title": "The Role of Dopamine in the Stimulant Characteristics of Novel Psychoactive Substances (NPS)-Neurobiological and Computational Assessment Using the Case of Desoxypipradrol (2-DPMP)",
+        "journal": "Frontiers In Pharmacology",
+        "year": 2020,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.3389/fphar.2020.00806",
+        "authors": [
+            "Loi, B., Sahai, M., De, L..M., Shiref, H. and Opacka-Juffry, J."
+        ]
+    },
+    {
+        "title": "Understanding the structural details of APOBEC3-DNA interactions using graph-based representations",
+        "journal": "Current Research In Structural Biology",
+        "year": 2020,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.crstbi.2020.07.001",
+        "authors": [
+            "Ng, J. and Fraternali, F."
+        ]
+    },
+    {
+        "title": "Structure, dynamics and immunogenicity of a catalytically inactive CXC chemokine-degrading protease SpyCEP from Streptococcus pyogenes",
+        "journal": "Computational And Structural Biotechnology Journal",
+        "year": 2020,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.csbj.2020.03.004",
+        "authors": [
+            "McKenna, S., Malito, E., Rouse, S., Abate, F., Bensi, G., Chiarot, E., Micoli, F., Mancini, F., Gomes, M..D., Grandi, G., Mossakowska, D., Pearson, M., Xu, Y., Pease, J., Sriskandan, S., Margarit, I., Bottomley, M. and Matthews, S."
+        ]
+    },
+    {
+        "title": "A New Crystal Form of the SARS-CoV-2 Receptor Binding Domain: CR3022 Complex-An Ideal Target for In-Crystal Fragment Screening of the ACE2 Binding Site Surface",
+        "journal": "Frontiers In Pharmacology",
+        "year": 2020,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.3389/fphar.2020.615211",
+        "authors": [
+            "Nichols, C., Ng, J., Keshu, A., Fraternali, F. and De, N..G."
+        ]
+    },
+    {
+        "title": "SerraNA: a program to determine nucleic acids elasticity from simulation data",
+        "journal": "Physical Chemistry Chemical Physics",
+        "year": 2020,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1039/d0cp02713h",
+        "authors": [
+            "Velasco-Berrelleza, V., Burman, M., Shepherd, J., Leake, M., Golestanian, R. and Noy, A."
+        ]
+    },
+    {
         "title": "Modulating Ligand Dissociation through Methyl Isomerism in Accessory Sites: Binding of Retinol to Cellular Carriers",
         "journal": "The Journal Of Physical Chemistry Letters",
         "year": 2019,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jpclett.9b02861",
         "authors": [
@@ -2464,7 +4576,7 @@
         "journal": "Journal Of The American Chemical Society",
         "year": 2019,
         "month": "December",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/jacs.9b09055",
         "authors": [
@@ -2476,7 +4588,7 @@
         "journal": "Journal Of Open Source Software",
         "year": 2019,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.21105/joss.01831",
         "authors": [
@@ -2488,7 +4600,7 @@
         "journal": "Sar And Qsar In Environmental Research",
         "year": 2019,
         "month": "November",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1080/1062936x.2019.1658218",
         "authors": [
@@ -2496,11 +4608,35 @@
         ]
     },
     {
+        "title": "Structure and Dynamics of Cinnamycin-Lipid Complexes: Mechanisms of Selectivity for Phosphatidylethanolamine Lipids",
+        "journal": "Acs Omega",
+        "year": 2019,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acsomega.9b02949",
+        "authors": [
+            "Vestergaard, M., Berglund, N., Hsu, P., Song, C., Kolds\u00f8, H., Schi\u00f8tt, B. and Sansom, M."
+        ]
+    },
+    {
+        "title": "Chromatinization of Escherichia coli with archaeal histones",
+        "journal": "Elife",
+        "year": 2019,
+        "month": "November",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.7554/elife.49038",
+        "authors": [
+            "Rojec, M., Hocher, A., Stevens, K., Merkenschlager, M. and Warnecke, T."
+        ]
+    },
+    {
         "title": "Structural basis for substrate specificity and regulation of nucleotide sugar transporters in the lipid bilayer",
         "journal": "Nature Communications",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-019-12673-w",
         "authors": [
@@ -2512,7 +4648,7 @@
         "journal": "Biophysical Journal",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.bpj.2019.07.056",
         "authors": [
@@ -2536,7 +4672,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.9b00665",
         "authors": [
@@ -2548,7 +4684,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.9b00404",
         "authors": [
@@ -2560,7 +4696,7 @@
         "journal": "Nature Chemical Biology",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41589-019-0370-y",
         "authors": [
@@ -2572,7 +4708,7 @@
         "journal": "The Journal Of Membrane Biology",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1007/s00232-019-00068-3",
         "authors": [
@@ -2584,7 +4720,7 @@
         "journal": "Antimicrobial Agents And Chemotherapy",
         "year": 2019,
         "month": "October",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1128/aac.00564-19",
         "authors": [
@@ -2596,7 +4732,7 @@
         "journal": "International Journal Of Molecular Sciences",
         "year": 2019,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.3390/ijms20184468",
         "authors": [
@@ -2608,7 +4744,7 @@
         "journal": "Nature Communications",
         "year": 2019,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-019-11753-1",
         "authors": [
@@ -2620,7 +4756,7 @@
         "journal": "Sexual Health",
         "year": 2019,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1071/sh18235",
         "authors": [
@@ -2640,11 +4776,23 @@
         ]
     },
     {
+        "title": "Mechanisms of activation and desensitization of full-length glycine receptor in membranes",
+        "journal": "",
+        "year": 2019,
+        "month": "September",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/788695",
+        "authors": [
+            "Kumar, A., Basak, S., Rao, S., Gicheru, Y., Mayer, M., Sansom, M. and Chakrapani, S."
+        ]
+    },
+    {
         "title": "Ligand-induced Conformational Selection Predicts the Selectivity of Cysteine Protease Inhibitors",
         "journal": "",
         "year": 2019,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/744953",
         "authors": [
@@ -2668,7 +4816,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2019,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.9b00351",
         "authors": [
@@ -2680,7 +4828,7 @@
         "journal": "Structure",
         "year": 2019,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2019.05.004",
         "authors": [
@@ -2692,7 +4840,7 @@
         "journal": "Journal Of Molecular Biology",
         "year": 2019,
         "month": "August",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.jmb.2019.06.003",
         "authors": [
@@ -2700,11 +4848,35 @@
         ]
     },
     {
+        "title": "Complete structure of the core signalling unit of the E. coli chemosensory array in an optimised minicell strain",
+        "journal": "",
+        "year": 2019,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Preprint",
+        "doi": "https://doi.org/10.1101/723692",
+        "authors": [
+            "Burt, A., Cassidy, C., Ames, P., Bacia-Verloop, M., Baulard, M., Huard, K., Luthey-Schulten, Z., Desfosses, A., Stansfeld, P., Margolin, W., Parkinson, J. and Gutsche, I."
+        ]
+    },
+    {
+        "title": "On the optimal relative orientation of radicals in the cryptochrome magnetic compass",
+        "journal": "The Journal Of Chemical Physics",
+        "year": 2019,
+        "month": "August",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1063/1.5115445",
+        "authors": [
+            "Atkins, C., Bajpai, K., Rumball, J. and Kattnig, D."
+        ]
+    },
+    {
         "title": "An Efficient Computational Assay for \u03b2-Lactam Antibiotic Breakdown by Class A \u03b2-Lactamases",
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.9b00442",
         "authors": [
@@ -2728,7 +4900,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2019.04.008",
         "authors": [
@@ -2740,7 +4912,7 @@
         "journal": "Proceedings Of The National Academy Of Sciences Of The United States Of America",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1073/pnas.1902702116",
         "authors": [
@@ -2752,7 +4924,7 @@
         "journal": "Journal Of The American Chemical Society",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/jacs.9b02731",
         "authors": [
@@ -2764,7 +4936,7 @@
         "journal": "Journal Of Chemical Education",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jchemed.9b00181",
         "authors": [
@@ -2800,7 +4972,7 @@
         "journal": "Physical Chemistry Chemical Physics : Pccp",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c9cp02377a",
         "authors": [
@@ -2812,7 +4984,7 @@
         "journal": "Entropy (Basel, Switzerland)",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.3390/e21080750",
         "authors": [
@@ -2836,7 +5008,7 @@
         "journal": "European Biophysics Journal With Biophysics Letters",
         "year": 2019,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Conference Proceeding_Abstract",
         "doi": "#",
         "authors": [
@@ -2848,7 +5020,7 @@
         "journal": "Scientific Reports",
         "year": 2019,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41598-019-45280-2",
         "authors": [
@@ -2860,7 +5032,7 @@
         "journal": "",
         "year": 2019,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.1101/671750",
         "authors": [
@@ -2872,7 +5044,7 @@
         "journal": "Physical Chemistry Chemical Physics : Pccp",
         "year": 2019,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c9cp01746a",
         "authors": [
@@ -2908,7 +5080,7 @@
         "journal": "The Journal Of Chemical Physics",
         "year": 2019,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1063/1.5092590",
         "authors": [
@@ -2916,11 +5088,23 @@
         ]
     },
     {
+        "title": "Structures of the otopetrin proton channels Otop1 and Otop3",
+        "journal": "Nature Structural & Molecular Biology",
+        "year": 2019,
+        "month": "June",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41594-019-0235-9",
+        "authors": [
+            "Saotome, K., Teng, B., Tsui, C., Lee, W., Tu, Y., Kaplan, J., Sansom, M., Liman, E. and Ward, A."
+        ]
+    },
+    {
         "title": "Exploitation of Antibiotic Resistance as a Novel Drug Target: Development of a \u03b2-Lactamase-Activated Antibacterial Prodrug",
         "journal": "Journal Of Medicinal Chemistry",
         "year": 2019,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jmedchem.8b01923",
         "authors": [
@@ -2932,7 +5116,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2019,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.8b00940",
         "authors": [
@@ -2944,11 +5128,35 @@
         "journal": "Journal Of Computer-Aided Molecular Design",
         "year": 2019,
         "month": "May",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1007/s10822-019-00200-4",
         "authors": [
             "Raza, S., Ranaghan, K., van der Kamp, M., Woods, C., Mulholland, A. and Azam, S."
+        ]
+    },
+    {
+        "title": "Role of O-Antigen in Response to Mechanical Stress of the E. coli Outer Membrane: Insights from Coarse-Grained MD Simulations",
+        "journal": "The Journal Of Physical Chemistry. B",
+        "year": 2019,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpcb.8b12168",
+        "authors": [
+            "Jefferies, D., Shearer, J. and Khalid, S."
+        ]
+    },
+    {
+        "title": "Computational Modeling of Realistic Cell Membranes",
+        "journal": "Chemical Reviews",
+        "year": 2019,
+        "month": "May",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.chemrev.8b00460",
+        "authors": [
+            "Marrink, S., Corradi, V., Souza, P., Ing\u00f3lfsson, H., Tieleman, D. and Sansom, M."
         ]
     },
     {
@@ -2980,7 +5188,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2019,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2019.01.001",
         "authors": [
@@ -2992,7 +5200,7 @@
         "journal": "The Journal Of Physical Chemistry. B",
         "year": 2019,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jpcb.9b02157",
         "authors": [
@@ -3016,7 +5224,7 @@
         "journal": "Journal Of Chemical Information And Modeling",
         "year": 2019,
         "month": "April",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jcim.8b00834",
         "authors": [
@@ -3024,11 +5232,47 @@
         ]
     },
     {
+        "title": "An experimentally validated approach to calculate the blood-brain barrier permeability of small molecules",
+        "journal": "Scientific Reports",
+        "year": 2019,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41598-019-42272-0",
+        "authors": [
+            "Wang, Y., Gallagher, E., Jorgensen, C., Troendle, E., Hu, D., Searson, P. and Ulmschneider, M."
+        ]
+    },
+    {
+        "title": "Outer Membrane Proteins OmpA, FhuA, OmpF, EstA, BtuB, and OmpX Have Unique Lipopolysaccharide Fingerprints",
+        "journal": "Journal Of Chemical Theory And Computation",
+        "year": 2019,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jctc.8b01059",
+        "authors": [
+            "Shearer, J., Jefferies, D. and Khalid, S."
+        ]
+    },
+    {
+        "title": "Movement of Arginine through OprD: The Energetics of Permeation and the Role of Lipopolysaccharide in Directing Arginine to the Protein",
+        "journal": "The Journal Of Physical Chemistry. B",
+        "year": 2019,
+        "month": "April",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.jpcb.9b00063",
+        "authors": [
+            "Samsudin, F. and Khalid, S."
+        ]
+    },
+    {
         "title": "A Photoresponsive Stiff-Stilbene Ligand Fuels the Reversible Unfolding of G-Quadruplex DNA",
         "journal": "Angewandte Chemie (International Ed. In English)",
         "year": 2019,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/anie.201900740",
         "authors": [
@@ -3040,7 +5284,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2019,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2018.11.003",
         "authors": [
@@ -3052,7 +5296,7 @@
         "journal": "",
         "year": 2019,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Preprint",
         "doi": "https://doi.org/10.26434/chemrxiv.7819982.v1",
         "authors": [
@@ -3072,11 +5316,35 @@
         ]
     },
     {
+        "title": "Simulation-Guided Rational de Novo Design of a Small Pore-Forming Antimicrobial Peptide",
+        "journal": "Journal Of The American Chemical Society",
+        "year": 2019,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/jacs.8b11939",
+        "authors": [
+            "Chen, C., Starr, C., Troendle, E., Wiedman, G., Wimley, W., Ulmschneider, J. and Ulmschneider, M."
+        ]
+    },
+    {
+        "title": "Details of hydrophobic entanglement between small molecules and Braun's lipoprotein within the cavity of the bacterial chaperone LolA",
+        "journal": "Scientific Reports",
+        "year": 2019,
+        "month": "March",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1038/s41598-019-40170-z",
+        "authors": [
+            "Boags, A., Samsudin, F. and Khalid, S."
+        ]
+    },
+    {
         "title": "Physical properties of model biological lipid bilayers: insights from all-atom molecular dynamics simulations",
         "journal": "Journal Of Molecular Modeling",
         "year": 2019,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1007/s00894-019-3964-0",
         "authors": [
@@ -3088,7 +5356,7 @@
         "journal": "Elife",
         "year": 2019,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.7554/elife.39476",
         "authors": [
@@ -3100,7 +5368,7 @@
         "journal": "Nature Communications",
         "year": 2019,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1038/s41467-019-08646-8",
         "authors": [
@@ -3112,7 +5380,7 @@
         "journal": "Biophysical Journal",
         "year": 2019,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.bpj.2018.11.3005",
         "authors": [
@@ -3124,7 +5392,7 @@
         "journal": "Structure (London, England : 1993)",
         "year": 2019,
         "month": "February",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.str.2018.10.024",
         "authors": [
@@ -3136,7 +5404,7 @@
         "journal": "Chemical Science",
         "year": 2019,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c8sc03831g",
         "authors": [
@@ -3172,7 +5440,7 @@
         "journal": "Nucleic Acids Research",
         "year": 2019,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1093/nar/gky1047",
         "authors": [
@@ -3196,7 +5464,7 @@
         "journal": "Chemistry (Weinheim An Der Bergstrasse, Germany)",
         "year": 2019,
         "month": "January",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/chem.201805250",
         "authors": [
@@ -3204,11 +5472,35 @@
         ]
     },
     {
+        "title": "Atomistic and Coarse Grain Simulations of the Cell Envelope of Gram-Negative Bacteria: What Have We Learned?",
+        "journal": "Accounts Of Chemical Research",
+        "year": 2019,
+        "month": "January",
+        "projectRef": "EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1021/acs.accounts.8b00377",
+        "authors": [
+            "Khalid, S., Piggot, T. and Samsudin, F."
+        ]
+    },
+    {
+        "title": "The Structure of the Pro-domain of Mouse proNGF in Contact with the NGF Domain",
+        "journal": "Structure",
+        "year": 2019,
+        "month": "January",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
+        "type": "Journal Article",
+        "doi": "https://doi.org/10.1016/j.str.2018.09.013",
+        "authors": [
+            "Yan, R., Yalinca, H., Paoletti, F., Gobbo, F., Marchetti, L., Kuzmanic, A., Lamba, D., Gervasio, F., Konarev, P., Cattaneo, A. and Pastore, A."
+        ]
+    },
+    {
         "title": "Interactions of \u03b2-lactamases with antibiotics and inhibitors",
         "journal": "Journal Of Biomolecular Structure & Dynamics",
         "year": 2019,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Conference Proceeding_Abstract",
         "doi": "#",
         "authors": [
@@ -3220,7 +5512,7 @@
         "journal": "",
         "year": 2019,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Thesis",
         "doi": "#",
         "authors": [
@@ -3280,11 +5572,23 @@
         "journal": "",
         "year": 2019,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Conference Proceeding_Abstract",
         "doi": "#",
         "authors": [
             "G.M., S., H.E., B..M., J.W., E. and S., K."
+        ]
+    },
+    {
+        "title": "Lipid-Protein Interactions - Methods and Protocols",
+        "journal": "",
+        "year": 2019,
+        "month": "",
+        "projectRef": "EP/R029407/1",
+        "type": "Book Chapter",
+        "doi": "https://doi.org/10.1007/978-1-4939-9512-7_1",
+        "authors": [
+            "Huber, R., Carpenter, T., Dube, N., Holdbrook, D., Ing\u00f3lfsson, H., Irvine, W., Marzinek, J., Samsudin, F., Allison, J., Khalid, S. and Bond, P."
         ]
     },
     {
@@ -3424,7 +5728,7 @@
         "journal": "Wires Computational Molecular Science",
         "year": 2018,
         "month": "September",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1002/wcms.1393",
         "authors": [
@@ -3616,7 +5920,7 @@
         "journal": "Chem",
         "year": 2018,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.chempr.2018.05.007",
         "authors": [
@@ -3705,18 +6009,6 @@
         "doi": "https://doi.org/10.1016/j.drudis.2018.02.015",
         "authors": [
             "Vukovic, S. and Huggins, D."
-        ]
-    },
-    {
-        "title": "The structure of the Pro-domain of mouse proNGF in contact with the NGF domain",
-        "journal": "",
-        "year": 2018,
-        "month": "May",
-        "projectRef": "EP/L000253/1",
-        "type": "Preprint",
-        "doi": "https://doi.org/10.1101/333070",
-        "authors": [
-            "Yan, R., Yalinca, H., Paoletti, F., Gobbo, F., Marchetti, L., Kuzmanic, A., Lamba, D., Gervasio, F., Konarev, P., Cattaneo, A. and Pastore, A."
         ]
     },
     {
@@ -3856,7 +6148,7 @@
         "journal": "Acs Catalysis",
         "year": 2018,
         "month": "March",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acscatal.8b00692",
         "authors": [
@@ -5128,7 +7420,7 @@
         "journal": "Journal Of Chemical Theory And Computation",
         "year": 2016,
         "month": "June",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1021/acs.jctc.6b00285",
         "authors": [
@@ -6004,7 +8296,7 @@
         "journal": "Chemical Physics Letters",
         "year": 2014,
         "month": "July",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1016/j.cplett.2014.06.010",
         "authors": [
@@ -6100,7 +8392,7 @@
         "journal": "Chem. Sci.",
         "year": 2014,
         "month": "",
-        "projectRef": "EP/L000253/1",
+        "projectRef": "EP/L000253/1, EP/R029407/1",
         "type": "Journal Article",
         "doi": "https://doi.org/10.1039/c3sc53009d",
         "authors": [
