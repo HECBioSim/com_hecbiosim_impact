@@ -1,0 +1,43 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+select, input {
+   padding: 12px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 240px;
+}
+
+#searchBar {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.publication h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.publication a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.publication a:hover {
+    text-decoration: underline;
+}
+
+.pub-details {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
