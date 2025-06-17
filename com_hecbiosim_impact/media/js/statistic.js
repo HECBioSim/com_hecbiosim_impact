@@ -25,9 +25,9 @@ window.onload = function(){
 
             var tppg_layout = {
                 title: { text: 'Total Publications Per Grant' },
-                xaxis: { title: 'Grant Code' }, 
-                yaxis: { title: 'Publications' },
+                showlegend: false,
                 font: {size: 18}
+
             };
 
             var tj_layout = {
@@ -55,9 +55,12 @@ window.onload = function(){
             }];
 
             var tppg_data = [{
-                x: Object.keys(data.papersPerGrantCount),
-                y: Object.values(data.papersPerGrantCount),
-                type: 'bar'
+                labels: Object.keys(data.papersPerGrantCount),
+                values: Object.values(data.papersPerGrantCount),
+                textinfo: "label+percent",
+                textposition: "outside",
+                automargin: true,
+                type: 'pie'
             }];
 
             var tj_data = [{
@@ -70,24 +73,24 @@ window.onload = function(){
             var config = {responsive: true}
 
             // Display Stats as Text
-            document.getElementById("tp").innerHTML = `<h3>Total Papers: ${data.totalPublications}</h3>`;
-            document.getElementById("ttp").innerHTML = `<h3>Total Papers in Top Ten Journals: ${data.totalTopPapers}</h3>`;      
-            document.getElementById("ua").innerHTML = `<h3>Unique Authors: ${data.uniqueAuthors}</h3>`;
+            document.getElementById("dash-alltime-pubs").innerHTML = `${data.totalPublications}`;
+            document.getElementById("dash-top-pubs").innerHTML = `${data.totalTopPapers}`;      
+            document.getElementById("dash-authors").innerHTML = `${data.uniqueAuthors}`;
 
             // Bar chart - publications per year
-            Plotly.newPlot('ppy', ppy_data, ppy_layout, config);
+            Plotly.newPlot('chart-pubs-yr', ppy_data, ppy_layout, config);
 
             // Bar chart - publications per year per grant code
-            Plotly.newPlot('ppg', ppg_data, ppg_layout, config);
+            Plotly.newPlot('chart-pubs-grant-yr', ppg_data, ppg_layout, config);
 
             // Bar chart - publications per month (all-time)
-            Plotly.newPlot('ppm', ppm_data, ppm_layout, config);
+            Plotly.newPlot('chart-pubs-month', ppm_data, ppm_layout, config);
 
             // Bar chart - all-time publications per grant
-            Plotly.newPlot('tppg', tppg_data, tppg_layout, config);
+            Plotly.newPlot('chart-pubs-grant', tppg_data, tppg_layout, config);
 
             // Bar chart - all-time papers in top journals
-            Plotly.newPlot('tj', tj_data, tj_layout, config);
+            Plotly.newPlot('chart-top-journal', tj_data, tj_layout, config);
         })
         .catch(error => console.error('Error loading JSON:', error));
 }

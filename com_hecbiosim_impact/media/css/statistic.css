@@ -1,43 +1,21 @@
-.filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
-    align-items: center;
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-select, input {
-   padding: 12px;
-   font-size: 16px;
-   border: 1px solid #ccc;
-   border-radius: 5px;
-   width: 240px;
+.dash-box{
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 30px;
 }
 
-#searchBar {
-    flex-grow: 1;
-    width: 100%;
+.dash-label{
+    font-size: 16px;
 }
 
-.publication h3 {
-    margin: 0;
-    font-size: 18px;
-    font-weight: normal;
-}
-
-.publication a {
-    text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-}
-
-.publication a:hover {
-    text-decoration: underline;
-}
-
-.pub-details {
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.dash-value {
+    float: right;
 }
