@@ -17,8 +17,10 @@ use \Joomla\CMS\Session\Session;
 use Joomla\Utilities\ArrayHelper;
 
 $params  = $this->item->params;
-
 ?>
+
+<link rel="stylesheet" href="media/com_hecbiosim_impact/css/statistic.css">
+<script src="media/com_hecbiosim_impact/js/statistic.js" type="text/javascript"></script>
 
 <?php if ($this->params->get('show_page_heading')) : ?>
     <div class="page-header">
@@ -26,90 +28,68 @@ $params  = $this->item->params;
     </div>
 <?php endif; ?>
 <p>Here we present the statistics of outputs that are attributed to the HECBioSim consortium. All data is mined from consortium submissions to EPSRC via ResearchFish.</p>
-<p></p>
+<p></br></p>
 <!-- Load Plotly 3.0.1 -->
 <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
-<div id="pubsPerYear"></div>
-<div id="pubsPerGrant"></div>
-<div id="pubsPerMonth"></div>
-<div id="totalPubsPerGrant"></div>
-<div id="topJournals"></div>
 
-<script>
-         // Fetch stats data from GitHub
-    fetch('https://hecbiosim.github.io/com_hecbiosim_impact/stats.json')
-        .then(response => response.json())
-        .then(data => {
-            // Bar Chart: Publications per Year
-            Plotly.newPlot('pubsPerYear', 
-                [{
-                    x: data.totalPublicationsPerYear.x, 
-                    y: data.totalPublicationsPerYear.y, 
-                    type: 'bar'
-                }], 
-                {
-                    title: { text: 'Publications Per Year' }, 
-                    xaxis: { tickmode: 'linear', dtick: 1 }
-                }
-            );
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="dash-box">
+        <span class="fa-solid fa-newspaper fa-3x" aria-hidden="true"></span>
+        <h1 id="dash-alltime-pubs" class="dash-value"></h1>
+        <p></br></p>
+        <p class="dash-label">All-time Publications</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="dash-box">
+        <span class="fa-solid fa-ranking-star fa-3x" aria-hidden="true"></span>
+        <h1 id="dash-top-pubs" class="dash-value"></h1>
+        <p></br></p>
+        <p class="dash-label">Publications in Top 10 Journals</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="dash-box">
+        <span class="fa-solid fa-users fa-3x" aria-hidden="true"></span>
+        <h1 id="dash-authors" class="dash-value"></h1>
+        <p></br></p>
+        <p class="dash-label">All-time Community Contributors</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="dash-box">
+        <span class="fa-solid fa-sack-dollar fa-3x" aria-hidden="true"></span>
+        <h1 id="dash-projects" class="dash-value">452</h1>
+        <p></br></p>
+        <p class="dash-label">All-time Projects Resourced</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="dash-box">
+        <span class="fa-solid fa-microchip fa-3x" aria-hidden="true"></span>
+        <h1 id="dash-projects" class="dash-value">1.372Bn</h1>
+        <p></br></p>
+        <p class="dash-label">All-time CPU hours awarded</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="dash-box">
+        <span class="fa-solid fa-microchip fa-3x" aria-hidden="true"></span>
+        <h1 id="dash-projects" class="dash-value">2.8M</h1>
+        <p></br></p>
+        <p class="dash-label">All-time GPU hours awarded</p>
+      </div>
+    </div>
+  </div>
 
-            // Bar Chart: Publications Per Year Per Grant Code
-            let traces = Object.entries(data.papersPerGrant).map(([grantCode, values]) => ({
-                x: values.x, 
-                y: values.y, 
-                type: 'bar', 
-                name: grantCode
-            }));
+  <div class="row">
+    <div id="chart-pubs-yr" class="col-lg-6"></div>
+    <div id="chart-pubs-grant-yr" class="col-lg-6"></div>
+    <div id="chart-pubs-month" class="col-lg-6"></div>
+    <div id="chart-pubs-grant" class="col-lg-6"></div>
+    <div id="chart-top-journal" class="col-lg-6"></div>
+  </div>
+</div>
 
-            Plotly.newPlot('pubsPerGrant', traces, { 
-                title: { text: 'Publications Per Grant Code' }, 
-                xaxis: { tickmode: 'linear', dtick: 1 }, 
-                yaxis: { title: 'Publications' }
-            });
-
-            // Bar Chart: Publications per Month (All-Time)
-            Plotly.newPlot('pubsPerMonth', 
-                [{
-                    x: data.totalPublicationsPerMonth.x, 
-                    y: data.totalPublicationsPerMonth.y, 
-                    type: 'bar'
-                }], 
-                {
-                    title: { text: 'Total Publications Per Month' }, 
-                    xaxis: { tickmode: 'linear', dtick: 1 }
-                }
-            );
-
-            // Bar Chart: Total Publications Per Grant
-            Plotly.newPlot('totalPubsPerGrant', 
-                [{
-                    x: Object.keys(data.papersPerGrantCount), 
-                    y: Object.values(data.papersPerGrantCount), 
-                    type: 'bar'
-                }], 
-                {
-                    title: { text: 'Total Publications Per Grant' }, 
-                    xaxis: { title: 'Grant Code' }, 
-                    yaxis: { title: 'Publications' }
-                }
-            );
-
-            // Bar Chart: Papers in Top Journals
-            Plotly.newPlot('topJournals', 
-                [{
-                    x: data.topJournals.x, 
-                    y: data.topJournals.y, 
-                    type: 'bar'
-                }], 
-                {
-                    title: { text: 'Papers in Top Journals' }
-                }
-            );
-
-            // Display Stats as Text
-            document.getElementById("totalPubsDiv").innerHTML = `<h3>Total Papers: ${data.totalPublications}</h3>`;
-            document.getElementById("totalTopPapersDiv").innerHTML = `<h3>Total Papers in Top Ten Journals: ${data.totalTopPapers}</h3>`;      
-            document.getElementById("uniqueAuthorsDiv").innerHTML = `<h3>Unique Authors: ${data.uniqueAuthors}</h3>`;
-        })
-        .catch(error => console.error('Error loading JSON:', error));
-</script>

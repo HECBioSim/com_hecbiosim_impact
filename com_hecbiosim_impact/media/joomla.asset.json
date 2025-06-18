@@ -29,6 +29,16 @@
         "name": "com_hecbiosim_impact.publication",
         "type": "script",
         "uri": "com_hecbiosim_impact/publication.js"
+    },
+    {
+        "name": "com_hecbiosim_impact.statistic",
+        "type": "style",
+        "uri": "com_hecbiosim_impact/statistic.css"
+    },
+    {
+        "name": "com_hecbiosim_impact.statistic",
+        "type": "script",
+        "uri": "com_hecbiosim_impact/statistic.js"
     }
   ]
 }
