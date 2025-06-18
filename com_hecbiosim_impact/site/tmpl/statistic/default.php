@@ -61,7 +61,7 @@ $params  = $this->item->params;
     <div class="col-lg-3">
       <div class="dash-box">
         <span class="fa-solid fa-sack-dollar fa-3x" aria-hidden="true"></span>
-        <h1 id="dash-projects" class="dash-value"></h1>
+        <h1 id="dash-projects" class="dash-value">452</h1>
         <p></br></p>
         <p class="dash-label">All-time Projects Resourced</p>
       </div>
@@ -69,19 +69,19 @@ $params  = $this->item->params;
     <div class="col-lg-3">
       <div class="dash-box">
         <span class="fa-solid fa-microchip fa-3x" aria-hidden="true"></span>
-        <h1 id="dash-projects" class="dash-value"></h1>
+        <h1 id="dash-projects" class="dash-value">1.372Bn</h1>
         <p></br></p>
-        <p class="dash-label">All-time CPU time awarded</p>
+        <p class="dash-label">All-time CPU hours awarded</p>
       </div>
     </div>
     <div class="col-lg-3">
       <div class="dash-box">
         <span class="fa-solid fa-microchip fa-3x" aria-hidden="true"></span>
-        <h1 id="dash-projects" class="dash-value"></h1>
+        <h1 id="dash-projects" class="dash-value">2.8M</h1>
         <p></br></p>
-        <p class="dash-label">All-time GPU time awarded</p>
+        <p class="dash-label">All-time GPU hours awarded</p>
       </div>
-    </div>    
+    </div>
   </div>
 
   <div class="row">
