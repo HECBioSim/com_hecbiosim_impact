@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5.0.1
 
       - name: Setup Python Version
         uses: actions/setup-python@v6.0.0
